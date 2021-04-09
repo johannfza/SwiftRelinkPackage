@@ -3,40 +3,43 @@ import ArgumentParser
 import PathKit
 import XcodeProj
 
-struct Replace: ParsableCommand {
-    
-    public static let configuration = CommandConfiguration(abstract: "Replaces package properties")
-    
-    @Option(name: .long, help: "The base url to replace package link with")
-    private var url: String
-    
-    @Option(name: .shortAndLong, help: "Add this value to the prefix of the new package name")
-    private var prefix: String?
-    
-    @Option(name: .shortAndLong, help: "Add this value to the suffix of the new package name")
-    private var suffix: String?
-    
-    @Option(name: .shortAndLong, help: "Ommit the changing of name from packages that matches this regular expression", transform: NSRegularExpression.init)
-    private var omitExpression: NSRegularExpression = NSRegularExpression()
-    
-    @Argument(help: "Parses new package name to upper case", transform: PackageNameFormat.init)
-    private var formatName: PackageNameFormat?
-    
-    @Flag(name: .long, help: "See a preview of what might change")
-    private var preview: Bool = false
-    
-    @OptionGroup var options: Options
-    
-    func run(){
-        let api = ReplaceApi()
+
+extension Relink {
+    struct Replace: ParsableCommand {
         
-        if NSURL(string: url) != nil {
-            if preview {
-                api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: preview)
-            } else {
-                api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression)
+        public static let configuration = CommandConfiguration(abstract: "Replaces package properties")
+        
+        @Option(name: .long, help: "The base url to replace package link with")
+        private var url: String
+        
+        @Option(name: .shortAndLong, help: "Add this value to the prefix of the new package name")
+        private var prefix: String?
+        
+        @Option(name: .shortAndLong, help: "Add this value to the suffix of the new package name")
+        private var suffix: String?
+        
+        @Option(name: .shortAndLong, help: "Ommit the changing of name for packages that matches this regular expression", transform: NSRegularExpression.init)
+        private var omitExpression: NSRegularExpression = NSRegularExpression()
+        
+        @Argument(help: "Parses new package name to upper/lower case", transform: PackageNameFormat.init)
+        private var formatName: PackageNameFormat?
+        
+        @Flag(name: .long, help: "See a preview of what might change")
+        private var preview: Bool = false
+        
+        @OptionGroup var options: Options
+        
+        func run(){
+            let api = ReplaceApi()
+            
+            if NSURL(string: url) != nil {
+                if preview {
+                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: preview)
+                } else {
+                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression)
+                }
             }
         }
+        
     }
-    
 }

@@ -36,8 +36,6 @@ depends-member:
 - !private ["SH", "lower"]
 - !private ["SH", "upper"]
 - !private ["s6HasherV", "combine"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
 - ["18SwiftRelinkPackage0C10NameFormatO", "=="]
 - ["18SwiftRelinkPackage0C10NameFormatO", "String"]
 - !private ["18SwiftRelinkPackage0C10NameFormatO", "ValidationError"]
@@ -59,8 +57,6 @@ depends-nominal:
 - !private "s5ErrorP"
 - "SH"
 - !private "s6HasherV"
-- "So8NSCodingP"
-- "So8NSObjectP"
 - "18SwiftRelinkPackage0C10NameFormatO"
 - !private "14ArgumentParser15ValidationErrorV"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"

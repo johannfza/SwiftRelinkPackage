@@ -7,7 +7,7 @@ provides-member:
 - ["18SwiftRelinkPackage10ReplaceApiC", ""]
 provides-dynamic-lookup:
 - "formatPackageName"
-- "projectApi"
+- "listApi"
 - "replaceAllPackageURLs"
 depends-top-level:
 - "!"
@@ -18,10 +18,10 @@ depends-top-level:
 - "BooleanLiteralType"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- "ListApi"
 - "NSRegularExpression"
 - "PackageNameFormat"
 - !private "Path"
-- "ProjectApi"
 - "ReplaceApi"
 - "String"
 - !private "StringLiteralType"
@@ -29,8 +29,8 @@ depends-top-level:
 - "XcodeProj"
 - !private "exit"
 - "formatPackageName"
+- !private "listApi"
 - "print"
-- !private "projectApi"
 depends-member:
 - !private ["14ArgumentParser0A18HelpOptionProviderP", "branch"]
 - !private ["14ArgumentParser0A18HelpOptionProviderP", "replacingOccurrences"]
@@ -221,6 +221,8 @@ depends-member:
 - ["SH", "upper"]
 - !private ["SH", "uppercased"]
 - !private ["SH", "versionRequirement"]
+- ["18SwiftRelinkPackage7ListApiC", "init"]
+- !private ["18SwiftRelinkPackage7ListApiC", "listProjectPackages"]
 - !private ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "append"]
 - !private ["s25LosslessStringConvertibleP", "hasSuffix"]
@@ -322,8 +324,6 @@ depends-member:
 - !private ["9XcodeProj17PlistSerializableP", "packages"]
 - !private ["9XcodeProj17PlistSerializableP", "repositoryURL"]
 - !private ["9XcodeProj17PlistSerializableP", "versionRequirement"]
-- ["18SwiftRelinkPackage10ProjectApiC", "init"]
-- !private ["18SwiftRelinkPackage10ProjectApiC", "listProjectPackages"]
 - !private ["Sk", ""]
 - !private ["Sk", "count"]
 - !private ["Sk", "enumerated"]
@@ -338,18 +338,18 @@ depends-member:
 - !private ["Sm", "replacingOccurrences"]
 - !private ["Sm", "uppercased"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "Bool"]
+- ["18SwiftRelinkPackage10ReplaceApiC", "ListApi"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "NSRegularExpression"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "PackageNameFormat"]
 - !private ["18SwiftRelinkPackage10ReplaceApiC", "Path"]
-- ["18SwiftRelinkPackage10ReplaceApiC", "ProjectApi"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "String"]
 - !private ["18SwiftRelinkPackage10ReplaceApiC", "XcodeProj"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "deinit"]
 - !private ["18SwiftRelinkPackage10ReplaceApiC", "exit"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "formatPackageName"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "init"]
+- ["18SwiftRelinkPackage10ReplaceApiC", "listApi"]
 - !private ["18SwiftRelinkPackage10ReplaceApiC", "print"]
-- ["18SwiftRelinkPackage10ReplaceApiC", "projectApi"]
 - ["18SwiftRelinkPackage10ReplaceApiC", "replaceAllPackageURLs"]
 - !private ["ST", ""]
 - !private ["ST", "append"]
@@ -499,6 +499,7 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- "18SwiftRelinkPackage7ListApiC"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "SM"
@@ -521,7 +522,6 @@ depends-nominal:
 - "18SwiftRelinkPackage0C10NameFormatO"
 - !private "7PathKit0A0V"
 - !private "9XcodeProj17PlistSerializableP"
-- "18SwiftRelinkPackage10ProjectApiC"
 - !private "Sk"
 - !private "Sm"
 - "18SwiftRelinkPackage10ReplaceApiC"
@@ -583,4 +583,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8971afd73547345174b3d7d123cef9d9"
+interface-hash: "63f9bdb7db8c738f68f8db56ca05cc71"

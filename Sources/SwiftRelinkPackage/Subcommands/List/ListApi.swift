@@ -3,7 +3,7 @@ import ArgumentParser
 import PathKit
 import XcodeProj
 
-class ProjectApi {
+class ListApi {
     
     func listProjectPackages(path: String){
         let projectPath = Path(path)
@@ -12,7 +12,7 @@ class ProjectApi {
         do {
             xcodeproj = try XcodeProj(path: projectPath)
         } catch {
-            print("\(errorMessage: "Prarsing project error")")
+            print("\(errorMessage: "Prasing project error")")
             return
         }
         

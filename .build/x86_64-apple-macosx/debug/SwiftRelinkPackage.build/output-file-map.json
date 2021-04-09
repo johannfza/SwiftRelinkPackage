@@ -14,12 +14,6 @@
     "swiftmodule": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Common/PackageNameFormat~partial.swiftmodule",
     "swift-dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Common/PackageNameFormat.swiftdeps"
   },
-  "/Users/Johann/NewWave/SwiftRelinkPackage/Sources/SwiftRelinkPackage/Common/ProjectApi.swift": {
-    "dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Common/ProjectApi.d",
-    "object": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Common/ProjectApi.swift.o",
-    "swiftmodule": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Common/ProjectApi~partial.swiftmodule",
-    "swift-dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Common/ProjectApi.swiftdeps"
-  },
   "/Users/Johann/NewWave/SwiftRelinkPackage/Sources/SwiftRelinkPackage/Extensions/NSRegularExpression+Initializaion+Matching.swift": {
     "dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Extensions/NSRegularExpression+Initializaion+Matching.d",
     "object": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Extensions/NSRegularExpression+Initializaion+Matching.swift.o",
@@ -31,6 +25,18 @@
     "object": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Extensions/String+CustomInterpolation.swift.o",
     "swiftmodule": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Extensions/String+CustomInterpolation~partial.swiftmodule",
     "swift-dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Extensions/String+CustomInterpolation.swiftdeps"
+  },
+  "/Users/Johann/NewWave/SwiftRelinkPackage/Sources/SwiftRelinkPackage/Subcommands/List/List.swift": {
+    "dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/List.d",
+    "object": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/List.swift.o",
+    "swiftmodule": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/List~partial.swiftmodule",
+    "swift-dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/List.swiftdeps"
+  },
+  "/Users/Johann/NewWave/SwiftRelinkPackage/Sources/SwiftRelinkPackage/Subcommands/List/ListApi.swift": {
+    "dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/ListApi.d",
+    "object": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/ListApi.swift.o",
+    "swiftmodule": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/ListApi~partial.swiftmodule",
+    "swift-dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/List/ListApi.swiftdeps"
   },
   "/Users/Johann/NewWave/SwiftRelinkPackage/Sources/SwiftRelinkPackage/Subcommands/Replace/Replace.swift": {
     "dependencies": "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackage.build/Subcommands/Replace/Replace.d",

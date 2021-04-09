@@ -1,10 +1,11 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "Replace"
 provides-nominal:
-- "18SwiftRelinkPackage7ReplaceV"
+- "18SwiftRelinkPackage0B0V7ReplaceV"
 provides-member:
-- ["18SwiftRelinkPackage7ReplaceV", ""]
+- ["18SwiftRelinkPackage0B0V", ""]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", ""]
+- ["18SwiftRelinkPackage0B0V", "Replace"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!="
@@ -23,7 +24,7 @@ depends-top-level:
 - "Options"
 - "PackageNameFormat"
 - "ParsableCommand"
-- "Replace"
+- "Relink"
 - !private "ReplaceApi"
 - "String"
 - "StringLiteralType"
@@ -85,6 +86,7 @@ depends-member:
 - ["Se", "Option"]
 - ["Se", "OptionGroup"]
 - ["Se", "PackageNameFormat"]
+- ["Se", "ParsableCommand"]
 - !private ["Se", "ReplaceApi"]
 - ["Se", ""]
 - ["Se", "_commandName"]
@@ -192,6 +194,7 @@ depends-member:
 - ["14ArgumentParser17ParsableArgumentsP", "Option"]
 - ["14ArgumentParser17ParsableArgumentsP", "OptionGroup"]
 - ["14ArgumentParser17ParsableArgumentsP", "PackageNameFormat"]
+- ["14ArgumentParser17ParsableArgumentsP", "ParsableCommand"]
 - !private ["14ArgumentParser17ParsableArgumentsP", "ReplaceApi"]
 - ["14ArgumentParser17ParsableArgumentsP", ""]
 - ["14ArgumentParser17ParsableArgumentsP", "_commandName"]
@@ -225,6 +228,7 @@ depends-member:
 - ["14ArgumentParser15ParsableCommandP", "Option"]
 - ["14ArgumentParser15ParsableCommandP", "OptionGroup"]
 - ["14ArgumentParser15ParsableCommandP", "PackageNameFormat"]
+- ["14ArgumentParser15ParsableCommandP", "ParsableCommand"]
 - !private ["14ArgumentParser15ParsableCommandP", "ReplaceApi"]
 - ["14ArgumentParser15ParsableCommandP", ""]
 - ["14ArgumentParser15ParsableCommandP", "_commandName"]
@@ -252,42 +256,64 @@ depends-member:
 - ["14ArgumentParser13ParsedWrapperP", ""]
 - ["14ArgumentParser13ParsedWrapperP", "init"]
 - ["14ArgumentParser13ParsedWrapperP", "wrappedValue"]
-- ["18SwiftRelinkPackage7ReplaceV", "Argument"]
-- ["18SwiftRelinkPackage7ReplaceV", "Bool"]
-- ["18SwiftRelinkPackage7ReplaceV", "CodingKeys"]
-- ["18SwiftRelinkPackage7ReplaceV", "CommandConfiguration"]
-- ["18SwiftRelinkPackage7ReplaceV", "Flag"]
-- ["18SwiftRelinkPackage7ReplaceV", "NSRegularExpression"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "NSURL"]
-- ["18SwiftRelinkPackage7ReplaceV", "Option"]
-- ["18SwiftRelinkPackage7ReplaceV", "OptionGroup"]
-- ["18SwiftRelinkPackage7ReplaceV", "Options"]
-- ["18SwiftRelinkPackage7ReplaceV", "PackageNameFormat"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "ReplaceApi"]
-- ["18SwiftRelinkPackage7ReplaceV", "String"]
-- ["18SwiftRelinkPackage7ReplaceV", ""]
-- ["18SwiftRelinkPackage7ReplaceV", "_commandName"]
-- ["18SwiftRelinkPackage7ReplaceV", "_errorLabel"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_formatName"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_omitExpression"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_options"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_prefix"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_preview"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_suffix"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "_url"]
-- ["18SwiftRelinkPackage7ReplaceV", "commandName"]
-- ["18SwiftRelinkPackage7ReplaceV", "configuration"]
-- ["18SwiftRelinkPackage7ReplaceV", "errorLabel"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "formatName"]
-- ["18SwiftRelinkPackage7ReplaceV", "init"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "omitExpression"]
-- ["18SwiftRelinkPackage7ReplaceV", "options"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "prefix"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "preview"]
-- ["18SwiftRelinkPackage7ReplaceV", "run"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "suffix"]
-- !private ["18SwiftRelinkPackage7ReplaceV", "url"]
-- ["18SwiftRelinkPackage7ReplaceV", "validate"]
+- ["18SwiftRelinkPackage0B0V", "Argument"]
+- ["18SwiftRelinkPackage0B0V", "Bool"]
+- ["18SwiftRelinkPackage0B0V", "CommandConfiguration"]
+- ["18SwiftRelinkPackage0B0V", "Flag"]
+- ["18SwiftRelinkPackage0B0V", "NSRegularExpression"]
+- !private ["18SwiftRelinkPackage0B0V", "NSURL"]
+- ["18SwiftRelinkPackage0B0V", "Option"]
+- ["18SwiftRelinkPackage0B0V", "OptionGroup"]
+- ["18SwiftRelinkPackage0B0V", "Options"]
+- ["18SwiftRelinkPackage0B0V", "PackageNameFormat"]
+- ["18SwiftRelinkPackage0B0V", "ParsableCommand"]
+- ["18SwiftRelinkPackage0B0V", "Replace"]
+- !private ["18SwiftRelinkPackage0B0V", "ReplaceApi"]
+- ["18SwiftRelinkPackage0B0V", "String"]
+- ["18SwiftRelinkPackage0B0V", ""]
+- !private ["18SwiftRelinkPackage0B0V", "formatName"]
+- !private ["18SwiftRelinkPackage0B0V", "omitExpression"]
+- !private ["18SwiftRelinkPackage0B0V", "options"]
+- !private ["18SwiftRelinkPackage0B0V", "prefix"]
+- !private ["18SwiftRelinkPackage0B0V", "preview"]
+- !private ["18SwiftRelinkPackage0B0V", "suffix"]
+- !private ["18SwiftRelinkPackage0B0V", "url"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "Argument"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "Bool"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "CodingKeys"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "CommandConfiguration"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "Flag"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "NSRegularExpression"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "NSURL"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "Option"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "OptionGroup"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "Options"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "PackageNameFormat"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "ReplaceApi"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "String"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", ""]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "_commandName"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "_errorLabel"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_formatName"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_omitExpression"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_options"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_prefix"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_preview"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_suffix"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "_url"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "commandName"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "configuration"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "errorLabel"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "formatName"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "init"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "omitExpression"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "options"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "prefix"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "preview"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "run"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "suffix"]
+- !private ["18SwiftRelinkPackage0B0V7ReplaceV", "url"]
+- ["18SwiftRelinkPackage0B0V7ReplaceV", "validate"]
 - !private ["18SwiftRelinkPackage10ReplaceApiC", "init"]
 - !private ["18SwiftRelinkPackage10ReplaceApiC", "replaceAllPackageURLs"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
@@ -334,7 +360,8 @@ depends-nominal:
 - "14ArgumentParser17ParsableArgumentsP"
 - "14ArgumentParser15ParsableCommandP"
 - "14ArgumentParser13ParsedWrapperP"
-- "18SwiftRelinkPackage7ReplaceV"
+- "18SwiftRelinkPackage0B0V"
+- "18SwiftRelinkPackage0B0V7ReplaceV"
 - !private "18SwiftRelinkPackage10ReplaceApiC"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -378,4 +405,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bc0e6c4be990b5a71b93b016ebe7acb4"
+interface-hash: "977958e97e88477a524af55dc5d818c1"

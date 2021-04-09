@@ -5,7 +5,7 @@ import XcodeProj
 
 class ReplaceApi {
     
-    let projectApi = ProjectApi()
+    let listApi = ListApi()
     
     func replaceAllPackageURLs(_ path: String, baseUrl: String, prefix: String?, suffix: String?, formatName: PackageNameFormat?, omitExpression: NSRegularExpression, preview: Bool = false){
         
@@ -45,13 +45,13 @@ class ReplaceApi {
         do {
             xcodeproj = try XcodeProj(path: projectPath)
         } catch {
-            print("\(errorMessage: "Prarsing project error")")
+            print("\(errorMessage: "Parsing project error")")
             return
         }
         
         let pbxproj = xcodeproj.pbxproj // Returns a PBXProj
         
-        projectApi.listProjectPackages(pbxproj: pbxproj)
+        listApi.listProjectPackages(pbxproj: pbxproj)
         
         print("REPLACING... [BASE URL]:\(baseUrl)", terminator: "\n\n")
         
