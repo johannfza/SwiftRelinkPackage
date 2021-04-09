@@ -1,0 +1,865 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PBXFileElement"
+provides-nominal:
+- "9XcodeProj14PBXFileElementC"
+provides-member:
+- ["9XcodeProj14PBXFileElementC", ""]
+- ["9XcodeProj14PBXFileElementC", "fullPath"]
+- ["9XcodeProj14PBXFileElementC", "assignParentToChildren"]
+provides-dynamic-lookup:
+- "assignParentToChildren"
+- "baseVariantGroupPath"
+- "fileName"
+- "fullPath"
+- "includeInIndex"
+- "indentWidth"
+- "isEqual"
+- "multiline"
+- "name"
+- "parent"
+- "path"
+- "plistKeyAndValue"
+- "sourceTree"
+- "tabWidth"
+- "usesTabs"
+- "wrapsLines"
+depends-top-level:
+- !private "!="
+- "+"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CodingKey"
+- !private "CodingKeys"
+- "CommentedString"
+- "Decoder"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PBXContainerItem"
+- "PBXFileElement"
+- "PBXGroup"
+- "PBXProj"
+- !private "PBXProjError"
+- "PBXSourceTree"
+- "PBXVariantGroup"
+- "Path"
+- "PlistSerializable"
+- "PlistValue"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- !private "_findStringSwitchCase"
+- !private "assignParentToChildren"
+- !private "baseVariantGroupPath"
+- !private "includeInIndex"
+- !private "indentWidth"
+- !private "isEqual"
+- !private "name"
+- !private "objects"
+- !private "parent"
+- !private "path"
+- "reference"
+- !private "sourceTree"
+- !private "tabWidth"
+- !private "usesTabs"
+- !private "wrapsLines"
+- !private "~="
+depends-member:
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "first"]
+- !private ["9XcodeProj13AutoEquatableP", "CodingKeys"]
+- !private ["9XcodeProj13AutoEquatableP", "CommentedString"]
+- !private ["9XcodeProj13AutoEquatableP", "PBXFileElement"]
+- !private ["9XcodeProj13AutoEquatableP", "PBXProjError"]
+- !private ["9XcodeProj13AutoEquatableP", "PBXSourceTree"]
+- !private ["9XcodeProj13AutoEquatableP", "Path"]
+- !private ["9XcodeProj13AutoEquatableP", "String"]
+- ["9XcodeProj13AutoEquatableP", ""]
+- !private ["9XcodeProj13AutoEquatableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj13AutoEquatableP", "assignParentToChildren"]
+- !private ["9XcodeProj13AutoEquatableP", "baseVariantGroupPath"]
+- !private ["9XcodeProj13AutoEquatableP", "children"]
+- !private ["9XcodeProj13AutoEquatableP", "childrenReferences"]
+- !private ["9XcodeProj13AutoEquatableP", "fileName"]
+- !private ["9XcodeProj13AutoEquatableP", "findStringSwitchCase"]
+- !private ["9XcodeProj13AutoEquatableP", "fullPath"]
+- !private ["9XcodeProj13AutoEquatableP", "includeInIndex"]
+- !private ["9XcodeProj13AutoEquatableP", "indentWidth"]
+- !private ["9XcodeProj13AutoEquatableP", "init"]
+- !private ["9XcodeProj13AutoEquatableP", "isEqual"]
+- !private ["9XcodeProj13AutoEquatableP", "isa"]
+- !private ["9XcodeProj13AutoEquatableP", "mainGroup"]
+- ["9XcodeProj13AutoEquatableP", "multiline"]
+- !private ["9XcodeProj13AutoEquatableP", "name"]
+- !private ["9XcodeProj13AutoEquatableP", "objects"]
+- !private ["9XcodeProj13AutoEquatableP", "parent"]
+- !private ["9XcodeProj13AutoEquatableP", "path"]
+- ["9XcodeProj13AutoEquatableP", "plistKeyAndValue"]
+- !private ["9XcodeProj13AutoEquatableP", "reference"]
+- !private ["9XcodeProj13AutoEquatableP", "sourceTree"]
+- !private ["9XcodeProj13AutoEquatableP", "tabWidth"]
+- !private ["9XcodeProj13AutoEquatableP", "usesTabs"]
+- !private ["9XcodeProj13AutoEquatableP", "wrapsLines"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "contains"]
+- !private ["SK", "first"]
+- !private ["Sb", "int"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "getObject"]
+- !private ["s7CVarArgP", "getThrowingObject"]
+- !private ["s7CVarArgP", "int"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "values"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "includeInIndex"]
+- !private ["s9CodingKeyP", "indentWidth"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "name"]
+- !private ["s9CodingKeyP", "path"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "sourceTree"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "tabWidth"]
+- !private ["s9CodingKeyP", "usesTabs"]
+- !private ["s9CodingKeyP", "wrapsLines"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "first"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "values"]
+- !private ["9XcodeProj15CommentedStringV", ""]
+- !private ["9XcodeProj15CommentedStringV", "init"]
+- !private ["SL", ""]
+- !private ["SL", "getObject"]
+- !private ["SL", "getThrowingObject"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "getObject"]
+- !private ["s28CustomDebugStringConvertibleP", "getThrowingObject"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "includeInIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "indentWidth"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceTree"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tabWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "usesTabs"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s28CustomDebugStringConvertibleP", "wrapsLines"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "int"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "string"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "absolute"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "getObject"]
+- !private ["s23CustomStringConvertibleP", "getThrowingObject"]
+- ["s23CustomStringConvertibleP", "group"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "includeInIndex"]
+- !private ["s23CustomStringConvertibleP", "indentWidth"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "invalidGroupPath"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "plist"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "sourceRoot"]
+- !private ["s23CustomStringConvertibleP", "sourceTree"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tabWidth"]
+- !private ["s23CustomStringConvertibleP", "usesTabs"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["s23CustomStringConvertibleP", "wrapsLines"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "CommentedString"]
+- !private ["Se", "PBXFileElement"]
+- !private ["Se", "PBXProjError"]
+- !private ["Se", "PBXSourceTree"]
+- !private ["Se", "Path"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "absolute"]
+- !private ["Se", "assignParentToChildren"]
+- !private ["Se", "baseVariantGroupPath"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "children"]
+- !private ["Se", "childrenReferences"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "contains"]
+- !private ["Se", "fileName"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "first"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "fullPath"]
+- ["Se", "group"]
+- !private ["Se", "includeInIndex"]
+- !private ["Se", "indentWidth"]
+- !private ["Se", "init"]
+- !private ["Se", "int"]
+- !private ["Se", "isEqual"]
+- !private ["Se", "isa"]
+- !private ["Se", "mainGroup"]
+- !private ["Se", "map"]
+- ["Se", "multiline"]
+- !private ["Se", "name"]
+- !private ["Se", "objects"]
+- !private ["Se", "parent"]
+- !private ["Se", "path"]
+- !private ["Se", "plist"]
+- ["Se", "plistKeyAndValue"]
+- !private ["Se", "reference"]
+- ["Se", "sourceRoot"]
+- !private ["Se", "sourceTree"]
+- !private ["Se", "string"]
+- !private ["Se", "subscript"]
+- !private ["Se", "tabWidth"]
+- !private ["Se", "usesTabs"]
+- !private ["Se", "values"]
+- !private ["Se", "wrapsLines"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "first"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "contains"]
+- !private ["SE", "first"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "int"]
+- !private ["SE", "map"]
+- !private ["SE", "string"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- ["SQ", "=="]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "CommentedString"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "PBXFileElement"]
+- !private ["SQ", "PBXProjError"]
+- !private ["SQ", "PBXSourceTree"]
+- !private ["SQ", "Path"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "absolute"]
+- !private ["SQ", "assignParentToChildren"]
+- !private ["SQ", "baseVariantGroupPath"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "children"]
+- !private ["SQ", "childrenReferences"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "contains"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "dictionary"]
+- !private ["SQ", "fileName"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "fullPath"]
+- !private ["SQ", "getObject"]
+- !private ["SQ", "getThrowingObject"]
+- ["SQ", "group"]
+- !private ["SQ", "groups"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "includeInIndex"]
+- !private ["SQ", "indentWidth"]
+- ["SQ", "init"]
+- !private ["SQ", "int"]
+- ["SQ", "intValue"]
+- !private ["SQ", "invalidGroupPath"]
+- !private ["SQ", "isEqual"]
+- !private ["SQ", "isa"]
+- !private ["SQ", "mainGroup"]
+- !private ["SQ", "map"]
+- ["SQ", "multiline"]
+- !private ["SQ", "name"]
+- !private ["SQ", "objects"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "path"]
+- !private ["SQ", "plist"]
+- ["SQ", "plistKeyAndValue"]
+- !private ["SQ", "projects"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "reference"]
+- ["SQ", "sourceRoot"]
+- !private ["SQ", "sourceTree"]
+- !private ["SQ", "string"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tabWidth"]
+- !private ["SQ", "usesTabs"]
+- !private ["SQ", "values"]
+- !private ["SQ", "wrapsLines"]
+- !private ["s5ErrorP", "invalidGroupPath"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "dictionary"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "dictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "first"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dictionary"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "dictionary"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dictionary"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["SH", "=="]
+- !private ["SH", "CodingKeys"]
+- !private ["SH", "CommentedString"]
+- ["SH", "Default_RawValue"]
+- !private ["SH", "PBXFileElement"]
+- !private ["SH", "PBXProjError"]
+- !private ["SH", "PBXSourceTree"]
+- !private ["SH", "Path"]
+- ["SH", "RawValue"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "assignParentToChildren"]
+- !private ["SH", "baseVariantGroupPath"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "children"]
+- !private ["SH", "childrenReferences"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "contains"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "fileName"]
+- !private ["SH", "findStringSwitchCase"]
+- !private ["SH", "first"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "fullPath"]
+- !private ["SH", "getObject"]
+- !private ["SH", "getThrowingObject"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "includeInIndex"]
+- !private ["SH", "indentWidth"]
+- ["SH", "init"]
+- !private ["SH", "int"]
+- ["SH", "intValue"]
+- !private ["SH", "isEqual"]
+- !private ["SH", "isa"]
+- !private ["SH", "mainGroup"]
+- !private ["SH", "map"]
+- ["SH", "multiline"]
+- !private ["SH", "name"]
+- !private ["SH", "objects"]
+- !private ["SH", "parent"]
+- !private ["SH", "path"]
+- ["SH", "plistKeyAndValue"]
+- ["SH", "rawValue"]
+- !private ["SH", "reference"]
+- !private ["SH", "sourceTree"]
+- !private ["SH", "string"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tabWidth"]
+- !private ["SH", "usesTabs"]
+- !private ["SH", "values"]
+- !private ["SH", "wrapsLines"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s22KeyedDecodingContainerV", "decodeIntBoolIfPresent"]
+- !private ["s22KeyedDecodingContainerV", "decodeIntIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIntBoolIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIntIfPresent"]
+- !private ["s25LosslessStringConvertibleP", "int"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "contains"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "getObject"]
+- !private ["So9NSCopyingP", "getThrowingObject"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "getObject"]
+- !private ["So8NSObjectC", "getThrowingObject"]
+- !private ["So8NSObjectP", "getObject"]
+- !private ["So8NSObjectP", "getThrowingObject"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "map"]
+- !private ["Sq", "string"]
+- ["9XcodeProj16PBXContainerItemC", "Bool"]
+- ["9XcodeProj16PBXContainerItemC", "CodingKey"]
+- !private ["9XcodeProj16PBXContainerItemC", "CodingKeys"]
+- ["9XcodeProj16PBXContainerItemC", "CommentedString"]
+- ["9XcodeProj16PBXContainerItemC", "Decoder"]
+- ["9XcodeProj16PBXContainerItemC", "PBXFileElement"]
+- !private ["9XcodeProj16PBXContainerItemC", "PBXGroup"]
+- ["9XcodeProj16PBXContainerItemC", "PBXProj"]
+- !private ["9XcodeProj16PBXContainerItemC", "PBXProjError"]
+- ["9XcodeProj16PBXContainerItemC", "PBXSourceTree"]
+- !private ["9XcodeProj16PBXContainerItemC", "PBXVariantGroup"]
+- ["9XcodeProj16PBXContainerItemC", "Path"]
+- ["9XcodeProj16PBXContainerItemC", "PlistValue"]
+- ["9XcodeProj16PBXContainerItemC", "String"]
+- ["9XcodeProj16PBXContainerItemC", "UInt"]
+- ["9XcodeProj16PBXContainerItemC", ""]
+- !private ["9XcodeProj16PBXContainerItemC", "_findStringSwitchCase"]
+- ["9XcodeProj16PBXContainerItemC", "assignParentToChildren"]
+- ["9XcodeProj16PBXContainerItemC", "baseVariantGroupPath"]
+- !private ["9XcodeProj16PBXContainerItemC", "children"]
+- !private ["9XcodeProj16PBXContainerItemC", "childrenReferences"]
+- ["9XcodeProj16PBXContainerItemC", "fileName"]
+- !private ["9XcodeProj16PBXContainerItemC", "findStringSwitchCase"]
+- ["9XcodeProj16PBXContainerItemC", "fullPath"]
+- ["9XcodeProj16PBXContainerItemC", "includeInIndex"]
+- ["9XcodeProj16PBXContainerItemC", "indentWidth"]
+- ["9XcodeProj16PBXContainerItemC", "init"]
+- ["9XcodeProj16PBXContainerItemC", "isEqual"]
+- !private ["9XcodeProj16PBXContainerItemC", "isa"]
+- ["9XcodeProj16PBXContainerItemC", "multiline"]
+- ["9XcodeProj16PBXContainerItemC", "name"]
+- !private ["9XcodeProj16PBXContainerItemC", "objects"]
+- ["9XcodeProj16PBXContainerItemC", "parent"]
+- ["9XcodeProj16PBXContainerItemC", "path"]
+- ["9XcodeProj16PBXContainerItemC", "plistKeyAndValue"]
+- !private ["9XcodeProj16PBXContainerItemC", "reference"]
+- ["9XcodeProj16PBXContainerItemC", "sourceTree"]
+- ["9XcodeProj16PBXContainerItemC", "tabWidth"]
+- ["9XcodeProj16PBXContainerItemC", "usesTabs"]
+- ["9XcodeProj16PBXContainerItemC", "wrapsLines"]
+- ["9XcodeProj14PBXFileElementC", "Bool"]
+- ["9XcodeProj14PBXFileElementC", "CodingKey"]
+- !private ["9XcodeProj14PBXFileElementC", "CodingKeys"]
+- ["9XcodeProj14PBXFileElementC", "CommentedString"]
+- ["9XcodeProj14PBXFileElementC", "Decoder"]
+- ["9XcodeProj14PBXFileElementC", "PBXFileElement"]
+- !private ["9XcodeProj14PBXFileElementC", "PBXGroup"]
+- ["9XcodeProj14PBXFileElementC", "PBXProj"]
+- !private ["9XcodeProj14PBXFileElementC", "PBXProjError"]
+- ["9XcodeProj14PBXFileElementC", "PBXSourceTree"]
+- !private ["9XcodeProj14PBXFileElementC", "PBXVariantGroup"]
+- ["9XcodeProj14PBXFileElementC", "Path"]
+- ["9XcodeProj14PBXFileElementC", "PlistValue"]
+- ["9XcodeProj14PBXFileElementC", "String"]
+- ["9XcodeProj14PBXFileElementC", "UInt"]
+- ["9XcodeProj14PBXFileElementC", ""]
+- !private ["9XcodeProj14PBXFileElementC", "_findStringSwitchCase"]
+- ["9XcodeProj14PBXFileElementC", "assignParentToChildren"]
+- !private ["9XcodeProj14PBXFileElementC", "baseVariantGroupPath"]
+- !private ["9XcodeProj14PBXFileElementC", "children"]
+- !private ["9XcodeProj14PBXFileElementC", "childrenReferences"]
+- ["9XcodeProj14PBXFileElementC", "deinit"]
+- ["9XcodeProj14PBXFileElementC", "fileName"]
+- !private ["9XcodeProj14PBXFileElementC", "findStringSwitchCase"]
+- ["9XcodeProj14PBXFileElementC", "fullPath"]
+- ["9XcodeProj14PBXFileElementC", "includeInIndex"]
+- ["9XcodeProj14PBXFileElementC", "indentWidth"]
+- ["9XcodeProj14PBXFileElementC", "init"]
+- ["9XcodeProj14PBXFileElementC", "isEqual"]
+- !private ["9XcodeProj14PBXFileElementC", "isa"]
+- ["9XcodeProj14PBXFileElementC", "multiline"]
+- ["9XcodeProj14PBXFileElementC", "name"]
+- !private ["9XcodeProj14PBXFileElementC", "objects"]
+- ["9XcodeProj14PBXFileElementC", "parent"]
+- ["9XcodeProj14PBXFileElementC", "path"]
+- ["9XcodeProj14PBXFileElementC", "plistKeyAndValue"]
+- !private ["9XcodeProj14PBXFileElementC", "reference"]
+- ["9XcodeProj14PBXFileElementC", "sourceTree"]
+- ["9XcodeProj14PBXFileElementC", "tabWidth"]
+- ["9XcodeProj14PBXFileElementC", "usesTabs"]
+- ["9XcodeProj14PBXFileElementC", "wrapsLines"]
+- ["9XcodeProj8PBXGroupC", ""]
+- !private ["9XcodeProj8PBXGroupC", "children"]
+- !private ["9XcodeProj8PBXGroupC", "childrenReferences"]
+- !private ["9XcodeProj8PBXGroupC", "fullPath"]
+- ["9XcodeProj9PBXObjectC", "Bool"]
+- ["9XcodeProj9PBXObjectC", "CodingKey"]
+- !private ["9XcodeProj9PBXObjectC", "CodingKeys"]
+- ["9XcodeProj9PBXObjectC", "CommentedString"]
+- ["9XcodeProj9PBXObjectC", "Decoder"]
+- ["9XcodeProj9PBXObjectC", "PBXFileElement"]
+- !private ["9XcodeProj9PBXObjectC", "PBXGroup"]
+- ["9XcodeProj9PBXObjectC", "PBXProj"]
+- !private ["9XcodeProj9PBXObjectC", "PBXProjError"]
+- ["9XcodeProj9PBXObjectC", "PBXSourceTree"]
+- !private ["9XcodeProj9PBXObjectC", "PBXVariantGroup"]
+- ["9XcodeProj9PBXObjectC", "Path"]
+- ["9XcodeProj9PBXObjectC", "PlistValue"]
+- ["9XcodeProj9PBXObjectC", "String"]
+- ["9XcodeProj9PBXObjectC", "UInt"]
+- ["9XcodeProj9PBXObjectC", ""]
+- !private ["9XcodeProj9PBXObjectC", "_findStringSwitchCase"]
+- ["9XcodeProj9PBXObjectC", "assignParentToChildren"]
+- ["9XcodeProj9PBXObjectC", "baseVariantGroupPath"]
+- !private ["9XcodeProj9PBXObjectC", "children"]
+- !private ["9XcodeProj9PBXObjectC", "childrenReferences"]
+- ["9XcodeProj9PBXObjectC", "fileName"]
+- !private ["9XcodeProj9PBXObjectC", "findStringSwitchCase"]
+- ["9XcodeProj9PBXObjectC", "fullPath"]
+- ["9XcodeProj9PBXObjectC", "includeInIndex"]
+- ["9XcodeProj9PBXObjectC", "indentWidth"]
+- ["9XcodeProj9PBXObjectC", "isEqual"]
+- !private ["9XcodeProj9PBXObjectC", "isa"]
+- !private ["9XcodeProj9PBXObjectC", "mainGroup"]
+- ["9XcodeProj9PBXObjectC", "multiline"]
+- ["9XcodeProj9PBXObjectC", "name"]
+- !private ["9XcodeProj9PBXObjectC", "objects"]
+- ["9XcodeProj9PBXObjectC", "parent"]
+- ["9XcodeProj9PBXObjectC", "path"]
+- ["9XcodeProj9PBXObjectC", "plistKeyAndValue"]
+- !private ["9XcodeProj9PBXObjectC", "reference"]
+- ["9XcodeProj9PBXObjectC", "sourceTree"]
+- ["9XcodeProj9PBXObjectC", "tabWidth"]
+- ["9XcodeProj9PBXObjectC", "usesTabs"]
+- ["9XcodeProj9PBXObjectC", "wrapsLines"]
+- !private ["9XcodeProj18PBXObjectReferenceC", ""]
+- !private ["9XcodeProj18PBXObjectReferenceC", "getObject"]
+- !private ["9XcodeProj18PBXObjectReferenceC", "getThrowingObject"]
+- !private ["9XcodeProj10PBXObjectsC", "groups"]
+- !private ["9XcodeProj10PBXObjectsC", "projects"]
+- !private ["9XcodeProj12PBXProjErrorO", ""]
+- !private ["9XcodeProj12PBXProjErrorO", "invalidGroupPath"]
+- !private ["9XcodeProj10PBXProjectC", ""]
+- !private ["9XcodeProj10PBXProjectC", "mainGroup"]
+- !private ["9XcodeProj13PBXSourceTreeO", ""]
+- ["9XcodeProj13PBXSourceTreeO", "absolute"]
+- ["9XcodeProj13PBXSourceTreeO", "group"]
+- !private ["9XcodeProj13PBXSourceTreeO", "init"]
+- !private ["9XcodeProj13PBXSourceTreeO", "plist"]
+- ["9XcodeProj13PBXSourceTreeO", "sourceRoot"]
+- !private ["9XcodeProj15PBXVariantGroupC", "childrenReferences"]
+- !private ["7PathKit0A0V", "init"]
+- !private ["9XcodeProj17PlistSerializableP", "CodingKeys"]
+- !private ["9XcodeProj17PlistSerializableP", "CommentedString"]
+- !private ["9XcodeProj17PlistSerializableP", "PBXFileElement"]
+- !private ["9XcodeProj17PlistSerializableP", "PBXProjError"]
+- !private ["9XcodeProj17PlistSerializableP", "PBXSourceTree"]
+- !private ["9XcodeProj17PlistSerializableP", "Path"]
+- !private ["9XcodeProj17PlistSerializableP", "String"]
+- ["9XcodeProj17PlistSerializableP", ""]
+- !private ["9XcodeProj17PlistSerializableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj17PlistSerializableP", "assignParentToChildren"]
+- !private ["9XcodeProj17PlistSerializableP", "baseVariantGroupPath"]
+- !private ["9XcodeProj17PlistSerializableP", "children"]
+- !private ["9XcodeProj17PlistSerializableP", "childrenReferences"]
+- !private ["9XcodeProj17PlistSerializableP", "fileName"]
+- !private ["9XcodeProj17PlistSerializableP", "findStringSwitchCase"]
+- !private ["9XcodeProj17PlistSerializableP", "fullPath"]
+- !private ["9XcodeProj17PlistSerializableP", "includeInIndex"]
+- !private ["9XcodeProj17PlistSerializableP", "indentWidth"]
+- !private ["9XcodeProj17PlistSerializableP", "isEqual"]
+- !private ["9XcodeProj17PlistSerializableP", "isa"]
+- !private ["9XcodeProj17PlistSerializableP", "mainGroup"]
+- ["9XcodeProj17PlistSerializableP", "multiline"]
+- !private ["9XcodeProj17PlistSerializableP", "name"]
+- !private ["9XcodeProj17PlistSerializableP", "objects"]
+- !private ["9XcodeProj17PlistSerializableP", "parent"]
+- !private ["9XcodeProj17PlistSerializableP", "path"]
+- ["9XcodeProj17PlistSerializableP", "plistKeyAndValue"]
+- !private ["9XcodeProj17PlistSerializableP", "reference"]
+- !private ["9XcodeProj17PlistSerializableP", "sourceTree"]
+- !private ["9XcodeProj17PlistSerializableP", "tabWidth"]
+- !private ["9XcodeProj17PlistSerializableP", "usesTabs"]
+- !private ["9XcodeProj17PlistSerializableP", "wrapsLines"]
+- !private ["9XcodeProj10PlistValueO", ""]
+- !private ["9XcodeProj10PlistValueO", "dictionary"]
+- !private ["9XcodeProj10PlistValueO", "string"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "first"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "first"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "includeInIndex"]
+- !private ["SY", "indentWidth"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "name"]
+- !private ["SY", "path"]
+- ["SY", "rawValue"]
+- !private ["SY", "sourceTree"]
+- ["SY", "stringValue"]
+- !private ["SY", "tabWidth"]
+- !private ["SY", "usesTabs"]
+- !private ["SY", "wrapsLines"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "contains"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "subscript"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "values"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["SD6ValuesV", "first"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "int"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "int"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getThrowingObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getThrowingObject"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "int"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+depends-nominal:
+- !private "Sa"
+- "9XcodeProj13AutoEquatableP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "9XcodeProj15CommentedStringV"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- "9XcodeProj16PBXContainerItemC"
+- "9XcodeProj14PBXFileElementC"
+- "9XcodeProj8PBXGroupC"
+- "9XcodeProj9PBXObjectC"
+- !private "9XcodeProj18PBXObjectReferenceC"
+- !private "9XcodeProj10PBXObjectsC"
+- !private "9XcodeProj12PBXProjErrorO"
+- !private "9XcodeProj10PBXProjectC"
+- "9XcodeProj13PBXSourceTreeO"
+- !private "9XcodeProj15PBXVariantGroupC"
+- !private "7PathKit0A0V"
+- "9XcodeProj17PlistSerializableP"
+- !private "9XcodeProj10PlistValueO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "SD6ValuesV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e87fc8d9551d44c82282e733eb028b8f"

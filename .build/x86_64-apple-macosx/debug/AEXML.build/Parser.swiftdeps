@@ -1,0 +1,570 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AEXMLParser"
+provides-nominal:
+- "5AEXML11AEXMLParserC"
+provides-member:
+- ["5AEXML11AEXMLParserC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_parserSettings"
+- "currentElement"
+- "currentParent"
+- "currentValue"
+- "data"
+- "document"
+- "parse"
+- "parseError"
+- "parser"
+- "parserSettings"
+depends-top-level:
+- !private "!"
+- "AEXMLDocument"
+- "AEXMLElement"
+- !private "AEXMLError"
+- "AEXMLOptions"
+- "AEXMLParser"
+- "AssignmentPrecedence"
+- "Data"
+- "Error"
+- "NSObject"
+- "String"
+- "TernaryPrecedence"
+- "XMLParser"
+- "XMLParserDelegate"
+- !private "currentElement"
+- !private "currentParent"
+- !private "currentValue"
+- !private "data"
+- "document"
+- !private "parseError"
+- !private "parserSettings"
+depends-member:
+- ["5AEXML13AEXMLDocumentC", "options"]
+- ["5AEXML12AEXMLElementC", ""]
+- !private ["5AEXML12AEXMLElementC", "addChild"]
+- ["5AEXML12AEXMLElementC", "options"]
+- !private ["5AEXML12AEXMLElementC", "parent"]
+- !private ["5AEXML12AEXMLElementC", "value"]
+- !private ["5AEXML10AEXMLErrorO", ""]
+- !private ["5AEXML10AEXMLErrorO", "parsingFailed"]
+- ["5AEXML12AEXMLOptionsV", "ParserSettings"]
+- ["5AEXML12AEXMLOptionsV", "parserSettings"]
+- !private ["5AEXML11AEXMLParserC", "$__lazy_storage_$_parserSettings"]
+- ["5AEXML11AEXMLParserC", "AEXMLDocument"]
+- ["5AEXML11AEXMLParserC", "AEXMLElement"]
+- !private ["5AEXML11AEXMLParserC", "AEXMLError"]
+- ["5AEXML11AEXMLParserC", "AEXMLOptions"]
+- ["5AEXML11AEXMLParserC", "Data"]
+- ["5AEXML11AEXMLParserC", "Error"]
+- ["5AEXML11AEXMLParserC", "String"]
+- ["5AEXML11AEXMLParserC", "XMLParser"]
+- ["5AEXML11AEXMLParserC", ""]
+- ["5AEXML11AEXMLParserC", "currentElement"]
+- ["5AEXML11AEXMLParserC", "currentParent"]
+- ["5AEXML11AEXMLParserC", "currentValue"]
+- ["5AEXML11AEXMLParserC", "data"]
+- ["5AEXML11AEXMLParserC", "deinit"]
+- ["5AEXML11AEXMLParserC", "document"]
+- ["5AEXML11AEXMLParserC", "init"]
+- ["5AEXML11AEXMLParserC", "parse"]
+- ["5AEXML11AEXMLParserC", "parseError"]
+- ["5AEXML11AEXMLParserC", "parser"]
+- ["5AEXML11AEXMLParserC", "parserDidEndDocument"]
+- ["5AEXML11AEXMLParserC", "parserDidStartDocument"]
+- !private ["5AEXML11AEXMLParserC", "parserSettings"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "trimmingCharacters"]
+- !private ["s7CVarArgP", "AEXMLError"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "XMLParser"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "currentElement"]
+- !private ["s7CVarArgP", "currentParent"]
+- !private ["s7CVarArgP", "currentValue"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "document"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "parse"]
+- !private ["s7CVarArgP", "parseError"]
+- ["s7CVarArgP", "parser"]
+- ["s7CVarArgP", "parserDidEndDocument"]
+- ["s7CVarArgP", "parserDidStartDocument"]
+- !private ["s7CVarArgP", "parserSettings"]
+- !private ["s7CVarArgP", "shouldProcessNamespaces"]
+- !private ["s7CVarArgP", "shouldReportNamespacePrefixes"]
+- !private ["s7CVarArgP", "shouldResolveExternalEntities"]
+- !private ["s7CVarArgP", "trimmingCharacters"]
+- !private ["10Foundation12CharacterSetV", "whitespacesAndNewlines"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "trimmingCharacters"]
+- ["SL", ""]
+- !private ["SL", "append"]
+- ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "AEXMLError"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "XMLParser"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "currentElement"]
+- !private ["s28CustomDebugStringConvertibleP", "currentParent"]
+- !private ["s28CustomDebugStringConvertibleP", "currentValue"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "document"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "parse"]
+- !private ["s28CustomDebugStringConvertibleP", "parseError"]
+- ["s28CustomDebugStringConvertibleP", "parser"]
+- ["s28CustomDebugStringConvertibleP", "parserDidEndDocument"]
+- ["s28CustomDebugStringConvertibleP", "parserDidStartDocument"]
+- !private ["s28CustomDebugStringConvertibleP", "parserSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldProcessNamespaces"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldReportNamespacePrefixes"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldResolveExternalEntities"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "AEXMLError"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "XMLParser"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "currentElement"]
+- !private ["s23CustomStringConvertibleP", "currentParent"]
+- !private ["s23CustomStringConvertibleP", "currentValue"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "document"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "parse"]
+- !private ["s23CustomStringConvertibleP", "parseError"]
+- ["s23CustomStringConvertibleP", "parser"]
+- ["s23CustomStringConvertibleP", "parserDidEndDocument"]
+- ["s23CustomStringConvertibleP", "parserDidStartDocument"]
+- !private ["s23CustomStringConvertibleP", "parserSettings"]
+- !private ["s23CustomStringConvertibleP", "shouldProcessNamespaces"]
+- !private ["s23CustomStringConvertibleP", "shouldReportNamespacePrefixes"]
+- !private ["s23CustomStringConvertibleP", "shouldResolveExternalEntities"]
+- !private ["s23CustomStringConvertibleP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "trimmingCharacters"]
+- !private ["Se", "whitespacesAndNewlines"]
+- !private ["SE", "append"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "trimmingCharacters"]
+- !private ["SE", "whitespacesAndNewlines"]
+- !private ["SQ", "AEXMLError"]
+- ["SQ", "String"]
+- !private ["SQ", "XMLParser"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "currentElement"]
+- !private ["SQ", "currentParent"]
+- !private ["SQ", "currentValue"]
+- !private ["SQ", "data"]
+- !private ["SQ", "delegate"]
+- ["SQ", "document"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "parse"]
+- !private ["SQ", "parseError"]
+- ["SQ", "parser"]
+- ["SQ", "parserDidEndDocument"]
+- ["SQ", "parserDidStartDocument"]
+- !private ["SQ", "parserSettings"]
+- !private ["SQ", "parsingFailed"]
+- !private ["SQ", "shouldProcessNamespaces"]
+- !private ["SQ", "shouldReportNamespacePrefixes"]
+- !private ["SQ", "shouldResolveExternalEntities"]
+- !private ["SQ", "trimmingCharacters"]
+- !private ["SQ", "whitespacesAndNewlines"]
+- !private ["s5ErrorP", "parsingFailed"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "whitespacesAndNewlines"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "append"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "trimmingCharacters"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmingCharacters"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["SH", "AEXMLError"]
+- ["SH", "String"]
+- !private ["SH", "XMLParser"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "currentElement"]
+- !private ["SH", "currentParent"]
+- !private ["SH", "currentValue"]
+- !private ["SH", "data"]
+- !private ["SH", "delegate"]
+- ["SH", "document"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "parse"]
+- !private ["SH", "parseError"]
+- ["SH", "parser"]
+- ["SH", "parserDidEndDocument"]
+- ["SH", "parserDidStartDocument"]
+- !private ["SH", "parserSettings"]
+- !private ["SH", "parsingFailed"]
+- !private ["SH", "shouldProcessNamespaces"]
+- !private ["SH", "shouldReportNamespacePrefixes"]
+- !private ["SH", "shouldResolveExternalEntities"]
+- !private ["SH", "trimmingCharacters"]
+- !private ["SH", "whitespacesAndNewlines"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "trimmingCharacters"]
+- !private ["s10MirrorPathP", "append"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "trimmingCharacters"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "trimmingCharacters"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "trimmingCharacters"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "trimmingCharacters"]
+- ["So8NSObjectC", "$__lazy_storage_$_parserSettings"]
+- ["So8NSObjectC", "AEXMLDocument"]
+- ["So8NSObjectC", "AEXMLElement"]
+- !private ["So8NSObjectC", "AEXMLError"]
+- ["So8NSObjectC", "AEXMLOptions"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "XMLParser"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__lazy_storage_$_parserSettings"]
+- !private ["So8NSObjectC", "append"]
+- ["So8NSObjectC", "currentElement"]
+- ["So8NSObjectC", "currentParent"]
+- ["So8NSObjectC", "currentValue"]
+- ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "document"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "parse"]
+- ["So8NSObjectC", "parseError"]
+- ["So8NSObjectC", "parser"]
+- ["So8NSObjectC", "parserDidEndDocument"]
+- ["So8NSObjectC", "parserDidStartDocument"]
+- ["So8NSObjectC", "parserSettings"]
+- !private ["So8NSObjectC", "shouldProcessNamespaces"]
+- !private ["So8NSObjectC", "shouldReportNamespacePrefixes"]
+- !private ["So8NSObjectC", "shouldResolveExternalEntities"]
+- !private ["So8NSObjectC", "stringByTrimmingCharactersInSet"]
+- !private ["So8NSObjectC", "trimmingCharacters"]
+- ["So8NSObjectP", "$__lazy_storage_$_parserSettings"]
+- ["So8NSObjectP", "AEXMLDocument"]
+- ["So8NSObjectP", "AEXMLElement"]
+- !private ["So8NSObjectP", "AEXMLError"]
+- ["So8NSObjectP", "AEXMLOptions"]
+- ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "Error"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "XMLParser"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__lazy_storage_$_parserSettings"]
+- !private ["So8NSObjectP", "append"]
+- ["So8NSObjectP", "currentElement"]
+- ["So8NSObjectP", "currentParent"]
+- ["So8NSObjectP", "currentValue"]
+- ["So8NSObjectP", "data"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "document"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- ["So8NSObjectP", "parse"]
+- ["So8NSObjectP", "parseError"]
+- ["So8NSObjectP", "parser"]
+- ["So8NSObjectP", "parserDidEndDocument"]
+- ["So8NSObjectP", "parserDidStartDocument"]
+- ["So8NSObjectP", "parserSettings"]
+- !private ["So8NSObjectP", "shouldProcessNamespaces"]
+- !private ["So8NSObjectP", "shouldReportNamespacePrefixes"]
+- !private ["So8NSObjectP", "shouldResolveExternalEntities"]
+- !private ["So8NSObjectP", "stringByTrimmingCharactersInSet"]
+- !private ["So8NSObjectP", "trimmingCharacters"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "trimmingCharacters"]
+- !private ["So8NSStringC", "append"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "trimmingCharacters"]
+- !private ["5AEXML12AEXMLOptionsV14ParserSettingsV", "shouldProcessNamespaces"]
+- !private ["5AEXML12AEXMLOptionsV14ParserSettingsV", "shouldReportNamespacePrefixes"]
+- !private ["5AEXML12AEXMLOptionsV14ParserSettingsV", "shouldResolveExternalEntities"]
+- !private ["5AEXML12AEXMLOptionsV14ParserSettingsV", "shouldTrimWhitespace"]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "trimmingCharacters"]
+- !private ["10Foundation20ReferenceConvertibleP", "whitespacesAndNewlines"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "trimmingCharacters"]
+- !private ["s10SetAlgebraP", "whitespacesAndNewlines"]
+- !private ["SS", "append"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["Sy", "append"]
+- ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "trimmingCharacters"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "append"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "trimmingCharacters"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "append"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "trimmingCharacters"]
+- !private ["So11NSXMLParserC", "delegate"]
+- !private ["So11NSXMLParserC", "init"]
+- !private ["So11NSXMLParserC", "parse"]
+- !private ["So11NSXMLParserC", "shouldProcessNamespaces"]
+- !private ["So11NSXMLParserC", "shouldReportNamespacePrefixes"]
+- !private ["So11NSXMLParserC", "shouldResolveExternalEntities"]
+- ["So19NSXMLParserDelegateP", "$__lazy_storage_$_parserSettings"]
+- !private ["So19NSXMLParserDelegateP", "AEXMLError"]
+- ["So19NSXMLParserDelegateP", "String"]
+- !private ["So19NSXMLParserDelegateP", "XMLParser"]
+- ["So19NSXMLParserDelegateP", ""]
+- ["So19NSXMLParserDelegateP", "currentElement"]
+- ["So19NSXMLParserDelegateP", "currentParent"]
+- ["So19NSXMLParserDelegateP", "currentValue"]
+- ["So19NSXMLParserDelegateP", "data"]
+- ["So19NSXMLParserDelegateP", "deinit"]
+- ["So19NSXMLParserDelegateP", "document"]
+- ["So19NSXMLParserDelegateP", "init"]
+- ["So19NSXMLParserDelegateP", "parse"]
+- ["So19NSXMLParserDelegateP", "parseError"]
+- ["So19NSXMLParserDelegateP", "parser"]
+- ["So19NSXMLParserDelegateP", "parserDidEndDocument"]
+- ["So19NSXMLParserDelegateP", "parserDidStartDocument"]
+- ["So19NSXMLParserDelegateP", "parserSettings"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "append"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trimmingCharacters"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmingCharacters"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "trimmingCharacters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AEXMLError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XMLParser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentElement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentParent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "document"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "parser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "parserDidEndDocument"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "parserDidStartDocument"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parserSettings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldProcessNamespaces"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldReportNamespacePrefixes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldResolveExternalEntities"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trimmingCharacters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AEXMLError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XMLParser"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "append"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentElement"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentParent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "document"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parseError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parser"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parserDidEndDocument"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parserDidStartDocument"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parserSettings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldProcessNamespaces"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldReportNamespacePrefixes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldResolveExternalEntities"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trimmingCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "trimmingCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", "whitespacesAndNewlines"]
+depends-nominal:
+- "5AEXML13AEXMLDocumentC"
+- "5AEXML12AEXMLElementC"
+- !private "5AEXML10AEXMLErrorO"
+- "5AEXML12AEXMLOptionsV"
+- "5AEXML11AEXMLParserC"
+- "SK"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "5AEXML12AEXMLOptionsV14ParserSettingsV"
+- "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s10SetAlgebraP"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So11NSXMLParserC"
+- "So19NSXMLParserDelegateP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9b8e92dce22d9b5095af144197d2421"

@@ -1,0 +1,137 @@
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/Document.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/Element.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/Error.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/Options.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/Parser.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/BashCompletionsGenerator.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/CompletionsGenerator.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/FishCompletionsGenerator.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/ZshCompletionsGenerator.swift.o
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Argument.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/ArgumentHelp.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/CompletionKind.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Errors.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Flag.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/NameSpecification.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Option.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/OptionGroup.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/CommandConfiguration.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/EnumerableFlag.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ExpressibleByArgument.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ParsableArguments.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ParsableArgumentsValidation.swift.o'
+'/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ParsableCommand.swift.o'
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ArgumentDecoder.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ArgumentDefinition.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ArgumentSet.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/CommandParser.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/InputOrigin.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/Name.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/Parsed.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ParsedValues.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ParserError.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/SplitArguments.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/HelpCommand.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/HelpGenerator.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/MessageInfo.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/UsageGenerator.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/SequenceExtensions.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/StringExtensions.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/Tree.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/PathKit.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackageTests.build/SwiftRelinkPackageTests.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/SwiftRelinkPackageTests.build/XCTestManifests.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Errors/Errors.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/AEXML+XcodeFormat.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/Array+Extras.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/Bool+Extras.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/Dictionary+Enumerate.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/Dictionary+Extras.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/KeyedDecodingContainer+Additions.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/NSRecursiveLock+Sync.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/Path+Extras.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/String+Utils.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Extensions/String+md5.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/BuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXBuildFile.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXBuildRule.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXCopyFilesBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXFrameworksBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXHeadersBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXResourcesBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXRezBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXShellScriptBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/BuildPhase/PBXSourcesBuildPhase.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Configuration/BuildSettings.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Configuration/XCBuildConfiguration.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Configuration/XCConfigurationList.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXContainerItem.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXContainerItemProxy.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXFileElement.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXFileReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXGroup.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXSourceTree.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/PBXVariantGroup.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Files/XCVersionGroup.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXObject.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXObjectParser.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXObjectReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXObjects.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXOutputSettings.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXProj.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXProjEncoder.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Project/PBXProject.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Sourcery/Equality.generated.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Sourcery/Sourcery.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/SwiftPackage/XCRemoteSwiftPackageReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/SwiftPackage/XCSwiftPackageProductDependency.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXAggregateTarget.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXLegacyTarget.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXNativeTarget.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXProductType.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXReferenceProxy.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXTarget.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Objects/Targets/PBXTargetDependency.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Project/WorkspaceSettings.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Project/XCBreakpointList.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Project/XCSharedData.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Project/Xcode.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Project/XcodeProj.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Protocols/Writable.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+AditionalOption.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+AnalyzeAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+ArchiveAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+BuildAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+BuildableProductRunnable.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+BuildableReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+CommandLineArguments.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+EnvironmentVariable.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+ExecutionAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+LaunchAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+LocationScenarioReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+PathRunnable.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+ProfileAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+RemoteRunnable.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+Runnable.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+SerialAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+StoreKitConfigurationFileReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+TestAction.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+TestItem.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+TestPlanReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme+TestableReference.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Scheme/XCScheme.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/BuildSettingsProvider.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/CommentedString.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/Decoders.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/JSONDecoding.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/PBXBatchUpdater.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/PlistValue.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/ReferenceGenerator.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Utils/XCConfig.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Workspace/XCWorkspace.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Workspace/XCWorkspaceData.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Workspace/XCWorkspaceDataElement.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Workspace/XCWorkspaceDataElementLocationType.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Workspace/XCWorkspaceDataFileRef.swift.o
+/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/Workspace/XCWorkspaceDataGroup.swift.o

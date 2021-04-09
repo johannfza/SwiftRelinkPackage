@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WorkspaceSettingsError"
+- "WorkspaceSettings"
+- "=="
+provides-nominal:
+- "9XcodeProj22WorkspaceSettingsErrorO"
+- "9XcodeProj17WorkspaceSettingsC"
+- "9XcodeProj17WorkspaceSettingsC11BuildSystemO"
+- "9XcodeProj17WorkspaceSettingsC10CodingKeysO"
+provides-member:
+- ["9XcodeProj22WorkspaceSettingsErrorO", ""]
+- ["9XcodeProj17WorkspaceSettingsC", ""]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", ""]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", ""]
+provides-dynamic-lookup:
+- "=="
+- "at"
+- "autoCreateSchemes"
+- "buildSystem"
+- "encode"
+- "write"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BuildSystem"
+- "Codable"
+- "CodingKey"
+- !private "CodingKeys"
+- !private "Data"
+- "Decoder"
+- "Encoder"
+- "Equatable"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Path"
+- !private "PropertyListDecoder"
+- !private "PropertyListEncoder"
+- "String"
+- "StringLiteralType"
+- "WorkspaceSettings"
+- "WorkspaceSettingsError"
+- "Writable"
+- !private "_findStringSwitchCase"
+- !private "autoCreateSchemes"
+- !private "buildSystem"
+- !private "~="
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "=="]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "Default_RawValue"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "RawValue"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", ""]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "_Default_RawValue"]
+- !private ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "_findStringSwitchCase"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "_rawHashValue"]
+- !private ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "findStringSwitchCase"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "hash"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "hashValue"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "init"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "new"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "original"]
+- ["9XcodeProj17WorkspaceSettingsC11BuildSystemO", "rawValue"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "autoCreateSchemes"]
+- !private ["s9CodingKeyP", "buildSystem"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "=="]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "Default_RawValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "RawValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", ""]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "_Default_RawValue"]
+- !private ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "_findStringSwitchCase"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "_rawHashValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "autoCreateSchemes"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "buildSystem"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "debugDescription"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "description"]
+- !private ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "findStringSwitchCase"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "hash"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "hashValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "init"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "intValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "rawValue"]
+- ["9XcodeProj17WorkspaceSettingsC10CodingKeysO", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["SL", "delete"]
+- !private ["SL", "exists"]
+- !private ["SL", "url"]
+- !private ["SL", "write"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "autoCreateSchemes"]
+- !private ["s28CustomDebugStringConvertibleP", "buildSystem"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "autoCreateSchemes"]
+- !private ["s23CustomStringConvertibleP", "buildSystem"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "exists"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["Se", "=="]
+- !private ["Se", "BuildSystem"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Data"]
+- !private ["Se", "PropertyListDecoder"]
+- !private ["Se", "PropertyListEncoder"]
+- !private ["Se", "WorkspaceSettings"]
+- !private ["Se", "WorkspaceSettingsError"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "autoCreateSchemes"]
+- !private ["Se", "buildSystem"]
+- ["Se", "encode"]
+- !private ["Se", "findStringSwitchCase"]
+- ["Se", "init"]
+- ["Se", "write"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "=="]
+- !private ["SE", "BuildSystem"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "Data"]
+- !private ["SE", "PropertyListDecoder"]
+- !private ["SE", "PropertyListEncoder"]
+- !private ["SE", "WorkspaceSettings"]
+- !private ["SE", "WorkspaceSettingsError"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "autoCreateSchemes"]
+- !private ["SE", "buildSystem"]
+- ["SE", "encode"]
+- !private ["SE", "findStringSwitchCase"]
+- ["SE", "init"]
+- ["SE", "write"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "BuildSystem"]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "Data"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "PropertyListDecoder"]
+- !private ["SQ", "PropertyListEncoder"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "WorkspaceSettings"]
+- !private ["SQ", "WorkspaceSettingsError"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "autoCreateSchemes"]
+- !private ["SQ", "buildSystem"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "delete"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- !private ["SQ", "exists"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "new"]
+- !private ["SQ", "original"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "url"]
+- ["SQ", "write"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "notFound"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "delete"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "exists"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "url"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s26ExpressibleByStringLiteralP", "delete"]
+- !private ["s26ExpressibleByStringLiteralP", "exists"]
+- !private ["s26ExpressibleByStringLiteralP", "url"]
+- !private ["s26ExpressibleByStringLiteralP", "write"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "delete"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "exists"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "url"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "autoCreateSchemes"]
+- !private ["SH", "buildSystem"]
+- ["SH", "debugDescription"]
+- !private ["SH", "delete"]
+- ["SH", "description"]
+- !private ["SH", "exists"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "new"]
+- !private ["SH", "original"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["SH", "url"]
+- !private ["SH", "write"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["7PathKit0A0V", "delete"]
+- !private ["7PathKit0A0V", "exists"]
+- !private ["7PathKit0A0V", "url"]
+- !private ["7PathKit0A0V", "write"]
+- !private ["10Foundation19PropertyListDecoderC", "decode"]
+- !private ["10Foundation19PropertyListDecoderC", "init"]
+- !private ["10Foundation19PropertyListEncoderC", "encode"]
+- !private ["10Foundation19PropertyListEncoderC", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "autoCreateSchemes"]
+- !private ["SY", "buildSystem"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "new"]
+- !private ["SY", "original"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "delete"]
+- !private ["ST", "exists"]
+- !private ["ST", "init"]
+- !private ["ST", "url"]
+- !private ["ST", "write"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- ["9XcodeProj17WorkspaceSettingsC", "=="]
+- ["9XcodeProj17WorkspaceSettingsC", "Bool"]
+- ["9XcodeProj17WorkspaceSettingsC", "BuildSystem"]
+- ["9XcodeProj17WorkspaceSettingsC", "CodingKey"]
+- ["9XcodeProj17WorkspaceSettingsC", "CodingKeys"]
+- !private ["9XcodeProj17WorkspaceSettingsC", "Data"]
+- ["9XcodeProj17WorkspaceSettingsC", "Decoder"]
+- ["9XcodeProj17WorkspaceSettingsC", "Encoder"]
+- ["9XcodeProj17WorkspaceSettingsC", "Path"]
+- !private ["9XcodeProj17WorkspaceSettingsC", "PropertyListDecoder"]
+- !private ["9XcodeProj17WorkspaceSettingsC", "PropertyListEncoder"]
+- ["9XcodeProj17WorkspaceSettingsC", "String"]
+- ["9XcodeProj17WorkspaceSettingsC", "WorkspaceSettings"]
+- !private ["9XcodeProj17WorkspaceSettingsC", "WorkspaceSettingsError"]
+- ["9XcodeProj17WorkspaceSettingsC", ""]
+- !private ["9XcodeProj17WorkspaceSettingsC", "_findStringSwitchCase"]
+- ["9XcodeProj17WorkspaceSettingsC", "at"]
+- ["9XcodeProj17WorkspaceSettingsC", "autoCreateSchemes"]
+- ["9XcodeProj17WorkspaceSettingsC", "buildSystem"]
+- ["9XcodeProj17WorkspaceSettingsC", "deinit"]
+- ["9XcodeProj17WorkspaceSettingsC", "encode"]
+- !private ["9XcodeProj17WorkspaceSettingsC", "findStringSwitchCase"]
+- ["9XcodeProj17WorkspaceSettingsC", "init"]
+- ["9XcodeProj17WorkspaceSettingsC", "write"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "Path"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", ""]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "_code"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "_domain"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "_getEmbeddedNSError"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "_userInfo"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "code"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "domain"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "notFound"]
+- ["9XcodeProj22WorkspaceSettingsErrorO", "userInfo"]
+- ["9XcodeProj8WritableP", "=="]
+- !private ["9XcodeProj8WritableP", "BuildSystem"]
+- !private ["9XcodeProj8WritableP", "CodingKeys"]
+- !private ["9XcodeProj8WritableP", "Data"]
+- !private ["9XcodeProj8WritableP", "PropertyListDecoder"]
+- !private ["9XcodeProj8WritableP", "PropertyListEncoder"]
+- !private ["9XcodeProj8WritableP", "WorkspaceSettings"]
+- !private ["9XcodeProj8WritableP", "WorkspaceSettingsError"]
+- ["9XcodeProj8WritableP", ""]
+- !private ["9XcodeProj8WritableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj8WritableP", "autoCreateSchemes"]
+- !private ["9XcodeProj8WritableP", "buildSystem"]
+- ["9XcodeProj8WritableP", "encode"]
+- !private ["9XcodeProj8WritableP", "findStringSwitchCase"]
+- ["9XcodeProj8WritableP", "init"]
+- ["9XcodeProj8WritableP", "write"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SK"
+- "9XcodeProj17WorkspaceSettingsC11BuildSystemO"
+- "s9CodingKeyP"
+- "9XcodeProj17WorkspaceSettingsC10CodingKeysO"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "7PathKit0A0V"
+- !private "10Foundation19PropertyListDecoderC"
+- !private "10Foundation19PropertyListEncoderC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- "9XcodeProj17WorkspaceSettingsC"
+- "9XcodeProj22WorkspaceSettingsErrorO"
+- "9XcodeProj8WritableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4a63e6410d3215ca247f84be9321452d"

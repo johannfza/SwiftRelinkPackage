@@ -1,0 +1,273 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PBXProductType"
+provides-nominal:
+- "9XcodeProj14PBXProductTypeO"
+provides-member:
+- ["9XcodeProj14PBXProductTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "Decodable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PBXProductType"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["Se", "=="]
+- ["Se", "Default_RawValue"]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- ["Se", "appExtension"]
+- ["Se", "application"]
+- ["Se", "bundle"]
+- ["Se", "commandLineTool"]
+- ["Se", "dynamicLibrary"]
+- !private ["Se", "findStringSwitchCase"]
+- ["Se", "framework"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- ["Se", "instrumentsPackage"]
+- ["Se", "intentsServiceExtension"]
+- ["Se", "messagesApplication"]
+- ["Se", "messagesExtension"]
+- ["Se", "metalLibrary"]
+- ["Se", "none"]
+- ["Se", "ocUnitTestBundle"]
+- ["Se", "onDemandInstallCapableApplication"]
+- ["Se", "rawValue"]
+- ["Se", "staticFramework"]
+- ["Se", "staticLibrary"]
+- ["Se", "stickerPack"]
+- ["Se", "tvExtension"]
+- ["Se", "uiTestBundle"]
+- ["Se", "unitTestBundle"]
+- ["Se", "watch2App"]
+- ["Se", "watch2AppContainer"]
+- ["Se", "watch2Extension"]
+- ["Se", "watchApp"]
+- ["Se", "watchExtension"]
+- ["Se", "xcFramework"]
+- ["Se", "xcodeExtension"]
+- ["Se", "xpcService"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "appExtension"]
+- ["SQ", "application"]
+- ["SQ", "bundle"]
+- ["SQ", "commandLineTool"]
+- ["SQ", "dynamicLibrary"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "framework"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "instrumentsPackage"]
+- ["SQ", "intentsServiceExtension"]
+- ["SQ", "messagesApplication"]
+- ["SQ", "messagesExtension"]
+- ["SQ", "metalLibrary"]
+- ["SQ", "none"]
+- ["SQ", "ocUnitTestBundle"]
+- ["SQ", "onDemandInstallCapableApplication"]
+- ["SQ", "rawValue"]
+- ["SQ", "staticFramework"]
+- ["SQ", "staticLibrary"]
+- ["SQ", "stickerPack"]
+- ["SQ", "tvExtension"]
+- ["SQ", "uiTestBundle"]
+- ["SQ", "unitTestBundle"]
+- ["SQ", "watch2App"]
+- ["SQ", "watch2AppContainer"]
+- ["SQ", "watch2Extension"]
+- ["SQ", "watchApp"]
+- ["SQ", "watchExtension"]
+- ["SQ", "xcFramework"]
+- ["SQ", "xcodeExtension"]
+- ["SQ", "xpcService"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "appExtension"]
+- ["SH", "application"]
+- ["SH", "bundle"]
+- ["SH", "commandLineTool"]
+- ["SH", "dynamicLibrary"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "framework"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "instrumentsPackage"]
+- ["SH", "intentsServiceExtension"]
+- ["SH", "messagesApplication"]
+- ["SH", "messagesExtension"]
+- ["SH", "metalLibrary"]
+- ["SH", "none"]
+- ["SH", "ocUnitTestBundle"]
+- ["SH", "onDemandInstallCapableApplication"]
+- ["SH", "rawValue"]
+- ["SH", "staticFramework"]
+- ["SH", "staticLibrary"]
+- ["SH", "stickerPack"]
+- ["SH", "tvExtension"]
+- ["SH", "uiTestBundle"]
+- ["SH", "unitTestBundle"]
+- ["SH", "watch2App"]
+- ["SH", "watch2AppContainer"]
+- ["SH", "watch2Extension"]
+- ["SH", "watchApp"]
+- ["SH", "watchExtension"]
+- ["SH", "xcFramework"]
+- ["SH", "xcodeExtension"]
+- ["SH", "xpcService"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["9XcodeProj14PBXProductTypeO", "=="]
+- ["9XcodeProj14PBXProductTypeO", "Default_RawValue"]
+- ["9XcodeProj14PBXProductTypeO", "RawValue"]
+- ["9XcodeProj14PBXProductTypeO", "String"]
+- ["9XcodeProj14PBXProductTypeO", ""]
+- ["9XcodeProj14PBXProductTypeO", "_Default_RawValue"]
+- !private ["9XcodeProj14PBXProductTypeO", "_findStringSwitchCase"]
+- ["9XcodeProj14PBXProductTypeO", "_rawHashValue"]
+- ["9XcodeProj14PBXProductTypeO", "appExtension"]
+- ["9XcodeProj14PBXProductTypeO", "application"]
+- ["9XcodeProj14PBXProductTypeO", "bundle"]
+- ["9XcodeProj14PBXProductTypeO", "commandLineTool"]
+- ["9XcodeProj14PBXProductTypeO", "dynamicLibrary"]
+- ["9XcodeProj14PBXProductTypeO", "fileExtension"]
+- !private ["9XcodeProj14PBXProductTypeO", "findStringSwitchCase"]
+- ["9XcodeProj14PBXProductTypeO", "framework"]
+- ["9XcodeProj14PBXProductTypeO", "hash"]
+- ["9XcodeProj14PBXProductTypeO", "hashValue"]
+- ["9XcodeProj14PBXProductTypeO", "init"]
+- ["9XcodeProj14PBXProductTypeO", "instrumentsPackage"]
+- ["9XcodeProj14PBXProductTypeO", "intentsServiceExtension"]
+- ["9XcodeProj14PBXProductTypeO", "messagesApplication"]
+- ["9XcodeProj14PBXProductTypeO", "messagesExtension"]
+- ["9XcodeProj14PBXProductTypeO", "metalLibrary"]
+- ["9XcodeProj14PBXProductTypeO", "none"]
+- ["9XcodeProj14PBXProductTypeO", "ocUnitTestBundle"]
+- ["9XcodeProj14PBXProductTypeO", "onDemandInstallCapableApplication"]
+- ["9XcodeProj14PBXProductTypeO", "rawValue"]
+- ["9XcodeProj14PBXProductTypeO", "staticFramework"]
+- ["9XcodeProj14PBXProductTypeO", "staticLibrary"]
+- ["9XcodeProj14PBXProductTypeO", "stickerPack"]
+- ["9XcodeProj14PBXProductTypeO", "tvExtension"]
+- ["9XcodeProj14PBXProductTypeO", "uiTestBundle"]
+- ["9XcodeProj14PBXProductTypeO", "unitTestBundle"]
+- ["9XcodeProj14PBXProductTypeO", "watch2App"]
+- ["9XcodeProj14PBXProductTypeO", "watch2AppContainer"]
+- ["9XcodeProj14PBXProductTypeO", "watch2Extension"]
+- ["9XcodeProj14PBXProductTypeO", "watchApp"]
+- ["9XcodeProj14PBXProductTypeO", "watchExtension"]
+- ["9XcodeProj14PBXProductTypeO", "xcFramework"]
+- ["9XcodeProj14PBXProductTypeO", "xcodeExtension"]
+- ["9XcodeProj14PBXProductTypeO", "xpcService"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "appExtension"]
+- ["SY", "application"]
+- ["SY", "bundle"]
+- ["SY", "commandLineTool"]
+- ["SY", "dynamicLibrary"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "framework"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "instrumentsPackage"]
+- ["SY", "intentsServiceExtension"]
+- ["SY", "messagesApplication"]
+- ["SY", "messagesExtension"]
+- ["SY", "metalLibrary"]
+- ["SY", "none"]
+- ["SY", "ocUnitTestBundle"]
+- ["SY", "onDemandInstallCapableApplication"]
+- ["SY", "rawValue"]
+- ["SY", "staticFramework"]
+- ["SY", "staticLibrary"]
+- ["SY", "stickerPack"]
+- ["SY", "tvExtension"]
+- ["SY", "uiTestBundle"]
+- ["SY", "unitTestBundle"]
+- ["SY", "watch2App"]
+- ["SY", "watch2AppContainer"]
+- ["SY", "watch2Extension"]
+- ["SY", "watchApp"]
+- ["SY", "watchExtension"]
+- ["SY", "xcFramework"]
+- ["SY", "xcodeExtension"]
+- ["SY", "xpcService"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "Se"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "9XcodeProj14PBXProductTypeO"
+- "SY"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "79b494610b3ad7403a71fe6596159d2b"

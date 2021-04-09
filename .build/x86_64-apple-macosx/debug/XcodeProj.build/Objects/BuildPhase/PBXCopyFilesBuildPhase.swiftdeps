@@ -1,0 +1,534 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PBXCopyFilesBuildPhase"
+provides-nominal:
+- "9XcodeProj22PBXCopyFilesBuildPhaseC"
+- "9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO"
+provides-member:
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", ""]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", ""]
+provides-dynamic-lookup:
+- "buildPhase"
+- "dstPath"
+- "dstSubfolderSpec"
+- "isEqual"
+- "name"
+- "plistKeyAndValue"
+depends-top-level:
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "BuildPhase"
+- "CastingPrecedence"
+- "CodingKey"
+- !private "CodingKeys"
+- "CommentedString"
+- "Decodable"
+- "Decoder"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "PBXBuildFile"
+- "PBXBuildPhase"
+- "PBXCopyFilesBuildPhase"
+- "PBXProj"
+- "PlistSerializable"
+- "PlistValue"
+- "String"
+- "StringLiteralType"
+- "SubFolder"
+- "UInt"
+- !private "_findStringSwitchCase"
+- "defaultBuildActionMask"
+- !private "dstPath"
+- !private "dstSubfolderSpec"
+- !private "isEqual"
+- !private "name"
+- !private "plistValues"
+- !private "~="
+depends-member:
+- !private ["9XcodeProj13AutoEquatableP", "CodingKeys"]
+- !private ["9XcodeProj13AutoEquatableP", "CommentedString"]
+- !private ["9XcodeProj13AutoEquatableP", "PBXCopyFilesBuildPhase"]
+- !private ["9XcodeProj13AutoEquatableP", "SubFolder"]
+- ["9XcodeProj13AutoEquatableP", ""]
+- !private ["9XcodeProj13AutoEquatableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj13AutoEquatableP", "buildPhase"]
+- !private ["9XcodeProj13AutoEquatableP", "defaultBuildActionMask"]
+- !private ["9XcodeProj13AutoEquatableP", "dstPath"]
+- !private ["9XcodeProj13AutoEquatableP", "dstSubfolderSpec"]
+- !private ["9XcodeProj13AutoEquatableP", "findStringSwitchCase"]
+- !private ["9XcodeProj13AutoEquatableP", "init"]
+- !private ["9XcodeProj13AutoEquatableP", "isEqual"]
+- !private ["9XcodeProj13AutoEquatableP", "isa"]
+- ["9XcodeProj13AutoEquatableP", "multiline"]
+- !private ["9XcodeProj13AutoEquatableP", "name"]
+- ["9XcodeProj13AutoEquatableP", "plistKeyAndValue"]
+- !private ["9XcodeProj13AutoEquatableP", "plistValues"]
+- !private ["9XcodeProj10BuildPhaseO", "copyFiles"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "dstPath"]
+- !private ["s9CodingKeyP", "dstSubfolderSpec"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "name"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "subscript"]
+- !private ["9XcodeProj15CommentedStringV", ""]
+- !private ["9XcodeProj15CommentedStringV", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "dstPath"]
+- !private ["s28CustomDebugStringConvertibleP", "dstSubfolderSpec"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "string"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "dstPath"]
+- !private ["s23CustomStringConvertibleP", "dstSubfolderSpec"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "=="]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "CommentedString"]
+- ["Se", "Default_RawValue"]
+- !private ["Se", "PBXCopyFilesBuildPhase"]
+- ["Se", "RawValue"]
+- !private ["Se", "SubFolder"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "buildPhase"]
+- !private ["Se", "defaultBuildActionMask"]
+- !private ["Se", "dstPath"]
+- !private ["Se", "dstSubfolderSpec"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "flatMap"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- !private ["Se", "isEqual"]
+- !private ["Se", "isa"]
+- ["Se", "multiline"]
+- !private ["Se", "name"]
+- ["Se", "plistKeyAndValue"]
+- !private ["Se", "plistValues"]
+- ["Se", "rawValue"]
+- !private ["Se", "string"]
+- !private ["Se", "subscript"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "string"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "CommentedString"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "PBXCopyFilesBuildPhase"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "SubFolder"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "buildPhase"]
+- !private ["SQ", "copyFiles"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "defaultBuildActionMask"]
+- ["SQ", "description"]
+- !private ["SQ", "dictionary"]
+- !private ["SQ", "dstPath"]
+- !private ["SQ", "dstSubfolderSpec"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isEqual"]
+- !private ["SQ", "isa"]
+- ["SQ", "multiline"]
+- !private ["SQ", "name"]
+- ["SQ", "plistKeyAndValue"]
+- !private ["SQ", "plistValues"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "string"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "dictionary"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "dictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dictionary"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "dictionary"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dictionary"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["SH", "=="]
+- !private ["SH", "CodingKeys"]
+- !private ["SH", "CommentedString"]
+- ["SH", "Default_RawValue"]
+- !private ["SH", "PBXCopyFilesBuildPhase"]
+- ["SH", "RawValue"]
+- !private ["SH", "SubFolder"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "buildPhase"]
+- !private ["SH", "copyFiles"]
+- ["SH", "debugDescription"]
+- !private ["SH", "defaultBuildActionMask"]
+- ["SH", "description"]
+- !private ["SH", "dstPath"]
+- !private ["SH", "dstSubfolderSpec"]
+- !private ["SH", "findStringSwitchCase"]
+- !private ["SH", "flatMap"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isEqual"]
+- !private ["SH", "isa"]
+- ["SH", "multiline"]
+- !private ["SH", "name"]
+- ["SH", "plistKeyAndValue"]
+- !private ["SH", "plistValues"]
+- ["SH", "rawValue"]
+- !private ["SH", "string"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s22KeyedDecodingContainerV", "decodeIntIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIntIfPresent"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "string"]
+- ["9XcodeProj13PBXBuildPhaseC", "Bool"]
+- ["9XcodeProj13PBXBuildPhaseC", "BuildPhase"]
+- ["9XcodeProj13PBXBuildPhaseC", "CodingKey"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "CodingKeys"]
+- ["9XcodeProj13PBXBuildPhaseC", "CommentedString"]
+- ["9XcodeProj13PBXBuildPhaseC", "Decodable"]
+- ["9XcodeProj13PBXBuildPhaseC", "Decoder"]
+- ["9XcodeProj13PBXBuildPhaseC", "PBXBuildFile"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "PBXCopyFilesBuildPhase"]
+- ["9XcodeProj13PBXBuildPhaseC", "PBXProj"]
+- ["9XcodeProj13PBXBuildPhaseC", "PlistValue"]
+- ["9XcodeProj13PBXBuildPhaseC", "String"]
+- ["9XcodeProj13PBXBuildPhaseC", "SubFolder"]
+- ["9XcodeProj13PBXBuildPhaseC", "UInt"]
+- ["9XcodeProj13PBXBuildPhaseC", ""]
+- !private ["9XcodeProj13PBXBuildPhaseC", "_findStringSwitchCase"]
+- ["9XcodeProj13PBXBuildPhaseC", "buildPhase"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "defaultBuildActionMask"]
+- ["9XcodeProj13PBXBuildPhaseC", "dstPath"]
+- ["9XcodeProj13PBXBuildPhaseC", "dstSubfolderSpec"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "findStringSwitchCase"]
+- ["9XcodeProj13PBXBuildPhaseC", "init"]
+- ["9XcodeProj13PBXBuildPhaseC", "isEqual"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "isa"]
+- ["9XcodeProj13PBXBuildPhaseC", "multiline"]
+- ["9XcodeProj13PBXBuildPhaseC", "name"]
+- ["9XcodeProj13PBXBuildPhaseC", "plistKeyAndValue"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "plistValues"]
+- ["9XcodeProj16PBXContainerItemC", "Bool"]
+- ["9XcodeProj16PBXContainerItemC", "BuildPhase"]
+- ["9XcodeProj16PBXContainerItemC", "CodingKey"]
+- !private ["9XcodeProj16PBXContainerItemC", "CodingKeys"]
+- ["9XcodeProj16PBXContainerItemC", "CommentedString"]
+- ["9XcodeProj16PBXContainerItemC", "Decodable"]
+- ["9XcodeProj16PBXContainerItemC", "Decoder"]
+- ["9XcodeProj16PBXContainerItemC", "PBXBuildFile"]
+- !private ["9XcodeProj16PBXContainerItemC", "PBXCopyFilesBuildPhase"]
+- ["9XcodeProj16PBXContainerItemC", "PBXProj"]
+- ["9XcodeProj16PBXContainerItemC", "PlistValue"]
+- ["9XcodeProj16PBXContainerItemC", "String"]
+- ["9XcodeProj16PBXContainerItemC", "SubFolder"]
+- ["9XcodeProj16PBXContainerItemC", "UInt"]
+- ["9XcodeProj16PBXContainerItemC", ""]
+- !private ["9XcodeProj16PBXContainerItemC", "_findStringSwitchCase"]
+- ["9XcodeProj16PBXContainerItemC", "buildPhase"]
+- !private ["9XcodeProj16PBXContainerItemC", "defaultBuildActionMask"]
+- ["9XcodeProj16PBXContainerItemC", "dstPath"]
+- ["9XcodeProj16PBXContainerItemC", "dstSubfolderSpec"]
+- !private ["9XcodeProj16PBXContainerItemC", "findStringSwitchCase"]
+- ["9XcodeProj16PBXContainerItemC", "isEqual"]
+- !private ["9XcodeProj16PBXContainerItemC", "isa"]
+- ["9XcodeProj16PBXContainerItemC", "multiline"]
+- ["9XcodeProj16PBXContainerItemC", "name"]
+- ["9XcodeProj16PBXContainerItemC", "plistKeyAndValue"]
+- !private ["9XcodeProj16PBXContainerItemC", "plistValues"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "Bool"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "BuildPhase"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "CodingKey"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "CodingKeys"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "CommentedString"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "Decodable"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "Decoder"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "PBXBuildFile"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "PBXCopyFilesBuildPhase"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "PBXProj"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "PlistValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "String"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "SubFolder"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "UInt"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", ""]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "_findStringSwitchCase"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "buildPhase"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "defaultBuildActionMask"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "deinit"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "dstPath"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "dstSubfolderSpec"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "findStringSwitchCase"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "init"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "isEqual"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "isa"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "multiline"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "name"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC", "plistKeyAndValue"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "plistValues"]
+- ["9XcodeProj9PBXObjectC", "Bool"]
+- ["9XcodeProj9PBXObjectC", "BuildPhase"]
+- ["9XcodeProj9PBXObjectC", "CodingKey"]
+- !private ["9XcodeProj9PBXObjectC", "CodingKeys"]
+- ["9XcodeProj9PBXObjectC", "CommentedString"]
+- ["9XcodeProj9PBXObjectC", "Decodable"]
+- ["9XcodeProj9PBXObjectC", "Decoder"]
+- ["9XcodeProj9PBXObjectC", "PBXBuildFile"]
+- !private ["9XcodeProj9PBXObjectC", "PBXCopyFilesBuildPhase"]
+- ["9XcodeProj9PBXObjectC", "PBXProj"]
+- ["9XcodeProj9PBXObjectC", "PlistValue"]
+- ["9XcodeProj9PBXObjectC", "String"]
+- ["9XcodeProj9PBXObjectC", "SubFolder"]
+- ["9XcodeProj9PBXObjectC", "UInt"]
+- ["9XcodeProj9PBXObjectC", ""]
+- !private ["9XcodeProj9PBXObjectC", "_findStringSwitchCase"]
+- ["9XcodeProj9PBXObjectC", "buildPhase"]
+- !private ["9XcodeProj9PBXObjectC", "defaultBuildActionMask"]
+- ["9XcodeProj9PBXObjectC", "dstPath"]
+- ["9XcodeProj9PBXObjectC", "dstSubfolderSpec"]
+- !private ["9XcodeProj9PBXObjectC", "findStringSwitchCase"]
+- ["9XcodeProj9PBXObjectC", "isEqual"]
+- !private ["9XcodeProj9PBXObjectC", "isa"]
+- ["9XcodeProj9PBXObjectC", "multiline"]
+- ["9XcodeProj9PBXObjectC", "name"]
+- ["9XcodeProj9PBXObjectC", "plistKeyAndValue"]
+- !private ["9XcodeProj9PBXObjectC", "plistValues"]
+- !private ["9XcodeProj17PlistSerializableP", "CodingKeys"]
+- !private ["9XcodeProj17PlistSerializableP", "CommentedString"]
+- !private ["9XcodeProj17PlistSerializableP", "PBXCopyFilesBuildPhase"]
+- !private ["9XcodeProj17PlistSerializableP", "SubFolder"]
+- ["9XcodeProj17PlistSerializableP", ""]
+- !private ["9XcodeProj17PlistSerializableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj17PlistSerializableP", "defaultBuildActionMask"]
+- !private ["9XcodeProj17PlistSerializableP", "dstPath"]
+- !private ["9XcodeProj17PlistSerializableP", "dstSubfolderSpec"]
+- !private ["9XcodeProj17PlistSerializableP", "findStringSwitchCase"]
+- !private ["9XcodeProj17PlistSerializableP", "isEqual"]
+- !private ["9XcodeProj17PlistSerializableP", "isa"]
+- ["9XcodeProj17PlistSerializableP", "multiline"]
+- !private ["9XcodeProj17PlistSerializableP", "name"]
+- ["9XcodeProj17PlistSerializableP", "plistKeyAndValue"]
+- !private ["9XcodeProj17PlistSerializableP", "plistValues"]
+- !private ["9XcodeProj10PlistValueO", "dictionary"]
+- !private ["9XcodeProj10PlistValueO", "string"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "copyFiles"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "dstPath"]
+- !private ["SY", "dstSubfolderSpec"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "name"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "=="]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "Default_RawValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "RawValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", ""]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "_Default_RawValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "_rawHashValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "absolutePath"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "executables"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "frameworks"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "hash"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "hashValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "init"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "javaResources"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "other"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "plugins"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "productsDirectory"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "rawValue"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "resources"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "sharedFrameworks"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "sharedSupport"]
+- ["9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO", "wrapper"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "9XcodeProj13AutoEquatableP"
+- !private "9XcodeProj10BuildPhaseO"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "9XcodeProj15CommentedStringV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "Sq"
+- "9XcodeProj13PBXBuildPhaseC"
+- "9XcodeProj16PBXContainerItemC"
+- "9XcodeProj22PBXCopyFilesBuildPhaseC"
+- "9XcodeProj9PBXObjectC"
+- "9XcodeProj17PlistSerializableP"
+- !private "9XcodeProj10PlistValueO"
+- "SY"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- "9XcodeProj22PBXCopyFilesBuildPhaseC9SubFolderO"
+- !private "s16TextOutputStreamP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c6f2a802e911fa535dafb878f81e21f2"

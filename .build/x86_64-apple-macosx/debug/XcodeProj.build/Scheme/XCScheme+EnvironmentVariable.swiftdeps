@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "9XcodeProj8XCSchemeC19EnvironmentVariableV"
+provides-member:
+- ["9XcodeProj8XCSchemeC", ""]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", ""]
+- ["9XcodeProj8XCSchemeC", "EnvironmentVariable"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "AEXMLElement"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "Dictionary"
+- "EnvironmentVariable"
+- "Equatable"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "XCScheme"
+- "XCSchemeError"
+- !private "enabled"
+- !private "value"
+- !private "variable"
+depends-member:
+- !private ["5AEXML12AEXMLElementC", "addChild"]
+- !private ["5AEXML12AEXMLElementC", "attributes"]
+- !private ["5AEXML12AEXMLElementC", "children"]
+- !private ["5AEXML12AEXMLElementC", "init"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "forEach"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "missing"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "forEach"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "forEach"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "=="]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "AEXMLElement"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "Bool"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "EnvironmentVariable"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "String"]
+- !private ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "XCSchemeError"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", ""]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "enabled"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "init"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "parseVariables"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "value"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "variable"]
+- ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "xmlElement"]
+- ["SQ", "=="]
+- !private ["SQ", "AEXMLElement"]
+- !private ["SQ", "EnvironmentVariable"]
+- ["SQ", "Equatable"]
+- !private ["SQ", "XCSchemeError"]
+- ["SQ", ""]
+- !private ["SQ", "enabled"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "parseVariables"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "value"]
+- !private ["SQ", "variable"]
+- !private ["SQ", "xmlElement"]
+- !private ["s5ErrorP", "missing"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "forEach"]
+- !private ["SH", "map"]
+- !private ["SH", "subscript"]
+- !private ["SM", ""]
+- !private ["SM", "forEach"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "map"]
+- !private ["ST", ""]
+- !private ["ST", "forEach"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["9XcodeProj8WritableP", "AEXMLElement"]
+- !private ["9XcodeProj8WritableP", "EnvironmentVariable"]
+- ["9XcodeProj8WritableP", "Equatable"]
+- !private ["9XcodeProj8WritableP", "XCSchemeError"]
+- !private ["9XcodeProj8WritableP", "enabled"]
+- !private ["9XcodeProj8WritableP", "value"]
+- !private ["9XcodeProj8WritableP", "variable"]
+- ["9XcodeProj8XCSchemeC", "AEXMLElement"]
+- ["9XcodeProj8XCSchemeC", "Bool"]
+- ["9XcodeProj8XCSchemeC", "EnvironmentVariable"]
+- ["9XcodeProj8XCSchemeC", "Equatable"]
+- ["9XcodeProj8XCSchemeC", "String"]
+- !private ["9XcodeProj8XCSchemeC", "XCSchemeError"]
+- ["9XcodeProj8XCSchemeC", ""]
+- !private ["9XcodeProj8XCSchemeC", "enabled"]
+- !private ["9XcodeProj8XCSchemeC", "value"]
+- !private ["9XcodeProj8XCSchemeC", "variable"]
+- !private ["9XcodeProj13XCSchemeErrorO", ""]
+- !private ["9XcodeProj13XCSchemeErrorO", "missing"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "5AEXML12AEXMLElementC"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "9XcodeProj8XCSchemeC19EnvironmentVariableV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "9XcodeProj8WritableP"
+- "9XcodeProj8XCSchemeC"
+- !private "9XcodeProj13XCSchemeErrorO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "017edcd0542ee5c440f961d5d8705b74"

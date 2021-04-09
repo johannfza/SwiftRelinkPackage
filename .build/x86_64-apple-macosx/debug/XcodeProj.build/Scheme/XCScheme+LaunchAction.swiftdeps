@@ -1,0 +1,795 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "9XcodeProj8XCSchemeC12LaunchActionC"
+- "9XcodeProj8XCSchemeC12LaunchActionC5StyleO"
+- "9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO"
+- "9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO"
+provides-member:
+- ["9XcodeProj8XCSchemeC", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", ""]
+- ["9XcodeProj8XCSchemeC", "LaunchAction"]
+provides-dynamic-lookup:
+- "additionalOptions"
+- "allowLocationSimulation"
+- "askForAppToLaunch"
+- "buildConfiguration"
+- "commandlineArguments"
+- "customLLDBInitFile"
+- "customLaunchCommand"
+- "debugDocumentVersioning"
+- "debugServiceExtension"
+- "defaultBuildConfiguration"
+- "defaultDebugServiceExtension"
+- "defaultGPUFrameCaptureMode"
+- "defaultGPUValidationMode"
+- "defaultLaunchStyle"
+- "disableMainThreadChecker"
+- "enableASanStackUseAfterReturn"
+- "enableAddressSanitizer"
+- "enableGPUFrameCaptureMode"
+- "enableGPUValidationMode"
+- "enableThreadSanitizer"
+- "enableUBSanitizer"
+- "environmentVariables"
+- "ignoresPersistentStateOnLaunch"
+- "isEqual"
+- "language"
+- "launchAutomaticallySubstyle"
+- "launchStyle"
+- "locationScenarioReference"
+- "macroExpansion"
+- "pathRunnable"
+- "region"
+- "runnable"
+- "selectedDebuggerIdentifier"
+- "selectedLauncherIdentifier"
+- "stopOnEveryMainThreadCheckerIssue"
+- "stopOnEveryThreadSanitizerIssue"
+- "stopOnEveryUBSanitizerIssue"
+- "storeKitConfigurationFileReference"
+- "useCustomWorkingDirectory"
+- "xmlAttributes"
+- "xmlElement"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "=="
+- !private "??"
+- "AEXMLElement"
+- "AdditionalOption"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "BuildableProductRunnable"
+- "BuildableReference"
+- "CastingPrecedence"
+- "CommandLineArguments"
+- !private "Dictionary"
+- "EnvironmentVariable"
+- "ExecutionAction"
+- !private "FloatLiteralType"
+- "GPUFrameCaptureMode"
+- "GPUValidationMode"
+- !private "IntegerLiteralType"
+- "LaunchAction"
+- "LocationScenarioReference"
+- "PathRunnable"
+- !private "RemoteRunnable"
+- "Runnable"
+- "SerialAction"
+- "StoreKitConfigurationFileReference"
+- "String"
+- "StringLiteralType"
+- "Style"
+- "UnicodeScalarType"
+- "XCScheme"
+- !private "_findStringSwitchCase"
+- !private "additionalOptions"
+- !private "allowLocationSimulation"
+- !private "askForAppToLaunch"
+- !private "buildConfiguration"
+- !private "commandlineArguments"
+- !private "customLLDBInitFile"
+- !private "customLaunchCommand"
+- !private "debugDocumentVersioning"
+- !private "debugServiceExtension"
+- !private "disableMainThreadChecker"
+- !private "enableASanStackUseAfterReturn"
+- !private "enableAddressSanitizer"
+- !private "enableGPUFrameCaptureMode"
+- !private "enableGPUValidationMode"
+- !private "enableThreadSanitizer"
+- !private "enableUBSanitizer"
+- !private "environmentVariables"
+- !private "ignoresPersistentStateOnLaunch"
+- !private "language"
+- !private "launchAutomaticallySubstyle"
+- !private "launchStyle"
+- !private "locationScenarioReference"
+- !private "macroExpansion"
+- !private "pathRunnable"
+- !private "region"
+- !private "runnable"
+- !private "selectedDebuggerIdentifier"
+- !private "selectedLauncherIdentifier"
+- !private "stopOnEveryMainThreadCheckerIssue"
+- !private "stopOnEveryThreadSanitizerIssue"
+- !private "stopOnEveryUBSanitizerIssue"
+- !private "storeKitConfigurationFileReference"
+- !private "useCustomWorkingDirectory"
+- !private "xmlAttributes"
+- !private "~="
+depends-member:
+- !private ["5AEXML12AEXMLElementC", "addChild"]
+- !private ["5AEXML12AEXMLElementC", "all"]
+- !private ["5AEXML12AEXMLElementC", "attributes"]
+- !private ["5AEXML12AEXMLElementC", "error"]
+- !private ["5AEXML12AEXMLElementC", "init"]
+- !private ["5AEXML12AEXMLElementC", "subscript"]
+- !private ["9XcodeProj8XCSchemeC16AdditionalOptionC", ""]
+- !private ["9XcodeProj8XCSchemeC16AdditionalOptionC", "init"]
+- !private ["9XcodeProj8XCSchemeC16AdditionalOptionC", "xmlElement"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "first"]
+- !private ["SK", "forEach"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["Sb", "xmlString"]
+- !private ["9XcodeProj8XCSchemeC24BuildableProductRunnableC", "init"]
+- !private ["9XcodeProj8XCSchemeC18BuildableReferenceC", ""]
+- !private ["9XcodeProj8XCSchemeC18BuildableReferenceC", "init"]
+- !private ["9XcodeProj8XCSchemeC18BuildableReferenceC", "xmlElement"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "xmlString"]
+- !private ["Sl", ""]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["9XcodeProj8XCSchemeC20CommandLineArgumentsC", ""]
+- !private ["9XcodeProj8XCSchemeC20CommandLineArgumentsC", "init"]
+- !private ["9XcodeProj8XCSchemeC20CommandLineArgumentsC", "xmlElement"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "xmlString"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "xmlString"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "first"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "forEach"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "xmlString"]
+- !private ["SD", "subscript"]
+- !private ["SE", "first"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "forEach"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "xmlString"]
+- !private ["9XcodeProj8XCSchemeC19EnvironmentVariableV", ""]
+- !private ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "parseVariables"]
+- !private ["9XcodeProj8XCSchemeC19EnvironmentVariableV", "xmlElement"]
+- ["SQ", "=="]
+- !private ["SQ", "AEXMLElement"]
+- !private ["SQ", "AdditionalOption"]
+- !private ["SQ", "BuildableProductRunnable"]
+- !private ["SQ", "BuildableReference"]
+- !private ["SQ", "CommandLineArguments"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "EnvironmentVariable"]
+- ["SQ", "GPUFrameCaptureMode"]
+- ["SQ", "GPUValidationMode"]
+- !private ["SQ", "LaunchAction"]
+- !private ["SQ", "LocationScenarioReference"]
+- !private ["SQ", "PathRunnable"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "RemoteRunnable"]
+- ["SQ", "SerialAction"]
+- !private ["SQ", "StoreKitConfigurationFileReference"]
+- ["SQ", "Style"]
+- !private ["SQ", "XCScheme"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "additionalOptions"]
+- !private ["SQ", "allowLocationSimulation"]
+- !private ["SQ", "askForAppToLaunch"]
+- ["SQ", "auto"]
+- ["SQ", "autoEnabled"]
+- !private ["SQ", "buildConfiguration"]
+- !private ["SQ", "commandlineArguments"]
+- !private ["SQ", "customLLDBInitFile"]
+- !private ["SQ", "customLaunchCommand"]
+- !private ["SQ", "debugDocumentVersioning"]
+- !private ["SQ", "debugServiceExtension"]
+- !private ["SQ", "defaultBuildConfiguration"]
+- !private ["SQ", "defaultDebugServiceExtension"]
+- !private ["SQ", "defaultDebugger"]
+- !private ["SQ", "defaultGPUFrameCaptureMode"]
+- !private ["SQ", "defaultGPUValidationMode"]
+- !private ["SQ", "defaultLauncher"]
+- !private ["SQ", "disableMainThreadChecker"]
+- !private ["SQ", "enableASanStackUseAfterReturn"]
+- !private ["SQ", "enableAddressSanitizer"]
+- !private ["SQ", "enableGPUFrameCaptureMode"]
+- !private ["SQ", "enableGPUValidationMode"]
+- !private ["SQ", "enableThreadSanitizer"]
+- !private ["SQ", "enableUBSanitizer"]
+- ["SQ", "enabled"]
+- !private ["SQ", "environmentVariables"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "forEach"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "ignoresPersistentStateOnLaunch"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isEqual"]
+- !private ["SQ", "language"]
+- !private ["SQ", "launchAutomaticallySubstyle"]
+- !private ["SQ", "launchStyle"]
+- !private ["SQ", "locationScenarioReference"]
+- !private ["SQ", "macroExpansion"]
+- !private ["SQ", "map"]
+- !private ["SQ", "parseVariables"]
+- !private ["SQ", "pathRunnable"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "region"]
+- !private ["SQ", "runnable"]
+- !private ["SQ", "selectedDebuggerIdentifier"]
+- !private ["SQ", "selectedLauncherIdentifier"]
+- !private ["SQ", "stopOnEveryMainThreadCheckerIssue"]
+- !private ["SQ", "stopOnEveryThreadSanitizerIssue"]
+- !private ["SQ", "stopOnEveryUBSanitizerIssue"]
+- !private ["SQ", "storeKitConfigurationFileReference"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "useCustomWorkingDirectory"]
+- !private ["SQ", "writeXML"]
+- !private ["SQ", "xmlAttributes"]
+- !private ["SQ", "xmlElement"]
+- !private ["SQ", "xmlString"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "xmlString"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "=="]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "Default_RawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "RawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "_Default_RawValue"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "_findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "_rawHashValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "autoEnabled"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "disabled"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "hash"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "hashValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "init"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "metal"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "openGL"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO", "rawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "=="]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "Default_RawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "RawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "_Default_RawValue"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "_findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "_rawHashValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "disabled"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "enabled"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "extended"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "hash"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "hashValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "init"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO", "rawValue"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "auto"]
+- ["SH", "autoEnabled"]
+- ["SH", "enabled"]
+- !private ["SH", "findStringSwitchCase"]
+- !private ["SH", "first"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "forEach"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- ["SH", "rawValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "xmlString"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "AEXMLElement"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "AdditionalOption"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "Bool"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "BuildableProductRunnable"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "BuildableReference"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "CommandLineArguments"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "EnvironmentVariable"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "ExecutionAction"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "GPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "GPUValidationMode"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "LaunchAction"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "LocationScenarioReference"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "PathRunnable"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "RemoteRunnable"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "Runnable"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "StoreKitConfigurationFileReference"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "String"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "Style"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "XCScheme"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "_findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "additionalOptions"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "allowLocationSimulation"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "askForAppToLaunch"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "buildConfiguration"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "commandlineArguments"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "customLLDBInitFile"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "customLaunchCommand"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "debugDocumentVersioning"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "debugServiceExtension"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "defaultBuildConfiguration"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "defaultDebugServiceExtension"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "defaultGPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "defaultGPUValidationMode"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "defaultLaunchStyle"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "deinit"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "disableMainThreadChecker"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "enableASanStackUseAfterReturn"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "enableAddressSanitizer"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "enableGPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "enableGPUValidationMode"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "enableThreadSanitizer"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "enableUBSanitizer"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "environmentVariables"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "ignoresPersistentStateOnLaunch"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "init"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "isEqual"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "language"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "launchAutomaticallySubstyle"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "launchStyle"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "locationScenarioReference"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "macroExpansion"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "pathRunnable"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "region"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "runnable"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "selectedDebuggerIdentifier"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "selectedLauncherIdentifier"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "stopOnEveryMainThreadCheckerIssue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "stopOnEveryThreadSanitizerIssue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "stopOnEveryUBSanitizerIssue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "storeKitConfigurationFileReference"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "useCustomWorkingDirectory"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC", "xmlAttributes"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC", "xmlElement"]
+- !private ["9XcodeProj8XCSchemeC25LocationScenarioReferenceC", ""]
+- !private ["9XcodeProj8XCSchemeC25LocationScenarioReferenceC", "init"]
+- !private ["9XcodeProj8XCSchemeC25LocationScenarioReferenceC", "xmlElement"]
+- !private ["s25LosslessStringConvertibleP", "xmlString"]
+- !private ["SM", ""]
+- !private ["SM", "first"]
+- !private ["SM", "forEach"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", ""]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "map"]
+- !private ["9XcodeProj8XCSchemeC12PathRunnableC", ""]
+- !private ["9XcodeProj8XCSchemeC12PathRunnableC", "init"]
+- !private ["9XcodeProj8XCSchemeC12PathRunnableC", "xmlElement"]
+- !private ["Sk", ""]
+- !private ["Sk", "first"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "auto"]
+- ["SY", "autoEnabled"]
+- ["SY", "enabled"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["9XcodeProj8XCSchemeC14RemoteRunnableC", "init"]
+- ["9XcodeProj8XCSchemeC8RunnableC", ""]
+- !private ["9XcodeProj8XCSchemeC8RunnableC", "init"]
+- !private ["9XcodeProj8XCSchemeC8RunnableC", "xmlElement"]
+- !private ["ST", ""]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "AEXMLElement"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "AdditionalOption"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "Bool"]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "BuildableProductRunnable"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "BuildableReference"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "CommandLineArguments"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "EnvironmentVariable"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "ExecutionAction"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "GPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "GPUValidationMode"]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "LaunchAction"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "LocationScenarioReference"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "PathRunnable"]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "RemoteRunnable"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "Runnable"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "StoreKitConfigurationFileReference"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "String"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "Style"]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "XCScheme"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", ""]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "_findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "additionalOptions"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "allowLocationSimulation"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "askForAppToLaunch"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "buildConfiguration"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "commandlineArguments"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "customLLDBInitFile"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "customLaunchCommand"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "debugDocumentVersioning"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "debugServiceExtension"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "defaultBuildConfiguration"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "defaultDebugServiceExtension"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "defaultGPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "defaultGPUValidationMode"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "defaultLaunchStyle"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "disableMainThreadChecker"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "enableASanStackUseAfterReturn"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "enableAddressSanitizer"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "enableGPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "enableGPUValidationMode"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "enableThreadSanitizer"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "enableUBSanitizer"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "environmentVariables"]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "ignoresPersistentStateOnLaunch"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "init"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "isEqual"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "language"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "launchAutomaticallySubstyle"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "launchStyle"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "locationScenarioReference"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "macroExpansion"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "pathRunnable"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "region"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "runnable"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "selectedDebuggerIdentifier"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "selectedLauncherIdentifier"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "stopOnEveryMainThreadCheckerIssue"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "stopOnEveryThreadSanitizerIssue"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "stopOnEveryUBSanitizerIssue"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "storeKitConfigurationFileReference"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "useCustomWorkingDirectory"]
+- !private ["9XcodeProj8XCSchemeC12SerialActionC", "writeXML"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "xmlAttributes"]
+- ["9XcodeProj8XCSchemeC12SerialActionC", "xmlElement"]
+- !private ["9XcodeProj8XCSchemeC34StoreKitConfigurationFileReferenceC", ""]
+- !private ["9XcodeProj8XCSchemeC34StoreKitConfigurationFileReferenceC", "init"]
+- !private ["9XcodeProj8XCSchemeC34StoreKitConfigurationFileReferenceC", "xmlElement"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "=="]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "Default_RawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "RawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", ""]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "_Default_RawValue"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "_findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "_rawHashValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "auto"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "custom"]
+- !private ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "findStringSwitchCase"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "hash"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "hashValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "init"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "rawValue"]
+- ["9XcodeProj8XCSchemeC12LaunchActionC5StyleO", "wait"]
+- !private ["9XcodeProj8WritableP", "AEXMLElement"]
+- !private ["9XcodeProj8WritableP", "AdditionalOption"]
+- !private ["9XcodeProj8WritableP", "BuildableProductRunnable"]
+- !private ["9XcodeProj8WritableP", "BuildableReference"]
+- !private ["9XcodeProj8WritableP", "CommandLineArguments"]
+- !private ["9XcodeProj8WritableP", "EnvironmentVariable"]
+- ["9XcodeProj8WritableP", "GPUFrameCaptureMode"]
+- ["9XcodeProj8WritableP", "GPUValidationMode"]
+- !private ["9XcodeProj8WritableP", "LaunchAction"]
+- !private ["9XcodeProj8WritableP", "LocationScenarioReference"]
+- !private ["9XcodeProj8WritableP", "PathRunnable"]
+- !private ["9XcodeProj8WritableP", "RemoteRunnable"]
+- ["9XcodeProj8WritableP", "SerialAction"]
+- !private ["9XcodeProj8WritableP", "StoreKitConfigurationFileReference"]
+- ["9XcodeProj8WritableP", "Style"]
+- !private ["9XcodeProj8WritableP", "XCScheme"]
+- !private ["9XcodeProj8WritableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj8WritableP", "additionalOptions"]
+- !private ["9XcodeProj8WritableP", "allowLocationSimulation"]
+- !private ["9XcodeProj8WritableP", "askForAppToLaunch"]
+- !private ["9XcodeProj8WritableP", "buildConfiguration"]
+- !private ["9XcodeProj8WritableP", "commandlineArguments"]
+- !private ["9XcodeProj8WritableP", "customLLDBInitFile"]
+- !private ["9XcodeProj8WritableP", "customLaunchCommand"]
+- !private ["9XcodeProj8WritableP", "debugDocumentVersioning"]
+- !private ["9XcodeProj8WritableP", "debugServiceExtension"]
+- !private ["9XcodeProj8WritableP", "defaultDebugger"]
+- !private ["9XcodeProj8WritableP", "defaultLauncher"]
+- !private ["9XcodeProj8WritableP", "disableMainThreadChecker"]
+- !private ["9XcodeProj8WritableP", "enableASanStackUseAfterReturn"]
+- !private ["9XcodeProj8WritableP", "enableAddressSanitizer"]
+- !private ["9XcodeProj8WritableP", "enableGPUFrameCaptureMode"]
+- !private ["9XcodeProj8WritableP", "enableGPUValidationMode"]
+- !private ["9XcodeProj8WritableP", "enableThreadSanitizer"]
+- !private ["9XcodeProj8WritableP", "enableUBSanitizer"]
+- !private ["9XcodeProj8WritableP", "environmentVariables"]
+- !private ["9XcodeProj8WritableP", "findStringSwitchCase"]
+- !private ["9XcodeProj8WritableP", "ignoresPersistentStateOnLaunch"]
+- !private ["9XcodeProj8WritableP", "language"]
+- !private ["9XcodeProj8WritableP", "launchAutomaticallySubstyle"]
+- !private ["9XcodeProj8WritableP", "launchStyle"]
+- !private ["9XcodeProj8WritableP", "locationScenarioReference"]
+- !private ["9XcodeProj8WritableP", "macroExpansion"]
+- !private ["9XcodeProj8WritableP", "pathRunnable"]
+- !private ["9XcodeProj8WritableP", "region"]
+- !private ["9XcodeProj8WritableP", "runnable"]
+- !private ["9XcodeProj8WritableP", "selectedDebuggerIdentifier"]
+- !private ["9XcodeProj8WritableP", "selectedLauncherIdentifier"]
+- !private ["9XcodeProj8WritableP", "stopOnEveryMainThreadCheckerIssue"]
+- !private ["9XcodeProj8WritableP", "stopOnEveryThreadSanitizerIssue"]
+- !private ["9XcodeProj8WritableP", "stopOnEveryUBSanitizerIssue"]
+- !private ["9XcodeProj8WritableP", "storeKitConfigurationFileReference"]
+- !private ["9XcodeProj8WritableP", "useCustomWorkingDirectory"]
+- !private ["9XcodeProj8WritableP", "xmlAttributes"]
+- ["9XcodeProj8XCSchemeC", "AEXMLElement"]
+- ["9XcodeProj8XCSchemeC", "AdditionalOption"]
+- ["9XcodeProj8XCSchemeC", "Bool"]
+- !private ["9XcodeProj8XCSchemeC", "BuildableProductRunnable"]
+- ["9XcodeProj8XCSchemeC", "BuildableReference"]
+- ["9XcodeProj8XCSchemeC", "CommandLineArguments"]
+- ["9XcodeProj8XCSchemeC", "EnvironmentVariable"]
+- ["9XcodeProj8XCSchemeC", "ExecutionAction"]
+- ["9XcodeProj8XCSchemeC", "GPUFrameCaptureMode"]
+- ["9XcodeProj8XCSchemeC", "GPUValidationMode"]
+- ["9XcodeProj8XCSchemeC", "LaunchAction"]
+- ["9XcodeProj8XCSchemeC", "LocationScenarioReference"]
+- ["9XcodeProj8XCSchemeC", "PathRunnable"]
+- !private ["9XcodeProj8XCSchemeC", "RemoteRunnable"]
+- ["9XcodeProj8XCSchemeC", "Runnable"]
+- ["9XcodeProj8XCSchemeC", "SerialAction"]
+- ["9XcodeProj8XCSchemeC", "StoreKitConfigurationFileReference"]
+- ["9XcodeProj8XCSchemeC", "String"]
+- ["9XcodeProj8XCSchemeC", "Style"]
+- !private ["9XcodeProj8XCSchemeC", "XCScheme"]
+- ["9XcodeProj8XCSchemeC", ""]
+- !private ["9XcodeProj8XCSchemeC", "_findStringSwitchCase"]
+- !private ["9XcodeProj8XCSchemeC", "additionalOptions"]
+- !private ["9XcodeProj8XCSchemeC", "allowLocationSimulation"]
+- !private ["9XcodeProj8XCSchemeC", "askForAppToLaunch"]
+- !private ["9XcodeProj8XCSchemeC", "buildConfiguration"]
+- !private ["9XcodeProj8XCSchemeC", "commandlineArguments"]
+- !private ["9XcodeProj8XCSchemeC", "customLLDBInitFile"]
+- !private ["9XcodeProj8XCSchemeC", "customLaunchCommand"]
+- !private ["9XcodeProj8XCSchemeC", "debugDocumentVersioning"]
+- !private ["9XcodeProj8XCSchemeC", "debugServiceExtension"]
+- !private ["9XcodeProj8XCSchemeC", "defaultDebugger"]
+- !private ["9XcodeProj8XCSchemeC", "defaultLauncher"]
+- !private ["9XcodeProj8XCSchemeC", "disableMainThreadChecker"]
+- !private ["9XcodeProj8XCSchemeC", "enableASanStackUseAfterReturn"]
+- !private ["9XcodeProj8XCSchemeC", "enableAddressSanitizer"]
+- !private ["9XcodeProj8XCSchemeC", "enableGPUFrameCaptureMode"]
+- !private ["9XcodeProj8XCSchemeC", "enableGPUValidationMode"]
+- !private ["9XcodeProj8XCSchemeC", "enableThreadSanitizer"]
+- !private ["9XcodeProj8XCSchemeC", "enableUBSanitizer"]
+- !private ["9XcodeProj8XCSchemeC", "environmentVariables"]
+- !private ["9XcodeProj8XCSchemeC", "findStringSwitchCase"]
+- !private ["9XcodeProj8XCSchemeC", "ignoresPersistentStateOnLaunch"]
+- !private ["9XcodeProj8XCSchemeC", "language"]
+- !private ["9XcodeProj8XCSchemeC", "launchAutomaticallySubstyle"]
+- !private ["9XcodeProj8XCSchemeC", "launchStyle"]
+- !private ["9XcodeProj8XCSchemeC", "locationScenarioReference"]
+- !private ["9XcodeProj8XCSchemeC", "macroExpansion"]
+- !private ["9XcodeProj8XCSchemeC", "pathRunnable"]
+- !private ["9XcodeProj8XCSchemeC", "region"]
+- !private ["9XcodeProj8XCSchemeC", "runnable"]
+- !private ["9XcodeProj8XCSchemeC", "selectedDebuggerIdentifier"]
+- !private ["9XcodeProj8XCSchemeC", "selectedLauncherIdentifier"]
+- !private ["9XcodeProj8XCSchemeC", "stopOnEveryMainThreadCheckerIssue"]
+- !private ["9XcodeProj8XCSchemeC", "stopOnEveryThreadSanitizerIssue"]
+- !private ["9XcodeProj8XCSchemeC", "stopOnEveryUBSanitizerIssue"]
+- !private ["9XcodeProj8XCSchemeC", "storeKitConfigurationFileReference"]
+- !private ["9XcodeProj8XCSchemeC", "useCustomWorkingDirectory"]
+- !private ["9XcodeProj8XCSchemeC", "xmlAttributes"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "xmlString"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "xmlString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "xmlString"]
+depends-nominal:
+- !private "5AEXML12AEXMLElementC"
+- !private "9XcodeProj8XCSchemeC16AdditionalOptionC"
+- !private "Sa"
+- !private "SK"
+- !private "Sb"
+- !private "9XcodeProj8XCSchemeC24BuildableProductRunnableC"
+- !private "9XcodeProj8XCSchemeC18BuildableReferenceC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "9XcodeProj8XCSchemeC20CommandLineArgumentsC"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "9XcodeProj8XCSchemeC19EnvironmentVariableV"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "9XcodeProj8XCSchemeC12LaunchActionC19GPUFrameCaptureModeO"
+- "9XcodeProj8XCSchemeC12LaunchActionC17GPUValidationModeO"
+- "SH"
+- "9XcodeProj8XCSchemeC12LaunchActionC"
+- !private "9XcodeProj8XCSchemeC25LocationScenarioReferenceC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "Sq"
+- !private "9XcodeProj8XCSchemeC12PathRunnableC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "9XcodeProj8XCSchemeC14RemoteRunnableC"
+- "9XcodeProj8XCSchemeC8RunnableC"
+- !private "ST"
+- "9XcodeProj8XCSchemeC12SerialActionC"
+- !private "9XcodeProj8XCSchemeC34StoreKitConfigurationFileReferenceC"
+- "9XcodeProj8XCSchemeC12LaunchActionC5StyleO"
+- "9XcodeProj8WritableP"
+- "9XcodeProj8XCSchemeC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d529bc44409fcfb920b5258f2ab48046"

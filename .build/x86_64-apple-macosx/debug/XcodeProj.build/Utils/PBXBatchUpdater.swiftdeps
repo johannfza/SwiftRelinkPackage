@@ -1,0 +1,519 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PBXBatchUpdater"
+provides-nominal:
+- "9XcodeProj15PBXBatchUpdaterC"
+provides-member:
+- ["9XcodeProj15PBXBatchUpdaterC", ""]
+provides-dynamic-lookup:
+- "addFile"
+- "createChildGroups"
+- "existingFileReference"
+- "groupAndGroupPathForFile"
+- "groups"
+- "lazilyInstantiateGroups"
+- "lazilyInstantiateObjectReferences"
+- "objects"
+- "references"
+- "sourceRoot"
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PBXBatchUpdater"
+- "PBXFileReference"
+- "PBXGroup"
+- "PBXObjectReference"
+- "PBXObjects"
+- "PBXProject"
+- "PBXSourceTree"
+- "Path"
+- "String"
+- !private "Xcode"
+- !private "addFile"
+- !private "createChildGroups"
+- !private "existingFileReference"
+- !private "groupAndGroupPathForFile"
+- !private "groups"
+- !private "lazilyInstantiateGroups"
+- !private "lazilyInstantiateObjectReferences"
+- !private "objects"
+- !private "references"
+- "sourceRoot"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "subscript"]
+- !private ["9XcodeProj13AutoEquatableP", "addGroup"]
+- !private ["9XcodeProj13AutoEquatableP", "childrenReferences"]
+- !private ["9XcodeProj13AutoEquatableP", "fullPath"]
+- !private ["9XcodeProj13AutoEquatableP", "init"]
+- !private ["9XcodeProj13AutoEquatableP", "mainGroup"]
+- !private ["9XcodeProj13AutoEquatableP", "parent"]
+- !private ["9XcodeProj13AutoEquatableP", "reference"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "reversed"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["SN", "reversed"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "reversed"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "components"]
+- !private ["SL", "extension"]
+- !private ["SL", "init"]
+- !private ["SL", "lastComponent"]
+- !private ["SL", "parent"]
+- !private ["SL", "relative"]
+- !private ["SL", "string"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "absolute"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "extension"]
+- ["s23CustomStringConvertibleP", "group"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lastComponent"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "relative"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- ["s23CustomStringConvertibleP", "sourceRoot"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "absolute"]
+- !private ["Se", "addGroup"]
+- !private ["Se", "append"]
+- !private ["Se", "childrenReferences"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "fullPath"]
+- ["Se", "group"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "mainGroup"]
+- !private ["Se", "parent"]
+- !private ["Se", "reference"]
+- !private ["Se", "reversed"]
+- ["Se", "sourceRoot"]
+- !private ["Se", "subscript"]
+- !private ["SD", "compactMap"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "reversed"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- ["SQ", "absolute"]
+- !private ["SQ", "add"]
+- !private ["SQ", "addGroup"]
+- !private ["SQ", "append"]
+- !private ["SQ", "childrenReferences"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "components"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "extension"]
+- !private ["SQ", "fileReferences"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "fullPath"]
+- ["SQ", "group"]
+- !private ["SQ", "groups"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "lastComponent"]
+- !private ["SQ", "mainGroup"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "reference"]
+- !private ["SQ", "relative"]
+- !private ["SQ", "reversed"]
+- ["SQ", "sourceRoot"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "compactMap"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "extension"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "relative"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "extension"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lastComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "parent"]
+- !private ["s26ExpressibleByStringLiteralP", "relative"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "extension"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lastComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "parent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "relative"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["SH", "addGroup"]
+- !private ["SH", "append"]
+- !private ["SH", "childrenReferences"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "components"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "extension"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "fullPath"]
+- !private ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "lastComponent"]
+- !private ["SH", "mainGroup"]
+- !private ["SH", "parent"]
+- !private ["SH", "reference"]
+- !private ["SH", "relative"]
+- !private ["SH", "reversed"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["Sq", "flatMap"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "Array"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "Dictionary"]
+- ["9XcodeProj15PBXBatchUpdaterC", "PBXFileReference"]
+- ["9XcodeProj15PBXBatchUpdaterC", "PBXGroup"]
+- ["9XcodeProj15PBXBatchUpdaterC", "PBXObjectReference"]
+- ["9XcodeProj15PBXBatchUpdaterC", "PBXObjects"]
+- ["9XcodeProj15PBXBatchUpdaterC", "PBXProject"]
+- ["9XcodeProj15PBXBatchUpdaterC", "PBXSourceTree"]
+- ["9XcodeProj15PBXBatchUpdaterC", "Path"]
+- ["9XcodeProj15PBXBatchUpdaterC", "String"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "Xcode"]
+- ["9XcodeProj15PBXBatchUpdaterC", "addFile"]
+- ["9XcodeProj15PBXBatchUpdaterC", "createChildGroups"]
+- ["9XcodeProj15PBXBatchUpdaterC", "deinit"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "existingFileReference"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "groupAndGroupPathForFile"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "groups"]
+- ["9XcodeProj15PBXBatchUpdaterC", "init"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "lazilyInstantiateGroups"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "lazilyInstantiateObjectReferences"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "objects"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "references"]
+- !private ["9XcodeProj15PBXBatchUpdaterC", "sourceRoot"]
+- ["9XcodeProj16PBXContainerItemC", ""]
+- !private ["9XcodeProj16PBXContainerItemC", "addGroup"]
+- !private ["9XcodeProj16PBXContainerItemC", "childrenReferences"]
+- !private ["9XcodeProj16PBXContainerItemC", "fullPath"]
+- !private ["9XcodeProj16PBXContainerItemC", "parent"]
+- !private ["9XcodeProj16PBXContainerItemC", "reference"]
+- ["9XcodeProj14PBXFileElementC", ""]
+- !private ["9XcodeProj14PBXFileElementC", "addGroup"]
+- !private ["9XcodeProj14PBXFileElementC", "childrenReferences"]
+- !private ["9XcodeProj14PBXFileElementC", "fullPath"]
+- !private ["9XcodeProj14PBXFileElementC", "parent"]
+- !private ["9XcodeProj14PBXFileElementC", "reference"]
+- !private ["9XcodeProj16PBXFileReferenceC", ""]
+- !private ["9XcodeProj16PBXFileReferenceC", "fullPath"]
+- !private ["9XcodeProj16PBXFileReferenceC", "init"]
+- !private ["9XcodeProj16PBXFileReferenceC", "parent"]
+- !private ["9XcodeProj16PBXFileReferenceC", "reference"]
+- !private ["9XcodeProj8PBXGroupC", "addGroup"]
+- !private ["9XcodeProj8PBXGroupC", "childrenReferences"]
+- !private ["9XcodeProj8PBXGroupC", "fullPath"]
+- ["9XcodeProj9PBXObjectC", ""]
+- !private ["9XcodeProj9PBXObjectC", "addGroup"]
+- !private ["9XcodeProj9PBXObjectC", "childrenReferences"]
+- !private ["9XcodeProj9PBXObjectC", "fullPath"]
+- !private ["9XcodeProj9PBXObjectC", "mainGroup"]
+- !private ["9XcodeProj9PBXObjectC", "parent"]
+- !private ["9XcodeProj9PBXObjectC", "reference"]
+- !private ["9XcodeProj18PBXObjectReferenceC", ""]
+- !private ["9XcodeProj10PBXObjectsC", "add"]
+- !private ["9XcodeProj10PBXObjectsC", "fileReferences"]
+- !private ["9XcodeProj10PBXObjectsC", "groups"]
+- !private ["9XcodeProj10PBXProjectC", "mainGroup"]
+- ["9XcodeProj13PBXSourceTreeO", "absolute"]
+- ["9XcodeProj13PBXSourceTreeO", "group"]
+- ["9XcodeProj13PBXSourceTreeO", "sourceRoot"]
+- !private ["7PathKit0A0V", "components"]
+- !private ["7PathKit0A0V", "extension"]
+- !private ["7PathKit0A0V", "init"]
+- !private ["7PathKit0A0V", "lastComponent"]
+- !private ["7PathKit0A0V", "parent"]
+- !private ["7PathKit0A0V", "relative"]
+- !private ["7PathKit0A0V", "string"]
+- !private ["9XcodeProj17PlistSerializableP", "addGroup"]
+- !private ["9XcodeProj17PlistSerializableP", "childrenReferences"]
+- !private ["9XcodeProj17PlistSerializableP", "fullPath"]
+- !private ["9XcodeProj17PlistSerializableP", "init"]
+- !private ["9XcodeProj17PlistSerializableP", "mainGroup"]
+- !private ["9XcodeProj17PlistSerializableP", "parent"]
+- !private ["9XcodeProj17PlistSerializableP", "reference"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "reversed"]
+- !private ["Sk", "subscript"]
+- !private ["SX", "reversed"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "components"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "extension"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "lastComponent"]
+- !private ["ST", "parent"]
+- !private ["ST", "relative"]
+- !private ["ST", "reversed"]
+- !private ["ST", "string"]
+- !private ["ST", "subscript"]
+- !private ["9XcodeProj0A0V", "filetype"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "9XcodeProj13AutoEquatableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "SN"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "Sq"
+- "9XcodeProj15PBXBatchUpdaterC"
+- "9XcodeProj16PBXContainerItemC"
+- "9XcodeProj14PBXFileElementC"
+- !private "9XcodeProj16PBXFileReferenceC"
+- !private "9XcodeProj8PBXGroupC"
+- "9XcodeProj9PBXObjectC"
+- !private "9XcodeProj18PBXObjectReferenceC"
+- !private "9XcodeProj10PBXObjectsC"
+- !private "9XcodeProj10PBXProjectC"
+- "9XcodeProj13PBXSourceTreeO"
+- !private "7PathKit0A0V"
+- !private "9XcodeProj17PlistSerializableP"
+- !private "Sk"
+- !private "SX"
+- !private "Sm"
+- !private "ST"
+- !private "9XcodeProj0A0V"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "43a3ad25088586066b9e3b98dcddee7c"

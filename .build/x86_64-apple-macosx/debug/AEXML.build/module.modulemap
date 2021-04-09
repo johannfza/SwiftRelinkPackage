@@ -1,0 +1,4 @@
+module AEXML {
+    header "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/AEXML-Swift.h"
+    requires objc
+}

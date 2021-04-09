@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Replace"
+provides-nominal:
+- "18SwiftRelinkPackage7ReplaceV"
+provides-member:
+- ["18SwiftRelinkPackage7ReplaceV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- "Argument"
+- "Bool"
+- "BooleanLiteralType"
+- "CommandConfiguration"
+- "Flag"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSRegularExpression"
+- !private "NSURL"
+- "Option"
+- "OptionGroup"
+- "Options"
+- "PackageNameFormat"
+- "ParsableCommand"
+- "Replace"
+- !private "ReplaceApi"
+- "String"
+- "StringLiteralType"
+- !private "formatName"
+- !private "omitExpression"
+- !private "options"
+- !private "prefix"
+- !private "preview"
+- !private "suffix"
+- !private "url"
+- !private "~="
+depends-member:
+- ["14ArgumentParser0A0V", "init"]
+- ["14ArgumentParser0A0V", "projectedValue"]
+- ["14ArgumentParser0A0V", "subscript"]
+- ["14ArgumentParser0A0V", "wrappedValue"]
+- ["14ArgumentParser0A0V", "wrapperValue"]
+- ["14ArgumentParser0A11SetProviderP", ""]
+- ["14ArgumentParser0A11SetProviderP", "init"]
+- ["14ArgumentParser0A11SetProviderP", "wrappedValue"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["14ArgumentParser20CommandConfigurationV", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "wrappedValue"]
+- ["Se", "Argument"]
+- ["Se", "CommandConfiguration"]
+- ["Se", "Flag"]
+- ["Se", "NSRegularExpression"]
+- !private ["Se", "NSURL"]
+- ["Se", "Option"]
+- ["Se", "OptionGroup"]
+- ["Se", "PackageNameFormat"]
+- !private ["Se", "ReplaceApi"]
+- ["Se", ""]
+- ["Se", "_commandName"]
+- ["Se", "_errorLabel"]
+- !private ["Se", "_formatName"]
+- !private ["Se", "_omitExpression"]
+- !private ["Se", "_options"]
+- !private ["Se", "_prefix"]
+- !private ["Se", "_preview"]
+- !private ["Se", "_suffix"]
+- !private ["Se", "_url"]
+- ["Se", "commandName"]
+- ["Se", "configuration"]
+- ["Se", "errorLabel"]
+- !private ["Se", "formatName"]
+- ["Se", "init"]
+- !private ["Se", "omitExpression"]
+- !private ["Se", "options"]
+- !private ["Se", "path"]
+- !private ["Se", "prefix"]
+- !private ["Se", "preview"]
+- ["Se", "run"]
+- !private ["Se", "suffix"]
+- !private ["Se", "url"]
+- ["Se", "validate"]
+- ["Se", "wrappedValue"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "init"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "wrappedValue"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["s25ExpressibleByArrayLiteralP", "long"]
+- ["s25ExpressibleByArrayLiteralP", "shortAndLong"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["14ArgumentParser4FlagV", "init"]
+- ["14ArgumentParser4FlagV", "projectedValue"]
+- ["14ArgumentParser4FlagV", "subscript"]
+- ["14ArgumentParser4FlagV", "wrappedValue"]
+- ["14ArgumentParser4FlagV", "wrapperValue"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "URLByResolvingAliasFileAtURL"]
+- !private ["So8NSObjectC", "URLByResolvingBookmarkData"]
+- !private ["So8NSObjectC", "URLWithDataRepresentation"]
+- !private ["So8NSObjectC", "URLWithString"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "regularExpressionWithPattern"]
+- !private ["So8NSObjectP", "URLByResolvingAliasFileAtURL"]
+- !private ["So8NSObjectP", "URLByResolvingBookmarkData"]
+- !private ["So8NSObjectP", "URLWithDataRepresentation"]
+- !private ["So8NSObjectP", "URLWithString"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "regularExpressionWithPattern"]
+- ["So19NSRegularExpressionC", "init"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So5NSURLC", "init"]
+- ["14ArgumentParser17NameSpecificationV", "long"]
+- ["14ArgumentParser17NameSpecificationV", "shortAndLong"]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "projectedValue"]
+- ["14ArgumentParser6OptionV", "subscript"]
+- ["14ArgumentParser6OptionV", "wrappedValue"]
+- ["14ArgumentParser6OptionV", "wrapperValue"]
+- ["14ArgumentParser11OptionGroupV", "init"]
+- ["14ArgumentParser11OptionGroupV", "projectedValue"]
+- ["14ArgumentParser11OptionGroupV", "subscript"]
+- ["14ArgumentParser11OptionGroupV", "wrappedValue"]
+- ["14ArgumentParser11OptionGroupV", "wrapperValue"]
+- ["18SwiftRelinkPackage7OptionsV", ""]
+- !private ["18SwiftRelinkPackage7OptionsV", "path"]
+- ["18SwiftRelinkPackage0C10NameFormatO", "init"]
+- ["14ArgumentParser17ParsableArgumentsP", "Argument"]
+- ["14ArgumentParser17ParsableArgumentsP", "CommandConfiguration"]
+- ["14ArgumentParser17ParsableArgumentsP", "Flag"]
+- ["14ArgumentParser17ParsableArgumentsP", "NSRegularExpression"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "NSURL"]
+- ["14ArgumentParser17ParsableArgumentsP", "Option"]
+- ["14ArgumentParser17ParsableArgumentsP", "OptionGroup"]
+- ["14ArgumentParser17ParsableArgumentsP", "PackageNameFormat"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "ReplaceApi"]
+- ["14ArgumentParser17ParsableArgumentsP", ""]
+- ["14ArgumentParser17ParsableArgumentsP", "_commandName"]
+- ["14ArgumentParser17ParsableArgumentsP", "_errorLabel"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_formatName"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_omitExpression"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_options"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_prefix"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_preview"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_suffix"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_url"]
+- ["14ArgumentParser17ParsableArgumentsP", "commandName"]
+- ["14ArgumentParser17ParsableArgumentsP", "configuration"]
+- ["14ArgumentParser17ParsableArgumentsP", "errorLabel"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "formatName"]
+- ["14ArgumentParser17ParsableArgumentsP", "init"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "omitExpression"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "options"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "path"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "prefix"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "preview"]
+- ["14ArgumentParser17ParsableArgumentsP", "run"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "suffix"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "url"]
+- ["14ArgumentParser17ParsableArgumentsP", "validate"]
+- ["14ArgumentParser15ParsableCommandP", "Argument"]
+- ["14ArgumentParser15ParsableCommandP", "CommandConfiguration"]
+- ["14ArgumentParser15ParsableCommandP", "Flag"]
+- ["14ArgumentParser15ParsableCommandP", "NSRegularExpression"]
+- !private ["14ArgumentParser15ParsableCommandP", "NSURL"]
+- ["14ArgumentParser15ParsableCommandP", "Option"]
+- ["14ArgumentParser15ParsableCommandP", "OptionGroup"]
+- ["14ArgumentParser15ParsableCommandP", "PackageNameFormat"]
+- !private ["14ArgumentParser15ParsableCommandP", "ReplaceApi"]
+- ["14ArgumentParser15ParsableCommandP", ""]
+- ["14ArgumentParser15ParsableCommandP", "_commandName"]
+- ["14ArgumentParser15ParsableCommandP", "_errorLabel"]
+- !private ["14ArgumentParser15ParsableCommandP", "_formatName"]
+- !private ["14ArgumentParser15ParsableCommandP", "_omitExpression"]
+- !private ["14ArgumentParser15ParsableCommandP", "_options"]
+- !private ["14ArgumentParser15ParsableCommandP", "_prefix"]
+- !private ["14ArgumentParser15ParsableCommandP", "_preview"]
+- !private ["14ArgumentParser15ParsableCommandP", "_suffix"]
+- !private ["14ArgumentParser15ParsableCommandP", "_url"]
+- ["14ArgumentParser15ParsableCommandP", "commandName"]
+- ["14ArgumentParser15ParsableCommandP", "configuration"]
+- ["14ArgumentParser15ParsableCommandP", "errorLabel"]
+- !private ["14ArgumentParser15ParsableCommandP", "formatName"]
+- ["14ArgumentParser15ParsableCommandP", "init"]
+- !private ["14ArgumentParser15ParsableCommandP", "omitExpression"]
+- !private ["14ArgumentParser15ParsableCommandP", "options"]
+- !private ["14ArgumentParser15ParsableCommandP", "prefix"]
+- !private ["14ArgumentParser15ParsableCommandP", "preview"]
+- ["14ArgumentParser15ParsableCommandP", "run"]
+- !private ["14ArgumentParser15ParsableCommandP", "suffix"]
+- !private ["14ArgumentParser15ParsableCommandP", "url"]
+- ["14ArgumentParser15ParsableCommandP", "validate"]
+- ["14ArgumentParser13ParsedWrapperP", ""]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+- ["14ArgumentParser13ParsedWrapperP", "wrappedValue"]
+- ["18SwiftRelinkPackage7ReplaceV", "Argument"]
+- ["18SwiftRelinkPackage7ReplaceV", "Bool"]
+- ["18SwiftRelinkPackage7ReplaceV", "CodingKeys"]
+- ["18SwiftRelinkPackage7ReplaceV", "CommandConfiguration"]
+- ["18SwiftRelinkPackage7ReplaceV", "Flag"]
+- ["18SwiftRelinkPackage7ReplaceV", "NSRegularExpression"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "NSURL"]
+- ["18SwiftRelinkPackage7ReplaceV", "Option"]
+- ["18SwiftRelinkPackage7ReplaceV", "OptionGroup"]
+- ["18SwiftRelinkPackage7ReplaceV", "Options"]
+- ["18SwiftRelinkPackage7ReplaceV", "PackageNameFormat"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "ReplaceApi"]
+- ["18SwiftRelinkPackage7ReplaceV", "String"]
+- ["18SwiftRelinkPackage7ReplaceV", ""]
+- ["18SwiftRelinkPackage7ReplaceV", "_commandName"]
+- ["18SwiftRelinkPackage7ReplaceV", "_errorLabel"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_formatName"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_omitExpression"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_options"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_prefix"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_preview"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_suffix"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "_url"]
+- ["18SwiftRelinkPackage7ReplaceV", "commandName"]
+- ["18SwiftRelinkPackage7ReplaceV", "configuration"]
+- ["18SwiftRelinkPackage7ReplaceV", "errorLabel"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "formatName"]
+- ["18SwiftRelinkPackage7ReplaceV", "init"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "omitExpression"]
+- ["18SwiftRelinkPackage7ReplaceV", "options"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "prefix"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "preview"]
+- ["18SwiftRelinkPackage7ReplaceV", "run"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "suffix"]
+- !private ["18SwiftRelinkPackage7ReplaceV", "url"]
+- ["18SwiftRelinkPackage7ReplaceV", "validate"]
+- !private ["18SwiftRelinkPackage10ReplaceApiC", "init"]
+- !private ["18SwiftRelinkPackage10ReplaceApiC", "replaceAllPackageURLs"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "14ArgumentParser0A0V"
+- "14ArgumentParser0A11SetProviderP"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "14ArgumentParser20CommandConfigurationV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "14ArgumentParser22DecodableParsedWrapperP"
+- !private "s7DecoderP"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "14ArgumentParser4FlagV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19NSRegularExpressionC"
+- "So14NSSecureCodingP"
+- !private "So5NSURLC"
+- "14ArgumentParser17NameSpecificationV"
+- "14ArgumentParser6OptionV"
+- "14ArgumentParser11OptionGroupV"
+- "18SwiftRelinkPackage7OptionsV"
+- "18SwiftRelinkPackage0C10NameFormatO"
+- "14ArgumentParser17ParsableArgumentsP"
+- "14ArgumentParser15ParsableCommandP"
+- "14ArgumentParser13ParsedWrapperP"
+- "18SwiftRelinkPackage7ReplaceV"
+- !private "18SwiftRelinkPackage10ReplaceApiC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bc0e6c4be990b5a71b93b016ebe7acb4"

@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "3738bf13edc0a2c50458e576e4d64669"
+build_time: [1617980550, 729014000]
+inputs:
+  "/Users/Johann/NewWave/SwiftRelinkPackage/.build/checkouts/AEXML/Sources/AEXML/Document.swift": [1617980546, 924462735]
+  "/Users/Johann/NewWave/SwiftRelinkPackage/.build/checkouts/AEXML/Sources/AEXML/Element.swift": [1617980546, 927115854]
+  "/Users/Johann/NewWave/SwiftRelinkPackage/.build/checkouts/AEXML/Sources/AEXML/Error.swift": [1617980546, 928475593]
+  "/Users/Johann/NewWave/SwiftRelinkPackage/.build/checkouts/AEXML/Sources/AEXML/Options.swift": [1617980546, 928762783]
+  "/Users/Johann/NewWave/SwiftRelinkPackage/.build/checkouts/AEXML/Sources/AEXML/Parser.swift": [1617980546, 929158529]

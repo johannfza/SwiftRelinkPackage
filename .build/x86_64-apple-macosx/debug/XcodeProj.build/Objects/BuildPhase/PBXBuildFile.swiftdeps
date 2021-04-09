@@ -1,0 +1,730 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PBXBuildFile"
+- "PBXBuildPhaseFile"
+- "=="
+provides-nominal:
+- "9XcodeProj12PBXBuildFileC"
+- "9XcodeProj12PBXBuildFileC10CodingKeysO"
+- "9XcodeProj17PBXBuildPhaseFileC"
+provides-member:
+- ["9XcodeProj12PBXBuildFileC", ""]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", ""]
+- ["9XcodeProj17PBXBuildPhaseFileC", ""]
+- ["9XcodeProj12PBXBuildFileC", "fileName"]
+- ["9XcodeProj12PBXBuildFileC", "getBuildPhase"]
+- ["9XcodeProj12PBXBuildFileC", "buildPhaseName"]
+provides-dynamic-lookup:
+- "=="
+- "buildFile"
+- "buildPhase"
+- "buildPhaseName"
+- "file"
+- "fileName"
+- "fileReference"
+- "getBuildPhase"
+- "isEqual"
+- "multiline"
+- "platformFilter"
+- "plistKeyAndValue"
+- "product"
+- "productReference"
+- "settings"
+depends-top-level:
+- !private "&&"
+- "=="
+- "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CodingKey"
+- !private "CodingKeys"
+- "CommentedString"
+- "Decoder"
+- "Equatable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "PBXBuildFile"
+- "PBXBuildPhase"
+- "PBXBuildPhaseFile"
+- "PBXFileElement"
+- "PBXObject"
+- "PBXObjectReference"
+- "PBXProj"
+- "PlistSerializable"
+- "PlistValue"
+- "String"
+- "StringLiteralType"
+- "XCSwiftPackageProductDependency"
+- !private "_findStringSwitchCase"
+- "buildFile"
+- !private "buildPhase"
+- !private "fileReference"
+- !private "getBuildPhase"
+- !private "isEqual"
+- !private "objects"
+- !private "platformFilter"
+- !private "productReference"
+- "reference"
+- !private "settings"
+- !private "~="
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "map"]
+- !private ["9XcodeProj13AutoEquatableP", "CodingKeys"]
+- !private ["9XcodeProj13AutoEquatableP", "String"]
+- ["9XcodeProj13AutoEquatableP", ""]
+- !private ["9XcodeProj13AutoEquatableP", "_findStringSwitchCase"]
+- !private ["9XcodeProj13AutoEquatableP", "buildPhase"]
+- !private ["9XcodeProj13AutoEquatableP", "file"]
+- !private ["9XcodeProj13AutoEquatableP", "fileName"]
+- !private ["9XcodeProj13AutoEquatableP", "fileReference"]
+- !private ["9XcodeProj13AutoEquatableP", "fileReferences"]
+- !private ["9XcodeProj13AutoEquatableP", "findStringSwitchCase"]
+- !private ["9XcodeProj13AutoEquatableP", "getBuildPhase"]
+- !private ["9XcodeProj13AutoEquatableP", "init"]
+- !private ["9XcodeProj13AutoEquatableP", "isEqual"]
+- !private ["9XcodeProj13AutoEquatableP", "isa"]
+- !private ["9XcodeProj13AutoEquatableP", "name"]
+- !private ["9XcodeProj13AutoEquatableP", "objects"]
+- !private ["9XcodeProj13AutoEquatableP", "platformFilter"]
+- !private ["9XcodeProj13AutoEquatableP", "product"]
+- !private ["9XcodeProj13AutoEquatableP", "productName"]
+- !private ["9XcodeProj13AutoEquatableP", "productReference"]
+- !private ["9XcodeProj13AutoEquatableP", "reference"]
+- !private ["9XcodeProj13AutoEquatableP", "settings"]
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "getObject"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "plist"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "values"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "fileRef"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "platformFilter"]
+- !private ["s9CodingKeyP", "productRef"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "settings"]
+- ["s9CodingKeyP", "stringValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "=="]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "Default_RawValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "RawValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", ""]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "_Default_RawValue"]
+- !private ["9XcodeProj12PBXBuildFileC10CodingKeysO", "_findStringSwitchCase"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "_rawHashValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "debugDescription"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "description"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "fileRef"]
+- !private ["9XcodeProj12PBXBuildFileC10CodingKeysO", "findStringSwitchCase"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "hash"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "hashValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "init"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "intValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "platformFilter"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "productRef"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "rawValue"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "settings"]
+- ["9XcodeProj12PBXBuildFileC10CodingKeysO", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["Sl", "first"]
+- !private ["Sl", "map"]
+- !private ["Sl", "plist"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "values"]
+- !private ["9XcodeProj15CommentedStringV", ""]
+- !private ["9XcodeProj15CommentedStringV", "init"]
+- !private ["SL", "getObject"]
+- !private ["SL", "value"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "fileRef"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "getObject"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "platformFilter"]
+- !private ["s28CustomDebugStringConvertibleP", "plist"]
+- !private ["s28CustomDebugStringConvertibleP", "productRef"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "plist"]
+- !private ["s17CustomReflectableP", "string"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fileRef"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "getObject"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "platformFilter"]
+- !private ["s23CustomStringConvertibleP", "plist"]
+- !private ["s23CustomStringConvertibleP", "productRef"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "buildPhase"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "contains"]
+- !private ["Se", "file"]
+- !private ["Se", "fileName"]
+- !private ["Se", "fileReference"]
+- !private ["Se", "fileReferences"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "getBuildPhase"]
+- ["Se", "init"]
+- !private ["Se", "isEqual"]
+- !private ["Se", "isa"]
+- !private ["Se", "map"]
+- !private ["Se", "name"]
+- !private ["Se", "objects"]
+- !private ["Se", "platformFilter"]
+- !private ["Se", "plist"]
+- !private ["Se", "product"]
+- !private ["Se", "productName"]
+- !private ["Se", "productReference"]
+- !private ["Se", "reference"]
+- !private ["Se", "settings"]
+- !private ["Se", "string"]
+- !private ["Se", "subscript"]
+- !private ["Se", "values"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "context"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "plist"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "contains"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "map"]
+- !private ["SE", "plist"]
+- !private ["SE", "string"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- ["SQ", "=="]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "CommentedString"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "PBXBuildFile"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "buildFile"]
+- !private ["SQ", "buildPhase"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "carbonResourcesBuildPhases"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "copyFilesBuildPhases"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "dictionary"]
+- !private ["SQ", "file"]
+- !private ["SQ", "fileName"]
+- !private ["SQ", "fileRef"]
+- !private ["SQ", "fileReference"]
+- !private ["SQ", "fileReferences"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "frameworksBuildPhases"]
+- !private ["SQ", "getBuildPhase"]
+- !private ["SQ", "getObject"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "headersBuildPhases"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isEqual"]
+- !private ["SQ", "isa"]
+- !private ["SQ", "map"]
+- ["SQ", "multiline"]
+- !private ["SQ", "name"]
+- !private ["SQ", "objects"]
+- !private ["SQ", "platformFilter"]
+- !private ["SQ", "plist"]
+- ["SQ", "plistKeyAndValue"]
+- !private ["SQ", "product"]
+- !private ["SQ", "productName"]
+- !private ["SQ", "productRef"]
+- !private ["SQ", "productReference"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "reference"]
+- !private ["SQ", "resourcesBuildPhases"]
+- !private ["SQ", "settings"]
+- !private ["SQ", "sourcesBuildPhases"]
+- !private ["SQ", "string"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "value"]
+- !private ["SQ", "values"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "dictionary"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "dictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "plist"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dictionary"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "dictionary"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dictionary"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["SH", "=="]
+- !private ["SH", "CodingKeys"]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "buildPhase"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "contains"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "file"]
+- !private ["SH", "fileName"]
+- !private ["SH", "fileRef"]
+- !private ["SH", "fileReference"]
+- !private ["SH", "fileReferences"]
+- !private ["SH", "findStringSwitchCase"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "getBuildPhase"]
+- !private ["SH", "getObject"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isEqual"]
+- !private ["SH", "isa"]
+- !private ["SH", "map"]
+- !private ["SH", "name"]
+- !private ["SH", "objects"]
+- !private ["SH", "platformFilter"]
+- !private ["SH", "plist"]
+- !private ["SH", "product"]
+- !private ["SH", "productName"]
+- !private ["SH", "productRef"]
+- !private ["SH", "productReference"]
+- ["SH", "rawValue"]
+- !private ["SH", "reference"]
+- !private ["SH", "settings"]
+- !private ["SH", "string"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "value"]
+- !private ["SH", "values"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["SM", ""]
+- !private ["SM", "contains"]
+- !private ["SM", "first"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So9NSCopyingP", "getObject"]
+- !private ["So9NSCopyingP", "value"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "getObject"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "getObject"]
+- !private ["So8NSObjectP", "value"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "string"]
+- ["9XcodeProj12PBXBuildFileC", "Bool"]
+- ["9XcodeProj12PBXBuildFileC", "CodingKey"]
+- ["9XcodeProj12PBXBuildFileC", "CodingKeys"]
+- ["9XcodeProj12PBXBuildFileC", "Decoder"]
+- !private ["9XcodeProj12PBXBuildFileC", "PBXBuildFile"]
+- ["9XcodeProj12PBXBuildFileC", "PBXBuildPhase"]
+- ["9XcodeProj12PBXBuildFileC", "PBXFileElement"]
+- ["9XcodeProj12PBXBuildFileC", "PBXObjectReference"]
+- ["9XcodeProj12PBXBuildFileC", "String"]
+- ["9XcodeProj12PBXBuildFileC", "XCSwiftPackageProductDependency"]
+- ["9XcodeProj12PBXBuildFileC", ""]
+- !private ["9XcodeProj12PBXBuildFileC", "_findStringSwitchCase"]
+- ["9XcodeProj12PBXBuildFileC", "buildPhase"]
+- ["9XcodeProj12PBXBuildFileC", "buildPhaseName"]
+- ["9XcodeProj12PBXBuildFileC", "deinit"]
+- ["9XcodeProj12PBXBuildFileC", "file"]
+- ["9XcodeProj12PBXBuildFileC", "fileName"]
+- ["9XcodeProj12PBXBuildFileC", "fileReference"]
+- !private ["9XcodeProj12PBXBuildFileC", "findStringSwitchCase"]
+- ["9XcodeProj12PBXBuildFileC", "getBuildPhase"]
+- ["9XcodeProj12PBXBuildFileC", "init"]
+- ["9XcodeProj12PBXBuildFileC", "isEqual"]
+- !private ["9XcodeProj12PBXBuildFileC", "isa"]
+- !private ["9XcodeProj12PBXBuildFileC", "objects"]
+- ["9XcodeProj12PBXBuildFileC", "platformFilter"]
+- ["9XcodeProj12PBXBuildFileC", "product"]
+- ["9XcodeProj12PBXBuildFileC", "productReference"]
+- !private ["9XcodeProj12PBXBuildFileC", "reference"]
+- ["9XcodeProj12PBXBuildFileC", "settings"]
+- ["9XcodeProj13PBXBuildPhaseC", ""]
+- !private ["9XcodeProj13PBXBuildPhaseC", "fileReferences"]
+- !private ["9XcodeProj13PBXBuildPhaseC", "name"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "=="]
+- ["9XcodeProj17PBXBuildPhaseFileC", "Bool"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "CommentedString"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "PBXBuildFile"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "PBXBuildPhase"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "PBXBuildPhaseFile"]
+- !private ["9XcodeProj17PBXBuildPhaseFileC", "PBXFileElement"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "PBXProj"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "PlistValue"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "String"]
+- ["9XcodeProj17PBXBuildPhaseFileC", ""]
+- ["9XcodeProj17PBXBuildPhaseFileC", "buildFile"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "buildPhase"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "deinit"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "init"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "multiline"]
+- ["9XcodeProj17PBXBuildPhaseFileC", "plistKeyAndValue"]
+- ["9XcodeProj16PBXContainerItemC", ""]
+- !private ["9XcodeProj16PBXContainerItemC", "fileName"]
+- !private ["9XcodeProj16PBXContainerItemC", "fileReferences"]
+- !private ["9XcodeProj16PBXContainerItemC", "name"]
+- !private ["9XcodeProj16PBXContainerItemC", "productName"]
+- !private ["9XcodeProj16PBXContainerItemC", "reference"]
+- !private ["9XcodeProj22PBXCopyFilesBuildPhaseC", "fileReferences"]
+- !private ["9XcodeProj14PBXFileElementC", "fileName"]
+- !private ["9XcodeProj14PBXFileElementC", "reference"]
+- !private ["9XcodeProj23PBXFrameworksBuildPhaseC", "fileReferences"]
+- !private ["9XcodeProj20PBXHeadersBuildPhaseC", "fileReferences"]
+- ["9XcodeProj9PBXObjectC", "Bool"]
+- ["9XcodeProj9PBXObjectC", "CodingKey"]
+- !private ["9XcodeProj9PBXObjectC", "CodingKeys"]
+- ["9XcodeProj9PBXObjectC", "Decoder"]
+- !private ["9XcodeProj9PBXObjectC", "PBXBuildFile"]
+- ["9XcodeProj9PBXObjectC", "PBXBuildPhase"]
+- ["9XcodeProj9PBXObjectC", "PBXFileElement"]
+- ["9XcodeProj9PBXObjectC", "PBXObjectReference"]
+- ["9XcodeProj9PBXObjectC", "String"]
+- ["9XcodeProj9PBXObjectC", "XCSwiftPackageProductDependency"]
+- ["9XcodeProj9PBXObjectC", ""]
+- !private ["9XcodeProj9PBXObjectC", "_findStringSwitchCase"]
+- ["9XcodeProj9PBXObjectC", "buildPhase"]
+- ["9XcodeProj9PBXObjectC", "buildPhaseName"]
+- ["9XcodeProj9PBXObjectC", "file"]
+- ["9XcodeProj9PBXObjectC", "fileName"]
+- ["9XcodeProj9PBXObjectC", "fileReference"]
+- !private ["9XcodeProj9PBXObjectC", "fileReferences"]
+- !private ["9XcodeProj9PBXObjectC", "findStringSwitchCase"]
+- ["9XcodeProj9PBXObjectC", "getBuildPhase"]
+- ["9XcodeProj9PBXObjectC", "init"]
+- ["9XcodeProj9PBXObjectC", "isEqual"]
+- !private ["9XcodeProj9PBXObjectC", "isa"]
+- !private ["9XcodeProj9PBXObjectC", "name"]
+- !private ["9XcodeProj9PBXObjectC", "objects"]
+- ["9XcodeProj9PBXObjectC", "platformFilter"]
+- ["9XcodeProj9PBXObjectC", "product"]
+- !private ["9XcodeProj9PBXObjectC", "productName"]
+- ["9XcodeProj9PBXObjectC", "productReference"]
+- !private ["9XcodeProj9PBXObjectC", "reference"]
+- ["9XcodeProj9PBXObjectC", "settings"]
+- !private ["9XcodeProj18PBXObjectReferenceC", ""]
+- !private ["9XcodeProj18PBXObjectReferenceC", "getObject"]
+- !private ["9XcodeProj18PBXObjectReferenceC", "value"]
+- !private ["9XcodeProj28PBXObjectReferenceRepositoryC", "getOrCreate"]
+- !private ["9XcodeProj10PBXObjectsC", "carbonResourcesBuildPhases"]
+- !private ["9XcodeProj10PBXObjectsC", "copyFilesBuildPhases"]
+- !private ["9XcodeProj10PBXObjectsC", "frameworksBuildPhases"]
+- !private ["9XcodeProj10PBXObjectsC", "headersBuildPhases"]
+- !private ["9XcodeProj10PBXObjectsC", "resourcesBuildPhases"]
+- !private ["9XcodeProj10PBXObjectsC", "sourcesBuildPhases"]
+- !private ["9XcodeProj22PBXResourcesBuildPhaseC", "fileReferences"]
+- !private ["9XcodeProj16PBXRezBuildPhaseC", "fileReferences"]
+- !private ["9XcodeProj20PBXSourcesBuildPhaseC", "fileReferences"]
+- ["9XcodeProj17PlistSerializableP", "=="]
+- !private ["9XcodeProj17PlistSerializableP", "CommentedString"]
+- !private ["9XcodeProj17PlistSerializableP", "PBXBuildFile"]
+- ["9XcodeProj17PlistSerializableP", ""]
+- !private ["9XcodeProj17PlistSerializableP", "buildFile"]
+- !private ["9XcodeProj17PlistSerializableP", "buildPhase"]
+- !private ["9XcodeProj17PlistSerializableP", "fileName"]
+- !private ["9XcodeProj17PlistSerializableP", "fileReferences"]
+- ["9XcodeProj17PlistSerializableP", "multiline"]
+- ["9XcodeProj17PlistSerializableP", "plistKeyAndValue"]
+- !private ["9XcodeProj17PlistSerializableP", "productName"]
+- !private ["9XcodeProj17PlistSerializableP", "reference"]
+- !private ["9XcodeProj10PlistValueO", "dictionary"]
+- !private ["9XcodeProj10PlistValueO", "string"]
+- !private ["9XcodeProj22ProjectDecodingContextC", "objectReferenceRepository"]
+- !private ["9XcodeProj22ProjectDecodingContextC", "objects"]
+- !private ["Sk", ""]
+- !private ["Sk", "contains"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "contains"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "fileRef"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "platformFilter"]
+- !private ["SY", "productRef"]
+- ["SY", "rawValue"]
+- !private ["SY", "settings"]
+- ["SY", "stringValue"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "first"]
+- !private ["ST", "map"]
+- !private ["ST", "plist"]
+- !private ["ST", "subscript"]
+- !private ["ST", "values"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["SD6ValuesV", "first"]
+- !private ["9XcodeProj31XCSwiftPackageProductDependencyC", "productName"]
+- !private ["9XcodeProj31XCSwiftPackageProductDependencyC", "reference"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "plist"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "plist"]
+- !private ["s21_ObjectiveCBridgeableP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+depends-nominal:
+- !private "Sa"
+- "9XcodeProj13AutoEquatableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "9XcodeProj12PBXBuildFileC10CodingKeysO"
+- !private "Sl"
+- !private "9XcodeProj15CommentedStringV"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- "9XcodeProj12PBXBuildFileC"
+- "9XcodeProj13PBXBuildPhaseC"
+- "9XcodeProj17PBXBuildPhaseFileC"
+- "9XcodeProj16PBXContainerItemC"
+- !private "9XcodeProj22PBXCopyFilesBuildPhaseC"
+- !private "9XcodeProj14PBXFileElementC"
+- !private "9XcodeProj23PBXFrameworksBuildPhaseC"
+- !private "9XcodeProj20PBXHeadersBuildPhaseC"
+- "9XcodeProj9PBXObjectC"
+- !private "9XcodeProj18PBXObjectReferenceC"
+- !private "9XcodeProj28PBXObjectReferenceRepositoryC"
+- !private "9XcodeProj10PBXObjectsC"
+- !private "9XcodeProj22PBXResourcesBuildPhaseC"
+- !private "9XcodeProj16PBXRezBuildPhaseC"
+- !private "9XcodeProj20PBXSourcesBuildPhaseC"
+- "9XcodeProj17PlistSerializableP"
+- !private "9XcodeProj10PlistValueO"
+- !private "9XcodeProj22ProjectDecodingContextC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "SD6ValuesV"
+- !private "9XcodeProj31XCSwiftPackageProductDependencyC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/AEXML.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/XcodeProj.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/PathKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f6ffb129ee844a3a219cc011dfe6543a"
