@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "5becaebbc6ba8d214bf44e7657474b5d"
-build_time: [1617980550, 729017000]
-inputs:
-  "/Users/Johann/NewWave/SwiftRelinkPackage/.build/checkouts/PathKit/Sources/PathKit.swift": [1617980546, 503707458]

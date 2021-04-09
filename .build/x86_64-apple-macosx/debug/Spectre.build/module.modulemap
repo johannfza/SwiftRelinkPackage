@@ -1,4 +1,0 @@
-module Spectre {
-    header "/Users/Johann/NewWave/SwiftRelinkPackage/.build/x86_64-apple-macosx/debug/Spectre.build/Spectre-Swift.h"
-    requires objc
-}

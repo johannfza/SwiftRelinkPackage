@@ -23,6 +23,8 @@ class ListApi {
     
     func listProjectPackages(pbxproj: PBXProj){
         
+        print("")
+        
         guard let project = pbxproj.projects.first  else {
             print("\(errorMessage: "No project to relink")")
             return
