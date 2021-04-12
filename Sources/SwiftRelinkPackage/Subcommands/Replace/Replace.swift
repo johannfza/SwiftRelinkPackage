@@ -27,20 +27,19 @@ extension Relink {
         @Flag(name: .long, help: "If package has suffix that matches suffix still add suffix")
         private var changeSuffixEvenIfSuffixMatches: Bool = false
         
-        @Flag(name: .long, help: "See a preview of what might change")
-        private var preview: Bool = false
-        
         @OptionGroup var options: Options
         
         func run(){
             let api = ReplaceApi()
             
             if NSURL(string: url) != nil {
-                if preview {
-                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: preview, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
+                if options.preview {
+                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: options.preview, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
                 } else {
                     api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
                 }
+            } else {
+                print("Error parsing url")
             }
         }
         
