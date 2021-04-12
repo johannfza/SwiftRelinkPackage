@@ -4,10 +4,23 @@ This command line tool targets .xcodeproj files. It's purpose is to identify the
 
 # Setup
 
-1. `git clone <this-repo>`
-2. `cd SwiftRelinkPackage`
-3. `swift build -c release`
-4. `relink --help` // Shows command line helper
+1. Clone the repo
+```
+git clone <this-repo>
+```
+2. Navigate to folder
+```
+cd SwiftRelinkPackage
+```
+3. Build project
+```
+swift build -c release
+```
+4. Open helper
+```
+relink --help
+```
+
 
 # Usage
 
