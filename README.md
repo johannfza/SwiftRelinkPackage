@@ -57,7 +57,21 @@ relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-
 
 relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> <project-path>
 
-relink replace --url https://gitlab.com/ -p new -s ending -f lower ../MyXcodeProject/MyXcodeProject.xcodeproj --preview
+relink replace --url https://gitlab.com/ -p new -s ending -f lower ../MyXcodeProject/MyXcodeProject.xcodeproj 
+```
+
+### Ommit changes to be made from certain paclages
+
+You can ommit the name change to be done to certain packages but creating an execption rule using regex. User the `-o` tag and pass in a regex value. All package names that match, their names will not be formatted. 
+
+Note: take note that repository url will still be changed 
+
+```
+relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> -o <regex> <project-path>
+
+// Do not format names of packages who's names contain swift 
+relink replace --url https://gitlab.com/ -p new -s ending -f lower -o "^.*swift.*$" ../MyXcodeProject/MyXcodeProject.xcodeproj
+
 ```
 
 ### Installing
