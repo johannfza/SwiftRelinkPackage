@@ -38,13 +38,19 @@ relink list ../MyXcodeProject/MyXcodeProject.xcodeproj
 
 Replace repository url of package dependancies. Use `--preview` to preview changes
 
+### Changing repository base url
+
 ```
 relink replace --help // open helper
 
-relink replace --url <replacement-url> .../MyXcodeProject/MyXcodeProject.xcodeproj  --preview
+relink replace --url <replacement-base-url> .../MyXcodeProject/MyXcodeProject.xcodeproj  --preview
 
-relink replace --url <replacement-url> ../MyXcodeProject/MyXcodeProject.xcodeproj
+relink replace --url <replacement-base-url> ../MyXcodeProject/MyXcodeProject.xcodeproj
 ```
+
+### Formating package name 
+
+You can add a prefix and suffix to the current name using the `--prefix` and `--suffix` options
 
 ### Installing
 Installing as a command line tool. 
