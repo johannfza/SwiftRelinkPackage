@@ -6,7 +6,7 @@ This command line tool targets .xcodeproj files. It's purpose is to identify the
 
 1. Clone the repo
 ```
-git clone <this-repo>
+git clone https://github.com/johannfza/SwiftRelinkPackage.git
 ```
 2. Navigate to folder
 ```
