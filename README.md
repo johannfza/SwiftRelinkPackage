@@ -36,21 +36,29 @@ relink list ../MyXcodeProject/MyXcodeProject.xcodeproj
 
 ## Replacing dependancy links 
 
-Replace repository url of package dependancies. Use `--preview` to preview changes
+Replace repository url of package dependancies. Use `--preview` to preview changes else just run with out `--preview` to write changes
 
 ### Changing repository base url
 
 ```
 relink replace --help // open helper
 
-relink replace --url <replacement-base-url> .../MyXcodeProject/MyXcodeProject.xcodeproj  --preview
+relink replace --url <replacement-base-url> <project-path>  --preview
 
-relink replace --url <replacement-base-url> ../MyXcodeProject/MyXcodeProject.xcodeproj
+relink replace --url https://gitlab.com/ ../MyXcodeProject/MyXcodeProject.xcodeproj --preview
 ```
 
 ### Formating package name 
 
-You can add a prefix and suffix to the current name using the `--prefix` and `--suffix` options
+You can add a prefix and suffix to the current name using the `--prefix` and `--suffix` options. Change the name to all uppper or lower case to by using the `-f` tag with value "upper" or "lower".
+
+```
+relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> <project-path>
+
+relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> <project-path>
+
+relink replace --url https://gitlab.com/ -p new -s ending -f lower ../MyXcodeProject/MyXcodeProject.xcodeproj --preview
+```
 
 ### Installing
 Installing as a command line tool. 
