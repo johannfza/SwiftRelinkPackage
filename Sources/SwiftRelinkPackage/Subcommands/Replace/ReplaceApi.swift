@@ -7,7 +7,7 @@ class ReplaceApi {
     
     let listApi = ListApi()
     
-    func replaceAllPackageURLs(_ path: String, baseUrl: String, prefix: String?, suffix: String?, formatName: PackageNameFormat?, omitExpression: NSRegularExpression, preview: Bool = false){
+    func replaceAllPackageURLs(_ path: String, baseUrl: String, prefix: String?, suffix: String?, formatName: PackageNameFormat?, omitExpression: NSRegularExpression, preview: Bool = false, changeSuffixEvenIfSuffixMatches: Bool = false){
         
         print("")
         if preview {
@@ -65,10 +65,13 @@ class ReplaceApi {
             // Construct new bitbucket link
             let packageName = package.name!
             var newPackageName: String = ""
-            
+
             if omitExpression.matches(packageName){
                 print("🎯 Expression matches - Package excluded name change")
                 newPackageName = packageName
+            } else if packageName.hasSuffix(suffix) && changeSuffixEvenIfSuffixMatches != true {
+                print("🎯 Suffix matches - Only adding prefix")
+                newPackageName = formatPackageName(name: packageName, prefix: prefix, format: formatName)
             } else {
                 newPackageName = formatPackageName(name: packageName, prefix: prefix, suffix: suffix, format: formatName)
             }
@@ -100,7 +103,7 @@ class ReplaceApi {
         }
     }
     
-    func formatPackageName(name: String, prefix: String, suffix: String, format: PackageNameFormat) -> String {
+    func formatPackageName(name: String, prefix: String, suffix: String = "", format: PackageNameFormat) -> String {
         let name = "\(prefix)\(name)\(suffix)"
         switch format {
         case .lower:

@@ -24,6 +24,9 @@ extension Relink {
         @Option(name: .shortAndLong, help: "Parses new package name to upper/lower case", transform: PackageNameFormat.init)
         private var formatName: PackageNameFormat = PackageNameFormat.none
         
+        @Flag(name: .long, help: "If package has suffix that matches suffix still add suffix")
+        private var changeSuffixEvenIfSuffixMatches: Bool = false
+        
         @Flag(name: .long, help: "See a preview of what might change")
         private var preview: Bool = false
         
@@ -34,9 +37,9 @@ extension Relink {
             
             if NSURL(string: url) != nil {
                 if preview {
-                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: preview)
+                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: preview, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
                 } else {
-                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression)
+                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
                 }
             }
         }
