@@ -13,11 +13,23 @@ This command line tool targets .xcodeproj files. It's purpose is to identify the
 
 
 ## List Dependancies 
-To list dependancies use the command 
+List out packages dependancies used by the project 
+
+```
+relink list <project-path>
+
+relink list ../MyXcodeProject/MyXcodeProject.xcodeproj 
+```
 
 ## Replacing dependancy links 
 
+List out packages dependancies used by the project 
 
+```
+relink replace 
+
+relink list ../MyXcodeProject/MyXcodeProject.xcodeproj 
+```
 
 ### Installing
 Installing your command line tool. 
