@@ -36,12 +36,14 @@ relink list ../MyXcodeProject/MyXcodeProject.xcodeproj
 
 ## Replacing dependancy links 
 
-List out packages dependancies used by the project 
+Replace repository url of package dependancies. Use `--preview` to preview changes
 
 ```
 relink replace 
 
-relink list ../MyXcodeProject/MyXcodeProject.xcodeproj 
+relink replace --url <replacement-url> .../MyXcodeProject/MyXcodeProject.xcodeproj  --preview
+
+relink replace --url <replacement-url> ../MyXcodeProject/MyXcodeProject.xcodeproj
 ```
 
 ### Installing
