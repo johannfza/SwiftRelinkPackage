@@ -39,7 +39,7 @@ relink list ../MyXcodeProject/MyXcodeProject.xcodeproj
 Replace repository url of package dependancies. Use `--preview` to preview changes
 
 ```
-relink replace 
+relink replace --help // open helper
 
 relink replace --url <replacement-url> .../MyXcodeProject/MyXcodeProject.xcodeproj  --preview
 
@@ -47,7 +47,7 @@ relink replace --url <replacement-url> ../MyXcodeProject/MyXcodeProject.xcodepro
 ```
 
 ### Installing
-Installing your command line tool. 
+Installing as a command line tool. 
 
 ```
 swift build -c release
