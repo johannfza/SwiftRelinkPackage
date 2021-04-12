@@ -1,5 +1,23 @@
 # SwiftRelinkPackage
 
+This command line tool targets .xcodeproj files. It's purpose is to identify the package dependancies and change it's repo name and url accordingly.
+
+# Setup
+
+1. `git clone`
+2. `cd SwiftRelinkPackage`
+3. `swift build -c release`
+4. `relink --help` // Shows command line helper
+
+# Usage
+
+
+## List Dependancies 
+To list dependancies use the command 
+
+## Replacing dependancy links 
+
+
 
 ### Installing
 Installing your command line tool. 
@@ -13,6 +31,7 @@ cp -f Relink /usr/local/bin/relink
 
 ### Package Dependancies
 - [XcodeProj - XcodeProj is a library written in Swift for parsing and working with Xcode projects.](https://github.com/tuist/XcodeProj)
+- [Swift Argument Parser](https://github.com/apple/swift-argument-parser.git)
 
 ### References
 
