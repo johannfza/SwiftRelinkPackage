@@ -45,6 +45,7 @@ relink replace --help // open helper
 
 relink replace --url <replacement-base-url> <project-path>  --preview
 
+// Example:
 relink replace --url https://gitlab.com/ ../MyXcodeProject/MyXcodeProject.xcodeproj --preview
 ```
 
@@ -57,6 +58,7 @@ relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-
 
 relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> <project-path>
 
+// Example:
 relink replace --url https://gitlab.com/ -p new -s ending -f lower ../MyXcodeProject/MyXcodeProject.xcodeproj 
 ```
 
@@ -69,6 +71,7 @@ Note: take note that repository url will still be changed
 ```
 relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> -o <regex> <project-path>
 
+// Example:
 // Do not format names of packages who's names contain swift 
 relink replace --url https://gitlab.com/ -p new -s ending -f lower -o "^.*swift.*$" ../MyXcodeProject/MyXcodeProject.xcodeproj
 
