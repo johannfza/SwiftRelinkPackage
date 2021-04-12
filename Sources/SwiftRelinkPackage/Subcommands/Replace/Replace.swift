@@ -21,8 +21,8 @@ extension Relink {
         @Option(name: .shortAndLong, help: "Ommit the changing of name for packages that matches this regular expression", transform: NSRegularExpression.init)
         private var omitExpression: NSRegularExpression = NSRegularExpression()
         
-        @Argument(help: "Parses new package name to upper/lower case", transform: PackageNameFormat.init)
-        private var formatName: PackageNameFormat?
+        @Option(name: .shortAndLong, help: "Parses new package name to upper/lower case", transform: PackageNameFormat.init)
+        private var formatName: PackageNameFormat = PackageNameFormat.none
         
         @Flag(name: .long, help: "See a preview of what might change")
         private var preview: Bool = false

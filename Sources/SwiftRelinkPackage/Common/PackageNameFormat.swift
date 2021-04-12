@@ -14,6 +14,8 @@ enum PackageNameFormat {
             self = .upper
         case "lower":
             self = .lower
+        case "", nil:
+            self = .none
         default:
             throw ValidationError("Please use value 'upper' or 'lower' to format string")
         }
