@@ -10,9 +10,6 @@ extension Relink {
         
         @OptionGroup var options: Options
         
-//        @Flag(name: .shortAndLong, help: "List package dependancies of this project")
-//        private var listpackages: Bool = false
-        
         func run(){
     
             let listApi = ListApi()
