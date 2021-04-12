@@ -54,9 +54,9 @@ relink replace --url https://gitlab.com/ ../MyXcodeProject/MyXcodeProject.xcodep
 You can add a prefix and suffix to the current name using the `--prefix` and `--suffix` options. Change the name to all uppper or lower case to by using the `-f` tag with value "upper" or "lower".
 
 ```
-relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> <project-path>
+relink replace --url <replacement-base-url> -p <prefix> -s <suffix> -f <format-name> <project-path>
 
-relink replace --url <replacement-base-url> -p <prefix> -s <-suffix> -f <format-name> <project-path>
+relink replace --url <replacement-base-url> -p <prefix> -s <suffix> -f <format-name> <project-path>
 
 // Example:
 relink replace --url https://gitlab.com/ -p new -s ending -f lower ../MyXcodeProject/MyXcodeProject.xcodeproj 
