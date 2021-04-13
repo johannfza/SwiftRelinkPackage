@@ -11,7 +11,7 @@ class ReplaceApi {
         
         print("")
         if preview {
-            print("[PREVIEW MODE]", terminator: "\n\n")
+            print("\(previewMode: "")")
         }
         
         print("[USER CONFIG]")
@@ -60,17 +60,16 @@ class ReplaceApi {
             exit(1)
         }
         
-        let packagesCount = project.packages.count
         project.packages.enumerated().forEach { index, package in
             // Construct new bitbucket link
             let packageName = package.name!
             var newPackageName: String = ""
 
             if omitExpression.matches(packageName){
-                print("🎯 Expression matches - Package excluded name change")
+                print("\(target: "Expression", message: "Package excluded name change")")
                 newPackageName = packageName
             } else if packageName.hasSuffix(suffix) && changeSuffixEvenIfSuffixMatches != true {
-                print("🎯 Suffix matches - Only adding prefix")
+                print("\(target: "Suffix", message: "Only adding prefix")")
                 newPackageName = formatPackageName(name: packageName, prefix: prefix, format: formatName)
             } else {
                 newPackageName = formatPackageName(name: packageName, prefix: prefix, suffix: suffix, format: formatName)
@@ -84,22 +83,19 @@ class ReplaceApi {
             }
             
             // Output
-            print("📦 Package: \(packageName) - [\(index + 1)/\(packagesCount)]")
-            print("✨ New Package Name: \(newPackageName)")
-            print("🔗 Repository URL: \(updatedURL)", terminator: "\n\n")
+            print("\(newPackageDetails: package.name!,newPackageName,package.repositoryURL!)")
         }
         
         if !preview {
             do {
                 try xcodeproj.write(path: projectPath)
-                print("🎉 Relinking done! 🍻", terminator: "\n\n")
-                print("🔄 If you need to revert navigate to repo and use 'git restore \(projectPath)'", terminator: "\n\n")
+                print("\(successfulWriteAction: "Relinking", path: path)")
             } catch {
                 print("\(errorMessage: "Failed to write to file")")
                 exit(1)
             }
         } else {
-            print("🔭 [PREVIEW MODE]: That was just a preview no changes were made!")
+            print("\(previewMode:"default")")
         }
     }
     

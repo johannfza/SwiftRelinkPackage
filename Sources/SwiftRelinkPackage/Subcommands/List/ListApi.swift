@@ -6,86 +6,35 @@ import XcodeProj
 class ListApi {
     
     func listProjectPackages(path: String){
-        let projectPath = Path(path)
-        let xcodeproj: XcodeProj
-        
-        do {
-            xcodeproj = try XcodeProj(path: projectPath)
-        } catch {
-            print("\(errorMessage: "Prasing project error")")
-            return
-        }
-        
-        let pbxproj = xcodeproj.pbxproj // Returns a PBXProj
-        
+        let pbxproj = Util.getPBXProgFromPath(path)
         listProjectPackages(pbxproj: pbxproj)
     }
     
     func listProjectPackages(pbxproj: PBXProj){
-        
         print("")
+        let project = Util.getProjectFromPBXProg(pbxproj)
         
-        guard let project = pbxproj.projects.first  else {
-            print("\(errorMessage: "No project")")
-            return
-        }
-        
-        let packageCount = project.packages.count
-        guard packageCount > 0 else {
-            print("\(errorMessage: "No packges")")
-            return
-        }
-        
-        print("\(packageCount) Packages 📦", terminator: "\n\n")
+        print("\(packageCount: project.packages.count)")
         
         project.packages.enumerated().forEach { index, package in
-            let packageName = package.name!
-            print("📦 Package: \(packageName) - [\(index + 1)/\(packageCount)]")
+            print("\(packageListItem: package.name!, index: index, totalCount: project.packages.count)")
         }
         print("")
     }
     
     func listProjectPackagesDetails(path: String){
-        let projectPath = Path(path)
-        let xcodeproj: XcodeProj
-        
-        do {
-            xcodeproj = try XcodeProj(path: projectPath)
-        } catch {
-            print("\(errorMessage: "Prasing project error")")
-            return
-        }
-        
-        let pbxproj = xcodeproj.pbxproj // Returns a PBXProj
-        
+        let pbxproj = Util.getPBXProgFromPath(path)
         listProjectPackagesDetails(pbxproj: pbxproj)
     }
     
     func listProjectPackagesDetails(pbxproj: PBXProj){
-        
         print("")
+        let project = Util.getProjectFromPBXProg(pbxproj)
         
-        guard let project = pbxproj.projects.first else {
-            print("\(errorMessage: "No project")")
-            return
-        }
-        
-        let packageCount = project.packages.count
-        guard packageCount > 0 else {
-            print("\(errorMessage: "No packges")")
-            return
-        }
-        
-        print("\(packageCount) Packages 📦", terminator: "\n\n")
+        print("\(packageCount: project.packages.count)")
         
         project.packages.enumerated().forEach { index, package in
-            let packageName = package.name!
-            let repositoryURL = package.repositoryURL!
-            let versionRequirement = package.versionRequirement!
-            
-            print("📦 Package: \(packageName) - [\(index + 1)/\(packageCount)]")
-            print("🔗 repositoryURL: \(repositoryURL)")
-            print("⛳ versionRequirement: \(versionRequirement)", terminator: "\n\n")
+            print("\(packageDetailsItem: package.name!, index: index, totalCount: project.packages.count, url: package.repositoryURL! ,versionRequirements:  package.versionRequirement!)")
         }
         print("")
     }

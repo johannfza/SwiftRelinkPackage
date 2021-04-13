@@ -1,3 +1,5 @@
+import XcodeProj
+
 extension String.StringInterpolation {
     
     mutating func appendInterpolation(errorMessage: String) {
@@ -8,7 +10,23 @@ extension String.StringInterpolation {
         appendLiteral("Package Name Preview: \(previewName)")
     }
     
-    mutating func appendInterpolation(packageDetails name: String,_ newName: String,_ urlString: String) {
+    mutating func appendInterpolation(packageListItem name: String, index: Int, totalCount total: Int) {
+        appendLiteral("📦 Package: \(name) - [\(index + 1)/\(total)]")
+    }
+    
+    mutating func appendInterpolation(packageDetailsItem name: String, index: Int, totalCount total: Int, url: String, versionRequirements: XCRemoteSwiftPackageReference.VersionRequirement) {
+        appendLiteral("📦 Package: \(name) - [\(index + 1)/\(total)]\n🔗 Repository URL: \(url)\n⛳ Version Requirement: \(versionRequirements)\n")
+    }
+    
+    mutating func appendInterpolation(packageCount: Int) {
+        if packageCount == 1 {
+            appendLiteral("\(packageCount) Package 📦\n")
+        } else {
+            appendLiteral("\(packageCount) Packages 📦\n")
+        }
+    }
+    
+    mutating func appendInterpolation(newPackageDetails name: String,_ newName: String,_ urlString: String) {
         appendLiteral("📦 Package: \(name)\n✨ New Package Name: \(newName)\n🔗 New Repository URL: \(urlString)\n")
     }
     
@@ -22,6 +40,10 @@ extension String.StringInterpolation {
         }
     }
     
+    mutating func appendInterpolation(target: String, message: String) {
+        appendLiteral("🎯 \(target) matches - \(message)")
+    }
+
     mutating func appendInterpolation(successfulWriteAction action: String, path: String) {
         appendLiteral("🎉 \(action) done! 🍻\n\n🔄 If you need to revert navigate to repo and use 'git restore \(path)'\n")
     }

@@ -38,12 +38,11 @@ class RenameApi {
         
         project.packages.enumerated().forEach { index, package in
             if package.name == name {
-                print("🎯 A Package matches!")
-                print("Renaming Package: \(name) to \(newName)")
+                print("\(target: "A Package", message: "Renaming '\(name)' to '\(newName)'")")
                 let urlNS = package.repositoryURL as NSString?
                 let updatedURL = "\(urlNS?.deletingLastPathComponent ?? "default value")/\(newName).git"
                 package.repositoryURL = updatedURL
-                print("\(packageDetails: package.name!,newName,package.repositoryURL!)")
+                print("\(newPackageDetails: name,newName,package.repositoryURL!)")
             }
             
         }
