@@ -11,7 +11,7 @@ class RenameApi {
         
         print("")
         if preview {
-            print("[PREVIEW MODE]", terminator: "\n\n")
+            print("\(previewMode: "")")
         }
         
         let projectPath = Path(path)
@@ -31,51 +31,33 @@ class RenameApi {
             exit(1)
         }
         
-        let packagesCount = project.packages.count
+        guard project.packages.first(where: { $0.name == name}) != nil else {
+            print("No package with name: \(name)")
+            return
+        }
+        
         project.packages.enumerated().forEach { index, package in
-            // Construct new bitbucket link
             if package.name == name {
-
-                print("🎯 Package matches")
-                package.repositoryURL = "http://google.\(newName)"
-
+                print("🎯 A Package matches!")
+                print("Renaming Package: \(name) to \(newName)")
+                let urlNS = package.repositoryURL as NSString?
+                let updatedURL = "\(urlNS?.deletingLastPathComponent ?? "default value")/\(newName).git"
+                package.repositoryURL = updatedURL
+                print("\(packageDetails: package.name!,newName,package.repositoryURL!)")
             }
+            
         }
 
-//            if omitExpression.matches(packageName){
-//                print("🎯 Expression matches - Package excluded name change")
-//                newPackageName = packageName
-//            } else if packageName.hasSuffix(suffix) && changeSuffixEvenIfSuffixMatches != true {
-//                print("🎯 Suffix matches - Only adding prefix")
-//                newPackageName = formatPackageName(name: packageName, prefix: prefix, format: formatName)
-//            } else {
-//                newPackageName = formatPackageName(name: packageName, prefix: prefix, suffix: suffix, format: formatName)
-//            }
-//            let updatedURL = "\(baseUrl)\(newPackageName).git"
-//            
-////            if !preview {
-////                // Edit project file
-////                package.repositoryURL = updatedURL
-////                package.versionRequirement = .branch("master")
-////            }
-//            
-//            // Output
-//            print("📦 Package: \(packageName) - [\(index + 1)/\(packagesCount)]")
-//            print("✨ New Package Name: \(newPackageName)")
-//            print("🔗 Repository URL: \(updatedURL)", terminator: "\n\n")
-//        }
-        
         if !preview {
             do {
                 try xcodeproj.write(path: projectPath)
-                print("🎉 Renaming done! 🍻", terminator: "\n\n")
-                print("🔄 If you need to revert navigate to repo and use 'git restore \(projectPath)'", terminator: "\n\n")
+                print("\(successfulWriteAction: "Renaming", path: path)")
             } catch {
                 print("\(errorMessage: "Failed to write to file")")
                 exit(1)
             }
         } else {
-            print("🔭 [PREVIEW MODE]: That was just a preview no changes were made!")
+            print("\(previewMode:"default")")
         }
     }
     
