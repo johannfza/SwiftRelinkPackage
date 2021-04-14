@@ -7,7 +7,7 @@ class RenameApi {
     
     let listApi = ListApi()
     
-    func renamePackage(_ path: String, name: String, newName: String, preview: Bool){
+    func renamePackage(_ path: String, name: String, newName: String,  branch: String = "master", preview: Bool = false){
         
         print("")
         if preview {
@@ -58,6 +58,7 @@ class RenameApi {
 //                print("URLNS: \(urlNS?.deletingLastPathComponent)")
                 let updatedURL = "\(preffix)\(urlNS?.deletingLastPathComponent ?? "default value")/\(newName).git"
                 package.repositoryURL = updatedURL
+                package.versionRequirement = .branch(branch)
                 print("\(newPackageDetails: name,newName,package.repositoryURL!)")
             }
             
@@ -65,7 +66,7 @@ class RenameApi {
 
         if !preview {
             do {
-                try xcodeproj.write(path: projectPath)
+                try xcodeproj.write(path: projectPath, override: true)
                 print("\(successfulWriteAction: "Renaming", path: path)")
             } catch {
                 print("\(errorMessage: "Failed to write to file")")

@@ -6,13 +6,13 @@ import XcodeProj
 class ListApi {
     
     func listProjectPackages(path: String){
-        let pbxproj = Util.getPBXProgFromPath(path)
+        let pbxproj = Util.getPBXProjFrom(pathStr: path)
         listProjectPackages(pbxproj: pbxproj)
     }
     
     func listProjectPackages(pbxproj: PBXProj){
         print("")
-        let project = Util.getProjectFromPBXProg(pbxproj)
+        let project = Util.getProjectFrom(pbxproj: pbxproj)
         
         print("\(packageCount: project.packages.count)")
         
@@ -23,13 +23,13 @@ class ListApi {
     }
     
     func listProjectPackagesDetails(path: String){
-        let pbxproj = Util.getPBXProgFromPath(path)
+        let pbxproj = Util.getPBXProjFrom(pathStr: path)
         listProjectPackagesDetails(pbxproj: pbxproj)
     }
     
     func listProjectPackagesDetails(pbxproj: PBXProj){
         print("")
-        let project = Util.getProjectFromPBXProg(pbxproj)
+        let project = Util.getProjectFrom(pbxproj: pbxproj)
         
         print("\(packageCount: project.packages.count)")
         

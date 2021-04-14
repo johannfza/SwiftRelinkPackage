@@ -48,7 +48,7 @@ class AddApi {
             let repositoryURL = package.repositoryURL!
             let versionRequirement = package.versionRequirement!
             
-            print("📦 Package: \(packageName) - [\(index + 1)/\(packageCount)]")
+            print("📦 Package: \(packageName) - [\(index + 1)/\(packageCount+1)]")
             print("🔗 repositoryURL: \(repositoryURL)")
             print("⛳ versionRequirement: \(versionRequirement)", terminator: "\n\n")
         }

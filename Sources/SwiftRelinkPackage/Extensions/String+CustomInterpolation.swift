@@ -45,7 +45,7 @@ extension String.StringInterpolation {
     }
 
     mutating func appendInterpolation(successfulWriteAction action: String, path: String) {
-        appendLiteral("🎉 \(action) done! 🍻\n\n🔄 If you need to revert navigate to repo and use 'git restore \(path)'\n")
+        appendLiteral("🎉 \(action) done! 🍻\n\n🔄 If you need to revert, navigate to repo and use 'git restore \(path)'\n")
     }
     
 }
