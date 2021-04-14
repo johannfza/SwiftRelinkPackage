@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-print("INITIALIZING...")
+print("INITIALIZING...SwiftRelinkPackage")
 
 let package = Package(
     name: "SwiftRelinkPackage",

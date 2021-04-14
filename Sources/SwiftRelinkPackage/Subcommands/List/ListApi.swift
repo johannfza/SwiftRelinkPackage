@@ -14,7 +14,7 @@ class ListApi {
         print("")
         let project = Util.getProjectFrom(pbxproj: pbxproj)
         
-        print("\(packageCount: project.packages.count)")
+        print("[PACKAGE COUNT] \(packageCount: project.packages.count)")
         
         project.packages.enumerated().forEach { index, package in
             print("\(packageListItem: package.name!, index: index, totalCount: project.packages.count)")

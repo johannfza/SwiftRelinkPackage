@@ -18,12 +18,20 @@ extension String.StringInterpolation {
         appendLiteral("📦 Package: \(name) - [\(index + 1)/\(total)]\n🔗 Repository URL: \(url)\n⛳ Version Requirement: \(versionRequirements)\n")
     }
     
-    mutating func appendInterpolation(packageCount: Int) {
-        if packageCount == 1 {
-            appendLiteral("\(packageCount) Package 📦\n")
+    mutating func appendInterpolation(packageCount count: Int) {
+        if count == 1 {
+            appendLiteral("\(count) Package \(generateBoxes(count))\n")
         } else {
-            appendLiteral("\(packageCount) Packages 📦\n")
+            appendLiteral("\(count) Packages \(generateBoxes(count))\n")
         }
+    }
+    
+    internal func generateBoxes(_ n: Int) -> String {
+        var boxes = ""
+        for _ in 0..<n {
+            boxes.append("📦 ")
+        }
+        return boxes
     }
     
     mutating func appendInterpolation(newPackageDetails name: String,_ newName: String,_ urlString: String) {

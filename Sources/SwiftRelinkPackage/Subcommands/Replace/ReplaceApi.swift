@@ -14,7 +14,7 @@ class ReplaceApi {
             print("\(previewMode: "")")
         }
         
-        print("[USER CONFIG]")
+        print("⚙️ [USER CONFIG]")
         
         print("Base URL: \(baseUrl)")
         let prefix = (prefix ?? "").replacingOccurrences(of: "/", with: "")
