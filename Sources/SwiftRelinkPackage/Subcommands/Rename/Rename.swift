@@ -12,23 +12,18 @@ extension Relink {
         @Option(name: .shortAndLong, help: "Package to rename")
         private var name: String
         
-        @Option(name: .long, help: "Name to rename to")
+        @Option(name: .long, help: "New name of packages")
         private var newName: String
         
         @Option(name: .shortAndLong, help: "Branch name")
-        private var branch: String?
+        private var branch: String = "master"
         
         @OptionGroup var options: Options
         
         func run(){
             let api = RenameApi()
             
-            guard let branchName = branch else {
-                api.renamePackage(options.path, name: name, newName: newName)
-                return
-            }
-            
-            api.renamePackage(options.path, name: name, newName: newName, branch: branchName)
+            api.renamePackage(options.path, name: name, newName: newName, branch: branch)
             
         }
         

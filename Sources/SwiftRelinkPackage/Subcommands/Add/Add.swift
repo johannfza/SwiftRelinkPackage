@@ -12,7 +12,7 @@ import XcodeProj
 extension Relink {
     struct Add: ParsableCommand {
         
-        public static let configuration = CommandConfiguration(abstract: "List packages")
+        public static let configuration = CommandConfiguration(abstract: "Add Packages")
         
         @OptionGroup var options: Options
         

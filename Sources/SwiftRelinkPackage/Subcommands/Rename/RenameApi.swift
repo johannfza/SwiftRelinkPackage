@@ -7,7 +7,7 @@ class RenameApi {
     
     let listApi = ListApi()
     
-    func renamePackage(_ path: String, name: String, newName: String,  branch: String = "master", preview: Bool = false){
+    func renamePackage(_ path: String, name: String, newName: String,  branch: String, preview: Bool = false){
         
         print("")
         if preview {
@@ -44,7 +44,6 @@ class RenameApi {
                 if ((package.repositoryURL?.hasSuffix("https://")) != nil) {
                     preffix = "https://"
                     str = str?.replacingOccurrences(of: "https://", with: "")
-                    
                 } else if ((package.repositoryURL?.hasSuffix("http://")) != nil) {
                     preffix = "http://"
                     str = str?.replacingOccurrences(of: "http://", with: "")
