@@ -24,7 +24,7 @@ extension Relink {
         @Option(name: .shortAndLong, help: "Parses new package name to upper or lower case", transform: PackageNameFormat.init)
         private var formatName: PackageNameFormat = PackageNameFormat.none
         
-        @Flag(name: .long, help: "If package has suffix that matches suffix still add suffix")
+        @Flag(name: .long, help: "If package name has suffix that matches suffix still append suffix")
         private var changeSuffixEvenIfSuffixMatches: Bool = false
         
         @OptionGroup var options: Options
@@ -33,7 +33,7 @@ extension Relink {
             let api = ReplaceApi()
             
             guard url.isValidPackageURL() else {
-                throw ValidationError("Not a valid packge url")
+                throw ValidationError("Not a valid package url")
             }
             
             api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: options.preview, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)

@@ -31,7 +31,7 @@ extension Relink {
         func run() throws {
             
             guard url.isValidPackageURL() else {
-                throw ValidationError("Not a valid packge url")
+                throw ValidationError("Not a valid package url")
             }
             
             let addApi = AddApi()
