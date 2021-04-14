@@ -38,9 +38,25 @@ class RenameApi {
         
         project.packages.enumerated().forEach { index, package in
             if package.name == name {
+                // remove suffix
+                var str = package.repositoryURL
+                var preffix = ""
+                if ((package.repositoryURL?.hasSuffix("https://")) != nil) {
+                    preffix = "https://"
+                    str = str?.replacingOccurrences(of: "https://", with: "")
+                    
+                } else if ((package.repositoryURL?.hasSuffix("http://")) != nil) {
+                    preffix = "http://"
+                    str = str?.replacingOccurrences(of: "http://", with: "")
+                } else {
+                    preffix = ""
+                }
+                
+                let urlNS = str as NSString?
                 print("\(target: "A Package", message: "Renaming '\(name)' to '\(newName)'")")
-                let urlNS = package.repositoryURL as NSString?
-                let updatedURL = "\(urlNS?.deletingLastPathComponent ?? "default value")/\(newName).git"
+//                let urlNS = package.repositoryURL as NSString?
+//                print("URLNS: \(urlNS?.deletingLastPathComponent)")
+                let updatedURL = "\(preffix)\(urlNS?.deletingLastPathComponent ?? "default value")/\(newName).git"
                 package.repositoryURL = updatedURL
                 print("\(newPackageDetails: name,newName,package.repositoryURL!)")
             }

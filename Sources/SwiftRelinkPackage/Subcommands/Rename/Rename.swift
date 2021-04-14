@@ -9,10 +9,10 @@ extension Relink {
         
         public static let configuration = CommandConfiguration(abstract: "Rename package name")
         
-        @Option(name: .long, help: "Package to rename")
+        @Option(name: .shortAndLong, help: "Package to rename")
         private var name: String
         
-        @Option(name: .shortAndLong, help: "Name to rename to")
+        @Option(name: .long, help: "Name to rename to")
         private var newName: String
         
         @OptionGroup var options: Options
