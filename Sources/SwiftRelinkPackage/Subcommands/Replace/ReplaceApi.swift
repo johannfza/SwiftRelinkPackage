@@ -53,7 +53,7 @@ class ReplaceApi {
         
         listApi.listProjectPackages(pbxproj: pbxproj)
         
-        print("REPLACING... [BASE URL]:\(baseUrl)", terminator: "\n\n")
+        print("REPLACING... [BASE URL]: \(baseUrl)", terminator: "\n\n")
         
         guard let project = pbxproj.projects.first  else {
             print("\(errorMessage: "No project to relink")")
