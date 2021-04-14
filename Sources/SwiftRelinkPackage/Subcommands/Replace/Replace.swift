@@ -29,19 +29,16 @@ extension Relink {
         
         @OptionGroup var options: Options
         
-        func run(){
+        func run() throws {
             let api = ReplaceApi()
             
-            if NSURL(string: url) != nil {
-                if options.preview {
-                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: options.preview, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
-                } else {
-                    api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
-                }
-            } else {
-                ValidationError("Error parsing url")
+            guard url.isValidPackageURL() else {
+                throw ValidationError("Not a valid packge url")
             }
+            
+            api.replaceAllPackageURLs(options.path, baseUrl: url, prefix: prefix, suffix: suffix, formatName: formatName, omitExpression: omitExpression, preview: options.preview, changeSuffixEvenIfSuffixMatches: changeSuffixEvenIfSuffixMatches)
         }
-        
     }
+    
 }
+

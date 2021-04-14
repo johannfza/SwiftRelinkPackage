@@ -76,12 +76,10 @@ class ReplaceApi {
             }
             let updatedURL = "\(baseUrl)\(newPackageName).git"
             
-            if !preview {
-                // Edit project file
-                package.repositoryURL = updatedURL
-                package.versionRequirement = .branch("master")
-            }
-            
+
+            package.repositoryURL = updatedURL
+            package.versionRequirement = .branch("master")
+
             // Output
             print("\(newPackageDetails: package.name!,newPackageName,package.repositoryURL!)")
         }

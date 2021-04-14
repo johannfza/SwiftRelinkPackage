@@ -28,18 +28,15 @@ extension Relink {
         @Option(name: .long, help: "The repository base url of the package you want to add")
         private var url: String
         
-        func run(){
+        func run() throws {
             
-            if NSURL(string: url) != nil {
-                let addApi = AddApi()
-                addApi.addPackage(path: options.path, packageName: packageName,targetName: targetName, productName: productName, baseUrl: url, preview: options.preview)
-            } else {
-                print("Error parsing url")
+            guard url.isValidPackageURL() else {
+                throw ValidationError("Not a valid packge url")
             }
             
-            
-            
-        }
+            let addApi = AddApi()
+            addApi.addPackage(path: options.path, packageName: packageName,targetName: targetName, productName: productName, baseUrl: url, preview: options.preview)
         
+        }
     }
 }
