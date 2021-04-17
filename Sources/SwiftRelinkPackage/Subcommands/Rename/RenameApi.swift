@@ -53,8 +53,6 @@ class RenameApi {
                 
                 let urlNS = str as NSString?
                 print("\(target: "A Package", message: "Renaming '\(name)' to '\(newName)'")")
-//                let urlNS = package.repositoryURL as NSString?
-//                print("URLNS: \(urlNS?.deletingLastPathComponent)")
                 let updatedURL = "\(preffix)\(urlNS?.deletingLastPathComponent ?? "default value")/\(newName).git"
                 package.repositoryURL = updatedURL
                 package.versionRequirement = .branch(branch)

@@ -81,7 +81,7 @@ class ReplaceApi {
             package.versionRequirement = .branch("master")
 
             // Output
-            print("\(newPackageDetails: package.name!,newPackageName,package.repositoryURL!)")
+            print("\(newPackageDetails: packageName,newPackageName,package.repositoryURL!)")
         }
         
         if !preview {
