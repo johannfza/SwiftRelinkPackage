@@ -15,7 +15,7 @@ extension String.StringInterpolation {
     }
     
     mutating func appendInterpolation(packageDetailsItem name: String, index: Int, totalCount total: Int, url: String, versionRequirements: XCRemoteSwiftPackageReference.VersionRequirement) {
-        appendLiteral("📦 Package: \(name) - [\(index + 1)/\(total)]\n🔗 Repository URL: \(url)\n⛳ Version Requirement: \(versionRequirements)\n")
+        appendLiteral("📦 Package: \(name) - [\(index + 1)/\(total)]\n📚 Repository URL: \(url)\n📍 Version Requirement: \(versionRequirements)\n")
     }
     
     mutating func appendInterpolation(packageCount count: Int) {
@@ -35,7 +35,7 @@ extension String.StringInterpolation {
     }
     
     mutating func appendInterpolation(newPackageDetails name: String,_ newName: String,_ urlString: String) {
-        appendLiteral("📦 Package: \(name)\n✨ New Package Name: \(newName)\n🔗 New Repository URL: \(urlString)\n")
+        appendLiteral("📦 Package: \(name)\n✨ New Package Name: \(newName)\n📚 New Repository URL: \(urlString)\n")
     }
     
     mutating func appendInterpolation(previewMode message: String = "") {
