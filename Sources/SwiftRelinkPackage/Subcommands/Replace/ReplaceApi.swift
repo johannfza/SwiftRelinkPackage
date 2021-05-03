@@ -69,7 +69,9 @@ class ReplaceApi {
                 print("\(target: "Expression", message: "Package excluded name change")")
                 newPackageName = packageName
             } else if packageName.hasSuffix(suffix) && changeSuffixEvenIfSuffixMatches != true {
-                print("\(target: "Suffix", message: "Only adding prefix")")
+                if suffix != "" {
+                    print("\(target: "Suffix", message: "Only adding prefix")")
+                }
                 newPackageName = formatPackageName(name: packageName, prefix: prefix, format: formatName)
             } else {
                 newPackageName = formatPackageName(name: packageName, prefix: prefix, suffix: suffix, format: formatName)
