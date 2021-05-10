@@ -1,15 +1,41 @@
 #!/bin/bash
 
+#######################################
+# Quit bash script with exit message
+# Arguments:
+#   message
+#######################################
+function err() {
+    echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')] ERROR: $*" >&2
+    exit 1
+}
+
 # arugment present validation 
 function die () {
     echo >&2 "$@"
     exit 1
 }
 
-[ "$#" -eq 1 ] || die "1 argument required, $# provided"
-path=$1
+if [[ ! "$#" -eq 3 ]] 
+then 
+  err "usage - bash relink.sh <path-to-xcodeproj-file> <branch> <domain-branch-optional>"
+fi
 
-echo "Relink Project @ $1"
+# [ "$#" -eq 3 ] || leave "3 argument required, $# provided"
+
+path=$1
+branch=$2
+
+if [ ! $3 ]
+then 
+  domain_branch="master"
+else 
+  domain_branch=$3 
+fi
+
+echo "path: $1"
+echo "branch: $2"
+echo "domain_branch: $domain_branch"
 
 # function downloadRelink() {
 #     echo "Downloading relink"
@@ -26,29 +52,34 @@ echo "Relink Project @ $1"
 # Arguments:
 #   Path to XcodeProj
 #######################################
-function pathIsValid() {
+function check_path_is_valid_xcodeproj() {
   if [[ -d $path ]]
   then
     file_name=${path##*/}
     if [[ ! $file_name == *.xcodeproj ]]
     then 
-      echo "not a valid XcodeProj"
-      exit 1
+      err "not a valid XcodeProj"
     fi  
   else 
-      echo "invalid path"
-      exit 1
+      err "invalid path"
   fi 
   echo "$path is valid"
 }
 
+#######################################
+# Check if path is a valid XcodeProj
+# Globals:
+#   PATH
+# Arguments:
+#   Path to XcodeProj
+#######################################
 
-# pathIsValid
+
+check_path_is_valid_xcodeproj $path
 
 if ! command -v swift run relink &> /dev/null
 then
-    echo "relink could not be found"
-    echo "make sure relink is visible in this directory"
+    err "relink could not be found" "make sure relink is visible in this directory"
     # echo "alternatively do you want to download relink?"
     # select yn in "Yes" "No"; do
     #     case $yn in
@@ -62,6 +93,5 @@ fi
 
 echo "relink installed"
 echo "Starting relink"
-swift run relink
+# Start herer 
 exit 1
-
