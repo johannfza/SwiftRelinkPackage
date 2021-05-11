@@ -7,24 +7,30 @@
 #######################################
 function err() {
     echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')] ERROR: $*" >&2
-    echo "relink.sh help for helper"
+    echo "'bash relink.sh help' for helper"
     exit 1
 }
 
-# arugment present validation 
-function die () {
-    echo >&2 "$@"
-    exit 1
-}
-
-if [[ ! "$#" -eq 3 ]] 
+if [[ "$1" == "help" ]]
 then 
-  err "usage - bash relink.sh <path-to-xcodeproj-file> <branch> <domain-branch-optional>"
+  echo "USAGE: bash relink.sh <path-to-xcodeproj-file> <local-target-branch-optional> <domain-branch-optional>"
+  exit 1
+fi 
+
+if [ ! $1 ] || [ ! $2 ] 
+then 
+  err "USAGE: bash relink.sh <path-to-xcodeproj-file> <local-target-branch-optional> <domain-branch-optional>"
 fi
 
-# create local variable 
+# create local variables
 path=$1
-branch=$2
+if [ ! $2 ]
+then 
+  branch="master"
+else 
+  branch=$3 
+fi
+
 if [ ! $3 ]
 then 
   domain_branch="master"
