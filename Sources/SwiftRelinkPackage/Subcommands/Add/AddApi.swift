@@ -13,20 +13,20 @@ class AddApi {
             xcodeproj = try XcodeProj(path: projectPath)
         } catch {
             print("\(errorMessage: "Prasing project error")")
-            return
+            exit(1)
         }
         
         let pbxproj = xcodeproj.pbxproj // Returns a PBXProj
         
         guard let project = pbxproj.projects.first  else {
             print("\(errorMessage: "No project")")
-            return
+            exit(1)
         }
         
         let packageCount = project.packages.count
         guard packageCount > 0 else {
             print("\(errorMessage: "No packges")")
-            return
+            exit(1)
         }
         var baseUrl = baseUrl
         if !baseUrl.hasSuffix("/") {

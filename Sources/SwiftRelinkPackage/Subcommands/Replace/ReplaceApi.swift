@@ -46,7 +46,7 @@ class ReplaceApi {
             xcodeproj = try XcodeProj(path: projectPath)
         } catch {
             print("\(errorMessage: "Parsing project error")")
-            return
+            exit(1)
         }
         
         let pbxproj = xcodeproj.pbxproj // Returns a PBXProj
